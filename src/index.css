@@ -1,0 +1,529 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800;900&display=swap');
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  :root {
+    --background: 210 40% 98%;
+    --foreground: 213 40% 16%;
+    --card: 210 40% 96%;
+    --card-foreground: 213 40% 16%;
+    --popover: 0 0% 100%;
+    --popover-foreground: 213 40% 16%;
+    --primary: 217 91% 53%;
+    --primary-foreground: 210 40% 98%;
+    --secondary: 210 30% 92%;
+    --secondary-foreground: 213 40% 20%;
+    --muted: 210 20% 94%;
+    --muted-foreground: 215 16% 47%;
+    --accent: 210 30% 92%;
+    --accent-foreground: 213 40% 20%;
+    --destructive: 0 84% 60%;
+    --destructive-foreground: 0 0% 98%;
+    --border: 214 20% 88%;
+    --input: 214 20% 88%;
+    --ring: 217 91% 53%;
+    --radius: 0.5rem;
+    --sidebar-background: 213 50% 12%;
+    --sidebar-foreground: 210 40% 98%;
+    --sidebar-primary: 217 91% 60%;
+    --sidebar-primary-foreground: 210 40% 98%;
+    --sidebar-accent: 213 40% 20%;
+    --sidebar-accent-foreground: 210 40% 98%;
+    --sidebar-border: 213 40% 20%;
+    --sidebar-ring: 217 91% 53%;
+  }
+
+  .dark {
+    --background: 213 50% 8%;
+    --foreground: 210 40% 95%;
+    --card: 213 45% 12%;
+    --card-foreground: 210 40% 95%;
+    --popover: 213 50% 10%;
+    --popover-foreground: 210 40% 95%;
+    --primary: 217 91% 60%;
+    --primary-foreground: 210 40% 98%;
+    --secondary: 213 30% 18%;
+    --secondary-foreground: 210 30% 90%;
+    --muted: 213 25% 16%;
+    --muted-foreground: 215 16% 60%;
+    --accent: 213 30% 18%;
+    --accent-foreground: 210 30% 90%;
+    --destructive: 0 62% 50%;
+    --destructive-foreground: 0 0% 98%;
+    --border: 213 30% 20%;
+    --input: 213 30% 20%;
+    --ring: 217 91% 60%;
+    --sidebar-background: 213 50% 6%;
+    --sidebar-foreground: 210 40% 95%;
+    --sidebar-primary: 217 91% 60%;
+    --sidebar-primary-foreground: 210 40% 98%;
+    --sidebar-accent: 213 40% 14%;
+    --sidebar-accent-foreground: 210 40% 95%;
+    --sidebar-border: 213 40% 14%;
+    --sidebar-ring: 217 91% 60%;
+  }
+}
+
+@layer base {
+  * {
+    @apply border-border;
+  }
+  body {
+    @apply bg-background text-foreground font-sans antialiased;
+    font-family: 'Inter', system-ui, -apple-system, sans-serif;
+  }
+  h1, h2, h3, h4, h5, h6 {
+    @apply font-bold tracking-tight;
+  }
+  h1 {
+    @apply text-4xl md:text-5xl lg:text-6xl leading-tight;
+  }
+  h2 {
+    @apply text-3xl md:text-4xl leading-snug;
+  }
+  h3 {
+    @apply text-xl md:text-2xl leading-snug;
+  }
+}
+
+@layer utilities {
+  .section-padding {
+    @apply py-16 md:py-24 px-4 sm:px-6 lg:px-8;
+  }
+  .container-max {
+    @apply max-w-7xl mx-auto;
+  }
+  .text-gradient {
+    @apply text-transparent bg-clip-text;
+  }
+}
+
+/* ===== Hero Section Animations ===== */
+
+/* Fade in + slide up (content visible by default, animation enhances) */
+.hero-animate-in {
+  animation: heroSlideIn 0.8s ease-out both;
+}
+@keyframes heroSlideIn {
+  from {
+    opacity: 0.3;
+    transform: translateY(16px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+/* Background gradient shift */
+.hero-gradient-shift {
+  background: linear-gradient(135deg, rgba(37,99,235,0.15) 0%, rgba(14,165,233,0.1) 50%, rgba(37,99,235,0.15) 100%);
+  background-size: 200% 200%;
+  animation: gradientShift 12s ease-in-out infinite;
+}
+@keyframes gradientShift {
+  0%, 100% { background-position: 0% 50%; }
+  50% { background-position: 100% 50%; }
+}
+
+/* Floating particles */
+.hero-particle {
+  animation: particleFloat linear infinite;
+}
+@keyframes particleFloat {
+  0% { transform: translateY(0) translateX(0); opacity: 0; }
+  10% { opacity: 1; }
+  90% { opacity: 1; }
+  100% { transform: translateY(-120px) translateX(30px); opacity: 0; }
+}
+
+/* Light rays */
+.hero-light-ray {
+  animation: lightRayPulse 8s ease-in-out infinite;
+}
+@keyframes lightRayPulse {
+  0%, 100% { opacity: 0.3; }
+  50% { opacity: 0.6; }
+}
+
+/* Ship bobbing and drifting */
+.hero-ship {
+  animation: shipDrift 8s ease-in-out infinite, shipBob 3s ease-in-out infinite;
+}
+@keyframes shipDrift {
+  0%, 100% { transform: translateX(0); }
+  50% { transform: translateX(12px); }
+}
+@keyframes shipBob {
+  0%, 100% { transform: translateY(0); }
+  50% { transform: translateY(-3px); }
+}
+
+/* Water ripples */
+.hero-ripple-ring {
+  animation: rippleExpand 3s ease-out infinite;
+}
+@keyframes rippleExpand {
+  0% { rx: 20; opacity: 0.6; }
+  100% { rx: 50; opacity: 0; }
+}
+
+/* Ocean waves */
+.hero-wave-1 {
+  animation: waveMove1 6s ease-in-out infinite;
+}
+.hero-wave-2 {
+  animation: waveMove2 8s ease-in-out infinite;
+}
+@keyframes waveMove1 {
+  0%, 100% { d: path("M0,60 C150,80 350,40 500,60 C650,80 750,50 800,60 L800,100 L0,100 Z"); }
+  50% { d: path("M0,65 C150,45 350,75 500,55 C650,45 750,70 800,55 L800,100 L0,100 Z"); }
+}
+@keyframes waveMove2 {
+  0%, 100% { d: path("M0,70 C200,50 400,85 600,65 C700,55 750,75 800,70 L800,100 L0,100 Z"); }
+  50% { d: path("M0,65 C200,80 400,50 600,70 C700,80 750,60 800,65 L800,100 L0,100 Z"); }
+}
+
+/* Port crane animations */
+.hero-crane .hero-crane-cable,
+.hero-crane .hero-crane-load {
+  animation: craneLift 5s ease-in-out infinite;
+}
+.hero-crane-2 .hero-crane-cable-2,
+.hero-crane-2 .hero-crane-load-2 {
+  animation: craneLift2 6s ease-in-out infinite;
+}
+@keyframes craneLift {
+  0%, 100% { transform: translateY(0); }
+  50% { transform: translateY(-8px); }
+}
+@keyframes craneLift2 {
+  0%, 100% { transform: translateY(0); }
+  50% { transform: translateY(-6px); }
+}
+
+/* Blinking lights */
+.hero-blink {
+  animation: blinkLight 2s ease-in-out infinite;
+}
+@keyframes blinkLight {
+  0%, 100% { opacity: 1; }
+  50% { opacity: 0.2; }
+}
+
+/* Small vessel traffic */
+.hero-vessel {
+  animation: vesselMove 20s linear infinite;
+}
+@keyframes vesselMove {
+  0% { left: -5%; }
+  100% { left: 105%; }
+}
+
+/* Dashboard fade in (visible by default, animation enhances) */
+.hero-dashboard-fade {
+  animation: dashboardFadeIn 1s ease-out both;
+}
+@keyframes dashboardFadeIn {
+  from { opacity: 0.4; transform: translateY(8px); }
+  to { opacity: 1; transform: translateY(0); }
+}
+
+/* Chart line draw */
+.hero-chart-line {
+  stroke-dasharray: 200;
+  stroke-dashoffset: 0;
+  animation: chartDraw 2s ease-out 1.5s both;
+}
+.hero-chart-area {
+  opacity: 0.6;
+  animation: areaFadeIn 1s ease-out 2.5s both;
+}
+@keyframes chartDraw {
+  from { stroke-dashoffset: 200; }
+  to { stroke-dashoffset: 0; }
+}
+@keyframes areaFadeIn {
+  from { opacity: 0; }
+  to { opacity: 0.6; }
+}
+
+/* Progress bar animation */
+.hero-progress-bar {
+  animation: progressGrow 2s ease-out forwards;
+  transform-origin: left;
+}
+@keyframes progressGrow {
+  from { transform: scaleX(0); }
+  to { transform: scaleX(1); }
+}
+
+/* Pulse dots on map */
+.hero-pulse-dot {
+  animation: pulseDot 2s ease-in-out infinite;
+}
+@keyframes pulseDot {
+  0%, 100% { r: 1.5; opacity: 0.8; }
+  50% { r: 2.5; opacity: 0.4; }
+}
+
+/* Route lines */
+.hero-route-line {
+  stroke-dasharray: 6 4;
+  animation: routeDash 3s linear infinite;
+}
+@keyframes routeDash {
+  to { stroke-dashoffset: -20; }
+}
+
+/* Data flow lines */
+.hero-data-line {
+  stroke-dasharray: 4 6;
+  animation: dataLineFlow 4s linear infinite;
+}
+@keyframes dataLineFlow {
+  to { stroke-dashoffset: -20; }
+}
+
+/* Digital pulses along data lines */
+.hero-data-pulse-1 {
+  animation: dataPulse1 4s linear infinite;
+  offset-path: path("M80,140 L200,80 L320,120");
+}
+@keyframes dataPulse1 {
+  0% { offset-distance: 0%; opacity: 0; }
+  10% { opacity: 1; }
+  90% { opacity: 1; }
+  100% { offset-distance: 100%; opacity: 0; }
+}
+
+.hero-data-pulse-2 {
+  animation: dataPulse2 5s linear infinite;
+  offset-path: path("M150,160 L280,60");
+}
+@keyframes dataPulse2 {
+  0% { offset-distance: 0%; opacity: 0; }
+  10% { opacity: 0.8; }
+  90% { opacity: 0.8; }
+  100% { offset-distance: 100%; opacity: 0; }
+}
+
+/* Shimmer overlay */
+.hero-shimmer {
+  background: linear-gradient(
+    105deg,
+    transparent 40%,
+    rgba(255,255,255,0.03) 45%,
+    rgba(255,255,255,0.06) 50%,
+    rgba(255,255,255,0.03) 55%,
+    transparent 60%
+  );
+  background-size: 200% 100%;
+  animation: shimmer 6s ease-in-out infinite;
+}
+@keyframes shimmer {
+  0% { background-position: 200% 0; }
+  100% { background-position: -200% 0; }
+}
+
+/* Button glow */
+.hero-btn-glow {
+  transition: all 0.3s ease;
+}
+.hero-btn-glow:hover {
+  box-shadow: 0 0 20px rgba(37,99,235,0.3), 0 0 40px rgba(37,99,235,0.1);
+}
+
+/* ===== Hero 2.0: Ship drift + bob ===== */
+.hero-ship-2 {
+  animation: shipDrift2 10s ease-in-out infinite, shipBob2 3.5s ease-in-out infinite;
+}
+@keyframes shipDrift2 {
+  0%, 100% { transform: translateX(0); }
+  50% { transform: translateX(15px); }
+}
+@keyframes shipBob2 {
+  0%, 100% { transform: translateY(0); }
+  50% { transform: translateY(-4px); }
+}
+
+/* Holographic dashboard shimmer */
+.hero-holographic {
+  position: relative;
+}
+.hero-holographic::before {
+  content: '';
+  position: absolute;
+  inset: 0;
+  border-radius: inherit;
+  background: linear-gradient(135deg, transparent 30%, rgba(59,130,246,0.03) 40%, rgba(96,165,250,0.06) 50%, rgba(59,130,246,0.03) 60%, transparent 70%);
+  background-size: 300% 300%;
+  animation: holoShimmer 8s ease-in-out infinite;
+  pointer-events: none;
+  z-index: 5;
+}
+@keyframes holoShimmer {
+  0%, 100% { background-position: 0% 0%; }
+  50% { background-position: 100% 100%; }
+}
+
+/* Scan line effect */
+.hero-scan-line {
+  background: linear-gradient(to bottom, transparent 0%, rgba(59,130,246,0.02) 45%, rgba(59,130,246,0.06) 50%, rgba(59,130,246,0.02) 55%, transparent 100%);
+  background-size: 100% 200%;
+  animation: scanLine 6s linear infinite;
+}
+@keyframes scanLine {
+  0% { background-position: 0% -100%; }
+  100% { background-position: 0% 200%; }
+}
+
+/* Radar pulse on map dots */
+.hero-radar-pulse {
+  animation: radarPulse 3s ease-out infinite;
+}
+@keyframes radarPulse {
+  0% { r: 2; opacity: 0.3; }
+  50% { r: 6; opacity: 0.08; }
+  100% { r: 2; opacity: 0.3; }
+}
+
+/* Bar chart grow */
+.hero-bar-grow {
+  transform-origin: bottom;
+  animation: barGrow 1.2s ease-out both;
+}
+@keyframes barGrow {
+  from { transform: scaleY(0); }
+  to { transform: scaleY(1); }
+}
+
+/* Smoke from funnel */
+.hero-smoke-1 {
+  animation: smokeRise1 4s ease-out infinite;
+}
+.hero-smoke-2 {
+  animation: smokeRise2 5s ease-out infinite;
+}
+.hero-smoke-3 {
+  animation: smokeRise3 6s ease-out infinite;
+}
+@keyframes smokeRise1 {
+  0% { transform: translateY(0) scale(1); opacity: 0.1; }
+  50% { transform: translateY(-8px) scale(1.3); opacity: 0.06; }
+  100% { transform: translateY(-16px) scale(1.6); opacity: 0; }
+}
+@keyframes smokeRise2 {
+  0% { transform: translateY(0) scale(1); opacity: 0.07; }
+  50% { transform: translateY(-10px) scale(1.4); opacity: 0.04; }
+  100% { transform: translateY(-20px) scale(1.8); opacity: 0; }
+}
+@keyframes smokeRise3 {
+  0% { transform: translateY(0) scale(1); opacity: 0.04; }
+  50% { transform: translateY(-12px) scale(1.5); opacity: 0.02; }
+  100% { transform: translateY(-24px) scale(2); opacity: 0; }
+}
+
+/* Radar sweep */
+.hero-radar-sweep {
+  animation: radarSweep 3s linear infinite;
+  transform-origin: center;
+}
+@keyframes radarSweep {
+  from { transform: rotate(0deg); }
+  to { transform: rotate(360deg); }
+}
+
+/* ===== Mobile: Reduce animation intensity ===== */
+@media (max-width: 768px) {
+  .hero-ship,
+  .hero-ship-2 {
+    animation: shipBob2 4s ease-in-out infinite;
+  }
+  .hero-wave-1,
+  .hero-wave-2 {
+    animation-duration: 10s;
+  }
+  .hero-data-line {
+    animation-duration: 6s;
+  }
+  .hero-particle {
+    animation: none !important;
+    opacity: 0.3 !important;
+  }
+  .hero-shimmer {
+    animation: none;
+  }
+  .hero-data-pulse-1,
+  .hero-data-pulse-2 {
+    animation: none !important;
+    opacity: 0 !important;
+  }
+  .hero-holographic::before {
+    animation: none;
+  }
+  .hero-scan-line {
+    animation: none;
+  }
+  .hero-radar-pulse {
+    animation: none !important;
+  }
+  .hero-smoke-1,
+  .hero-smoke-2,
+  .hero-smoke-3 {
+    animation: none !important;
+    opacity: 0 !important;
+  }
+  .hero-radar-sweep {
+    animation: none !important;
+  }
+}
+
+/* ===== Reduced motion preference ===== */
+@media (prefers-reduced-motion: reduce) {
+  .hero-ship,
+  .hero-ship-2,
+  .hero-wave-1,
+  .hero-wave-2,
+  .hero-data-line,
+  .hero-particle,
+  .hero-shimmer,
+  .hero-data-pulse-1,
+  .hero-data-pulse-2,
+  .hero-pulse-dot,
+  .hero-blink,
+  .hero-route-line,
+  .hero-chart-line,
+  .hero-chart-area,
+  .hero-progress-bar,
+  .hero-animate-in,
+  .hero-dashboard-fade,
+  .hero-gradient-shift,
+  .hero-holographic::before,
+  .hero-scan-line,
+  .hero-radar-pulse,
+  .hero-bar-grow,
+  .hero-smoke-1,
+  .hero-smoke-2,
+  .hero-smoke-3,
+  .hero-radar-sweep {
+    animation: none !important;
+  }
+  .hero-progress-bar {
+    transform: scaleX(1) !important;
+  }
+  .hero-bar-grow {
+    transform: scaleY(1) !important;
+  }
+  .hero-chart-area {
+    opacity: 0.6 !important;
+  }
+  .hero-animate-in,
+  .hero-dashboard-fade {
+    opacity: 1 !important;
+    transform: none !important;
+  }
+}
