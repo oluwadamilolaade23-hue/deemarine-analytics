@@ -1,3 +1,4 @@
+import { useEffect } from "react";
 import { BrowserRouter, Routes, Route, Navigate } from "react-router-dom";
 import { Header } from "@/components/layout/Header";
 import { Footer } from "@/components/layout/Footer";
@@ -41,44 +42,44 @@ function PortalRoutes() {
   );
 }
 
+function RedirectToNewPortal() {
+  useEffect(() => {
+    window.location.replace("https://bluedata-hub-staging.vercel.app");
+  }, []);
+  return (
+    <div className="min-h-screen flex items-center justify-center bg-[#0a1628] text-white">
+      <div className="text-center space-y-4 p-8">
+        <p className="text-xl font-medium text-blue-200">Redirecting to BlueData Hub Fellow Portal...</p>
+        <p className="text-slate-400 text-sm">Please wait while we transfer you to the operational portal.</p>
+        <div className="pt-2">
+          <a
+            href="https://bluedata-hub-staging.vercel.app"
+            className="inline-block px-5 py-2.5 rounded-lg bg-blue-600 text-white font-semibold hover:bg-blue-700 transition-colors shadow-md"
+          >
+            Click here if not redirected automatically
+          </a>
+        </div>
+      </div>
+    </div>
+  );
+}
+
 function App() {
   return (
     <BrowserRouter>
       <div className="min-h-screen flex flex-col">
         <Routes>
-          {/* Portal login (needs PortalAuthProvider for usePortalAuth) */}
-          <Route path="/portal/login" element={
-            <PortalAuthProvider>
-              <PortalLogin />
-            </PortalAuthProvider>
-          } />
+          {/* BlueData Hub Fellow Portal redirect to operational staging portal */}
+          <Route path="/portal/login" element={<RedirectToNewPortal />} />
           {/* Portal admin */}
           <Route path="/portal/admin" element={
             <PortalAuthProvider>
               <PortalAdmin />
             </PortalAuthProvider>
           } />
-          {/* Portal authenticated routes */}
-          <Route path="/portal" element={
-            <PortalAuthProvider>
-              <PortalRoutes />
-            </PortalAuthProvider>
-          }>
-            <Route index element={<PortalDashboard />} />
-            <Route path="programme" element={<PortalProgramme />} />
-            <Route path="learning" element={<PortalLearning />} />
-            <Route path="project-lab" element={<PortalProjectLab />} />
-            <Route path="team" element={<PortalTeam />} />
-            <Route path="assignments" element={<PortalAssignments />} />
-            <Route path="sessions" element={<PortalSessions />} />
-            <Route path="resources" element={<PortalResources />} />
-            <Route path="skill-passport" element={<PortalSkillPassport />} />
-            <Route path="progress" element={<PortalProgress />} />
-            <Route path="portfolio" element={<PortalPortfolio />} />
-            <Route path="announcements" element={<PortalAnnouncements />} />
-            <Route path="support" element={<PortalSupport />} />
-            <Route path="profile" element={<PortalProfile />} />
-          </Route>
+          {/* Legacy portal routes redirect */}
+          <Route path="/portal" element={<RedirectToNewPortal />} />
+          <Route path="/portal/*" element={<RedirectToNewPortal />} />
 
           {/* Main site routes (with header/footer) */}
           <Route path="/*" element={

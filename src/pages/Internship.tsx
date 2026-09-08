@@ -262,7 +262,7 @@ export default function Internship() {
       <div className="bg-slate-800 text-center py-2 px-4 flex items-center justify-center gap-4">
         <p className="text-blue-300 text-sm font-medium tracking-wide">Applications Closed • Thank you for your interest</p>
         <span className="text-slate-500">|</span>
-        <Link to="/portal/login" className="text-cyan-400 text-sm font-semibold hover:text-cyan-300 transition-colors">Member Portal →</Link>
+        <a href="https://bluedata-hub-staging.vercel.app" className="text-cyan-400 text-sm font-semibold hover:text-cyan-300 transition-colors">Enter BlueData Hub Portal →</a>
       </div>
       <HeroSection />
       <WhatIsSection />
@@ -318,6 +318,11 @@ function HeroSection() {
             </Badge>
           </div>
           <div className="flex flex-wrap justify-center gap-4 pt-2">
+            <Button asChild size="lg" className="bg-blue-600 hover:bg-blue-500 text-white cursor-pointer text-lg px-8 py-6 font-semibold shadow-lg">
+              <a href="https://bluedata-hub-staging.vercel.app">
+                Enter BlueData Hub Portal
+              </a>
+            </Button>
             <Button size="lg" disabled className="bg-slate-500/50 text-slate-300 cursor-not-allowed text-lg px-8 py-6">
               Applications Closed
             </Button>
@@ -658,11 +663,11 @@ function RegistrationSection() {
           </p>
           <div className="bg-white/10 backdrop-blur-sm rounded-xl p-6 max-w-xl mx-auto border border-white/20 space-y-6">
             <div>
-              <p className="text-white text-sm font-semibold mb-2">Already a member?</p>
+              <p className="text-white text-sm font-semibold mb-2">Already a Fellow?</p>
               <Button asChild size="lg" className="bg-cyan-500 text-white hover:bg-cyan-400 cursor-pointer font-semibold">
-                <Link to="/portal/login">
-                  Access the Member Portal <ArrowRight className="h-4 w-4 ml-2" />
-                </Link>
+                <a href="https://bluedata-hub-staging.vercel.app">
+                  Enter BlueData Hub Portal <ArrowRight className="h-4 w-4 ml-2" />
+                </a>
               </Button>
             </div>
             <div className="border-t border-white/20 pt-4">
