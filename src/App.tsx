@@ -44,16 +44,16 @@ function PortalRoutes() {
 
 function RedirectToNewPortal() {
   useEffect(() => {
-    window.location.replace("https://bluedata-hub-staging.vercel.app");
+    window.location.replace("https://institute.deemarineanalytics.ca/portal");
   }, []);
   return (
     <div className="min-h-screen flex items-center justify-center bg-[#0a1628] text-white">
       <div className="text-center space-y-4 p-8">
-        <p className="text-xl font-medium text-blue-200">Redirecting to BlueData Hub Fellow Portal...</p>
+        <p className="text-xl font-medium text-blue-200">Redirecting to BlueData Hub Portal...</p>
         <p className="text-slate-400 text-sm">Please wait while we transfer you to the operational portal.</p>
         <div className="pt-2">
           <a
-            href="https://bluedata-hub-staging.vercel.app"
+            href="https://institute.deemarineanalytics.ca/portal"
             className="inline-block px-5 py-2.5 rounded-lg bg-blue-600 text-white font-semibold hover:bg-blue-700 transition-colors shadow-md"
           >
             Click here if not redirected automatically

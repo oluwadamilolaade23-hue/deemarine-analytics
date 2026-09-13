@@ -262,7 +262,7 @@ export default function Internship() {
       <div className="bg-slate-800 text-center py-2 px-4 flex items-center justify-center gap-4">
         <p className="text-blue-300 text-sm font-medium tracking-wide">Applications Closed • Thank you for your interest</p>
         <span className="text-slate-500">|</span>
-        <a href="https://bluedata-hub-staging.vercel.app" className="text-cyan-400 text-sm font-semibold hover:text-cyan-300 transition-colors">Enter BlueData Hub Portal →</a>
+        <a href="https://institute.deemarineanalytics.ca/portal" className="text-cyan-400 text-sm font-semibold hover:text-cyan-300 transition-colors">Enter BlueData Hub Portal →</a>
       </div>
       <HeroSection />
       <WhatIsSection />
@@ -319,7 +319,7 @@ function HeroSection() {
           </div>
           <div className="flex flex-wrap justify-center gap-4 pt-2">
             <Button asChild size="lg" className="bg-blue-600 hover:bg-blue-500 text-white cursor-pointer text-lg px-8 py-6 font-semibold shadow-lg">
-              <a href="https://bluedata-hub-staging.vercel.app">
+              <a href="https://institute.deemarineanalytics.ca/portal">
                 Enter BlueData Hub Portal
               </a>
             </Button>
@@ -665,7 +665,7 @@ function RegistrationSection() {
             <div>
               <p className="text-white text-sm font-semibold mb-2">Already a Fellow?</p>
               <Button asChild size="lg" className="bg-cyan-500 text-white hover:bg-cyan-400 cursor-pointer font-semibold">
-                <a href="https://bluedata-hub-staging.vercel.app">
+                <a href="https://institute.deemarineanalytics.ca/portal">
                   Enter BlueData Hub Portal <ArrowRight className="h-4 w-4 ml-2" />
                 </a>
               </Button>

@@ -4,8 +4,8 @@
   "outputDirectory": "dist",
   "installCommand": "npm install --legacy-peer-deps",
   "redirects": [
-    { "source": "/portal/login", "destination": "https://bluedata-hub-staging.vercel.app", "permanent": false },
-    { "source": "/portal", "destination": "https://bluedata-hub-staging.vercel.app", "permanent": false }
+    { "source": "/portal/login", "destination": "https://institute.deemarineanalytics.ca/portal", "permanent": false },
+    { "source": "/portal", "destination": "https://institute.deemarineanalytics.ca/portal", "permanent": false }
   ],
   "rewrites": [
     { "source": "/(.*)", "destination": "/index.html" }
