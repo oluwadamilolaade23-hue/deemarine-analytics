@@ -49,9 +49,9 @@ export function Header() {
           ))}
         </nav>
         {/* Portal Login Button */}
-        <a href="https://bluedata-hub-staging.vercel.app" className="hidden xl:flex items-center gap-2 ml-2 px-4 py-2 text-sm font-semibold rounded-md bg-blue-600 text-white hover:bg-blue-700 transition-colors duration-200 whitespace-nowrap">
+        <a href="https://institute.deemarineanalytics.ca/portal" className="hidden xl:flex items-center gap-2 ml-2 px-4 py-2 text-sm font-semibold rounded-md bg-blue-600 text-white hover:bg-blue-700 transition-colors duration-200 whitespace-nowrap">
           <LogIn className="h-4 w-4" />
-          Fellow Login
+          BlueData Hub
         </a>
 
         {/* Mobile Navigation */}
@@ -78,9 +78,9 @@ export function Header() {
                   {item.name}
                 </Link>
               ))}
-              <a href="https://bluedata-hub-staging.vercel.app" onClick={() => setOpen(false)} className="flex items-center gap-2 px-4 py-3 text-base font-semibold rounded-md bg-blue-600 text-white hover:bg-blue-700 transition-colors duration-200 cursor-pointer mt-2">
+              <a href="https://institute.deemarineanalytics.ca/portal" onClick={() => setOpen(false)} className="flex items-center gap-2 px-4 py-3 text-base font-semibold rounded-md bg-blue-600 text-white hover:bg-blue-700 transition-colors duration-200 cursor-pointer mt-2">
                 <LogIn className="h-4 w-4" />
-                Fellow Login
+                BlueData Hub
               </a>
             </div>
           </SheetContent>
