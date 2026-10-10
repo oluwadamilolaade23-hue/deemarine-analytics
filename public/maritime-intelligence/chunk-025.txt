@@ -1,0 +1,930 @@
+L 530.394177 205.389972 
+L 530.394818 205.629968 
+L 530.395459 205.869965 
+L 530.396008 206.078668 
+L 530.532788 206.275873 
+L 530.669568 206.473077 
+L 530.806366 206.670264 
+L 530.943164 206.867468 
+L 531.079944 207.064673 
+L 531.216742 207.261877 
+L 531.35354 207.459082 
+L 531.49032 207.656268 
+L 531.6271 207.853473 
+L 531.737988 208.013324 
+" clip-path="url(#p8e08435f74)" style="fill: none; stroke: #234862; stroke-width: 0.25"/>
+    <path d="M 399.130664 174.495996 
+L 398.469324 174.830676 
+" clip-path="url(#p8e08435f74)" style="fill: none; stroke: #234862; stroke-width: 0.25"/>
+    <path d="M 455.223999 100.913342 
+L 454.684003 100.362671 
+" clip-path="url(#p8e08435f74)" style="fill: none; stroke: #234862; stroke-width: 0.25"/>
+    <path d="M 466.930664 173.213342 
+L 466.718536 173.101062 
+L 466.506409 172.9888 
+L 466.294299 172.876538 
+L 466.082172 172.764276 
+L 465.870044 172.652014 
+L 465.779333 172.604004 
+" clip-path="url(#p8e08435f74)" style="fill: none; stroke: #234862; stroke-width: 0.25"/>
+    <path d="M 409.573334 174.6 
+L 409.653333 173.990002 
+" clip-path="url(#p8e08435f74)" style="fill: none; stroke: #234862; stroke-width: 0.25"/>
+    <path d="M 520.066077 94.96344 
+L 519.67392 95.670721 
+" clip-path="url(#p8e08435f74)" style="fill: none; stroke: #234862; stroke-width: 0.25"/>
+    <path d="M 478.309332 108.311334 
+L 479.190674 108.166663 
+" clip-path="url(#p8e08435f74)" style="fill: none; stroke: #234862; stroke-width: 0.25"/>
+    <path d="M 503.749915 92.277356 
+L 504.320636 92.602551 
+" clip-path="url(#p8e08435f74)" style="fill: none; stroke: #234862; stroke-width: 0.25"/>
+    <path d="M 497.534656 115.760669 
+L 497.841998 116.248663 
+" clip-path="url(#p8e08435f74)" style="fill: none; stroke: #234862; stroke-width: 0.25"/>
+    <path d="M 399.135333 174.494659 
+L 399.08866 173.577997 
+" clip-path="url(#p8e08435f74)" style="fill: none; stroke: #234862; stroke-width: 0.25"/>
+    <path d="M 461.777325 98.601343 
+L 461.778662 98.60733 
+" clip-path="url(#p8e08435f74)" style="fill: none; stroke: #234862; stroke-width: 0.25"/>
+    <path d="M 496.923999 113.988666 
+L 497.228668 114.596008 
+" clip-path="url(#p8e08435f74)" style="fill: none; stroke: #234862; stroke-width: 0.25"/>
+    <path d="M 455.03866 91.046008 
+L 454.881995 90.541992 
+" clip-path="url(#p8e08435f74)" style="fill: none; stroke: #234862; stroke-width: 0.25"/>
+    <path d="M 687.527325 175.509998 
+L 687.500665 176.004675 
+" clip-path="url(#p8e08435f74)" style="fill: none; stroke: #234862; stroke-width: 0.25"/>
+    <path d="M 583.981934 73.962012 
+L 584.221838 73.956006 
+L 584.46178 73.950018 
+L 584.701703 73.944031 
+L 584.941626 73.938025 
+L 585.181549 73.932056 
+L 585.365991 73.927441 
+" clip-path="url(#p8e08435f74)" style="fill: none; stroke: #234862; stroke-width: 0.25"/>
+    <path d="M 515.278674 232.828674 
+L 515.278674 232.827338 
+" clip-path="url(#p8e08435f74)" style="fill: none; stroke: #234862; stroke-width: 0.25"/>
+    <path d="M 431.994672 178.540009 
+L 431.995331 177.796674 
+" clip-path="url(#p8e08435f74)" style="fill: none; stroke: #234862; stroke-width: 0.25"/>
+    <path d="M 532.593347 194.424005 
+L 532.443237 194.611267 
+L 532.293146 194.798547 
+L 532.143054 194.985809 
+L 531.992944 195.17309 
+L 531.842853 195.36037 
+L 531.692761 195.547632 
+L 531.542651 195.734912 
+L 531.39256 195.922174 
+L 531.242468 196.109454 
+L 531.092358 196.296716 
+L 530.942285 196.483997 
+L 530.792175 196.671277 
+L 530.642065 196.858539 
+L 530.491992 197.045819 
+L 530.367334 197.201331 
+" clip-path="url(#p8e08435f74)" style="fill: none; stroke: #234862; stroke-width: 0.25"/>
+    <path d="M 509.121332 268.414673 
+L 509.076764 268.178833 
+L 509.032214 267.943011 
+L 508.987646 267.70719 
+L 508.943079 267.47135 
+L 508.898511 267.235529 
+L 508.853943 266.999707 
+L 508.809375 266.763867 
+L 508.764807 266.528064 
+L 508.721338 266.29801 
+" clip-path="url(#p8e08435f74)" style="fill: none; stroke: #234862; stroke-width: 0.25"/>
+    <path d="M 494.925989 112.021326 
+L 495.115997 112.53067 
+" clip-path="url(#p8e08435f74)" style="fill: none; stroke: #234862; stroke-width: 0.25"/>
+    <path d="M 494.684656 109.470667 
+L 495.467322 109.443347 
+" clip-path="url(#p8e08435f74)" style="fill: none; stroke: #234862; stroke-width: 0.25"/>
+    <path d="M 597.832562 107.46145 
+L 596.740558 107.55672 
+" clip-path="url(#p8e08435f74)" style="fill: none; stroke: #234862; stroke-width: 0.25"/>
+    <path d="M 497.163318 115.046667 
+L 497.651331 115.367999 
+" clip-path="url(#p8e08435f74)" style="fill: none; stroke: #234862; stroke-width: 0.25"/>
+    <path d="M 222.477997 172.832007 
+L 223.043994 172.8 
+" clip-path="url(#p8e08435f74)" style="fill: none; stroke: #234862; stroke-width: 0.25"/>
+    <path d="M 729.914667 108.41001 
+L 730.490662 107.769324 
+" clip-path="url(#p8e08435f74)" style="fill: none; stroke: #234862; stroke-width: 0.25"/>
+    <path d="M 493.413318 107.913336 
+L 493.622662 108.446667 
+" clip-path="url(#p8e08435f74)" style="fill: none; stroke: #234862; stroke-width: 0.25"/>
+    <path d="M 498.551331 116.060669 
+L 498.991992 116.088666 
+" clip-path="url(#p8e08435f74)" style="fill: none; stroke: #234862; stroke-width: 0.25"/>
+    <path d="M 495.247339 111.116675 
+L 495.133997 111.638672 
+" clip-path="url(#p8e08435f74)" style="fill: none; stroke: #234862; stroke-width: 0.25"/>
+    <path d="M 508.477441 74.394727 
+L 508.232629 74.872083 
+" clip-path="url(#p8e08435f74)" style="fill: none; stroke: #234862; stroke-width: 0.25"/>
+    <path d="M 473.199335 88.770007 
+L 472.955328 88.455322 
+" clip-path="url(#p8e08435f74)" style="fill: none; stroke: #234862; stroke-width: 0.25"/>
+    <path d="M 494.040674 107.031335 
+L 493.5 107.389343 
+" clip-path="url(#p8e08435f74)" style="fill: none; stroke: #234862; stroke-width: 0.25"/>
+    <path d="M 495.368005 263.11333 
+L 495.133264 263.163373 
+L 494.89856 263.213416 
+L 494.663818 263.263477 
+L 494.429114 263.313501 
+L 494.194373 263.363562 
+L 494.086011 263.38667 
+" clip-path="url(#p8e08435f74)" style="fill: none; stroke: #234862; stroke-width: 0.25"/>
+    <path d="M 572.010718 81.225366 
+L 571.205273 81.396002 
+" clip-path="url(#p8e08435f74)" style="fill: none; stroke: #234862; stroke-width: 0.25"/>
+    <path d="M 498.82608 62.016724 
+L 499.654065 61.553998 
+" clip-path="url(#p8e08435f74)" style="fill: none; stroke: #234862; stroke-width: 0.25"/>
+    <path d="M 436.787329 102.093347 
+L 436.784674 102.090674 
+" clip-path="url(#p8e08435f74)" style="fill: none; stroke: #234862; stroke-width: 0.25"/>
+    <path d="M 595.545355 105.476642 
+L 595.042566 105.133447 
+" clip-path="url(#p8e08435f74)" style="fill: none; stroke: #234862; stroke-width: 0.25"/>
+    <path d="M 601.408081 105.601428 
+L 601.402551 105.597363 
+" clip-path="url(#p8e08435f74)" style="fill: none; stroke: #234862; stroke-width: 0.25"/>
+    <path d="M 736.337329 112.798663 
+L 736.8 112.260004 
+" clip-path="url(#p8e08435f74)" style="fill: none; stroke: #234862; stroke-width: 0.25"/>
+    <path d="M 689.935327 170.559338 
+L 689.910663 170.890009 
+" clip-path="url(#p8e08435f74)" style="fill: none; stroke: #234862; stroke-width: 0.25"/>
+    <path d="M 736.049341 113.201331 
+L 735.815735 113.25639 
+L 735.582147 113.31145 
+L 735.348541 113.366528 
+L 735.114954 113.42157 
+L 734.881348 113.476648 
+L 734.649335 113.531323 
+" clip-path="url(#p8e08435f74)" style="fill: none; stroke: #234862; stroke-width: 0.25"/>
+    <path d="M 496.056665 110.218652 
+L 495.804675 110.68667 
+" clip-path="url(#p8e08435f74)" style="fill: none; stroke: #234862; stroke-width: 0.25"/>
+    <path d="M 424.551343 191.793329 
+L 425.083997 191.726001 
+" clip-path="url(#p8e08435f74)" style="fill: none; stroke: #234862; stroke-width: 0.25"/>
+    <path d="M 455.588672 102.032666 
+L 455.504663 101.609326 
+" clip-path="url(#p8e08435f74)" style="fill: none; stroke: #234862; stroke-width: 0.25"/>
+    <path d="M 498.154651 276.97066 
+L 497.708661 276.761334 
+" clip-path="url(#p8e08435f74)" style="fill: none; stroke: #234862; stroke-width: 0.25"/>
+    <path d="M 736.052673 113.202667 
+L 736.337329 112.798663 
+" clip-path="url(#p8e08435f74)" style="fill: none; stroke: #234862; stroke-width: 0.25"/>
+    <path d="M 541.333923 106.403998 
+L 541.336084 106.404712 
+" clip-path="url(#p8e08435f74)" style="fill: none; stroke: #234862; stroke-width: 0.25"/>
+    <path d="M 580.032715 80.959918 
+L 579.6 80.567999 
+" clip-path="url(#p8e08435f74)" style="fill: none; stroke: #234862; stroke-width: 0.25"/>
+    <path d="M 498.243347 70.099438 
+L 497.641919 70.016638 
+" clip-path="url(#p8e08435f74)" style="fill: none; stroke: #234862; stroke-width: 0.25"/>
+    <path d="M 498.243347 70.099438 
+L 497.641919 70.016638 
+" clip-path="url(#p8e08435f74)" style="fill: none; stroke: #234862; stroke-width: 0.25"/>
+    <path d="M 514.316638 80.714648 
+L 514.103284 80.977441 
+" clip-path="url(#p8e08435f74)" style="fill: none; stroke: #234862; stroke-width: 0.25"/>
+    <path d="M 436.325995 188.927325 
+L 435.926001 189.076007 
+" clip-path="url(#p8e08435f74)" style="fill: none; stroke: #234862; stroke-width: 0.25"/>
+    <path d="M 502.212671 256.951337 
+L 502.493335 257.260657 
+" clip-path="url(#p8e08435f74)" style="fill: none; stroke: #234862; stroke-width: 0.25"/>
+    <path d="M 499.237921 61.251361 
+L 499.654065 61.553998 
+" clip-path="url(#p8e08435f74)" style="fill: none; stroke: #234862; stroke-width: 0.25"/>
+    <path d="M 547.088013 131.980664 
+L 547.972009 132.237341 
+" clip-path="url(#p8e08435f74)" style="fill: none; stroke: #234862; stroke-width: 0.25"/>
+    <path d="M 431.987329 177.363336 
+L 431.637341 177.265997 
+" clip-path="url(#p8e08435f74)" style="fill: none; stroke: #234862; stroke-width: 0.25"/>
+    <path d="M 432.006006 177.686005 
+L 432.001337 177.367328 
+" clip-path="url(#p8e08435f74)" style="fill: none; stroke: #234862; stroke-width: 0.25"/>
+    <path d="M 571.202637 81.396716 
+L 570.706567 81.312012 
+" clip-path="url(#p8e08435f74)" style="fill: none; stroke: #234862; stroke-width: 0.25"/>
+    <path d="M 453.686664 104.780676 
+L 454.559326 104.614673 
+" clip-path="url(#p8e08435f74)" style="fill: none; stroke: #234862; stroke-width: 0.25"/>
+    <path d="M 449.739331 99.049329 
+L 449.856665 98.982001 
+" clip-path="url(#p8e08435f74)" style="fill: none; stroke: #234862; stroke-width: 0.25"/>
+    <path d="M 554.667334 145.066003 
+L 554.915332 144.911334 
+" clip-path="url(#p8e08435f74)" style="fill: none; stroke: #234862; stroke-width: 0.25"/>
+    <path d="M 540.508557 105.58656 
+L 540.510718 105.589929 
+" clip-path="url(#p8e08435f74)" style="fill: none; stroke: #234862; stroke-width: 0.25"/>
+    <path d="M 425.004675 119.343347 
+L 424.927332 119.21001 
+" clip-path="url(#p8e08435f74)" style="fill: none; stroke: #234862; stroke-width: 0.25"/>
+    <path d="M 452.832001 89.53667 
+L 452.833997 89.53667 
+" clip-path="url(#p8e08435f74)" style="fill: none; stroke: #234862; stroke-width: 0.25"/>
+    <path d="M 597.569275 107.641919 
+L 597.272644 107.659918 
+" clip-path="url(#p8e08435f74)" style="fill: none; stroke: #234862; stroke-width: 0.25"/>
+    <path d="M 731.159326 112.739996 
+L 731.590009 113.379346 
+" clip-path="url(#p8e08435f74)" style="fill: none; stroke: #234862; stroke-width: 0.25"/>
+    <path d="M 419.170001 117.979999 
+L 419.050671 117.802002 
+" clip-path="url(#p8e08435f74)" style="fill: none; stroke: #234862; stroke-width: 0.25"/>
+    <path d="M 516.615344 127.660657 
+L 516.615344 127.662012 
+" clip-path="url(#p8e08435f74)" style="fill: none; stroke: #234862; stroke-width: 0.25"/>
+    <path d="M 731.383997 112.808002 
+L 731.590009 113.379346 
+" clip-path="url(#p8e08435f74)" style="fill: none; stroke: #234862; stroke-width: 0.25"/>
+    <path d="M 515.939996 133.017334 
+L 515.95199 133.089331 
+" clip-path="url(#p8e08435f74)" style="fill: none; stroke: #234862; stroke-width: 0.25"/>
+    <path d="M 498.710669 58.690668 
+L 497.998663 59.387329 
+" clip-path="url(#p8e08435f74)" style="fill: none; stroke: #234862; stroke-width: 0.25"/>
+    <path d="M 494.506 98.629321 
+L 494.567322 98.569995 
+" clip-path="url(#p8e08435f74)" style="fill: none; stroke: #234862; stroke-width: 0.25"/>
+    <path d="M 733.532007 113.605334 
+L 733.845996 113.623334 
+" clip-path="url(#p8e08435f74)" style="fill: none; stroke: #234862; stroke-width: 0.25"/>
+    <path d="M 431.997327 177.772009 
+L 431.997327 177.694006 
+" clip-path="url(#p8e08435f74)" style="fill: none; stroke: #234862; stroke-width: 0.25"/>
+    <path d="M 419.12666 117.236664 
+L 419.079327 117.236664 
+" clip-path="url(#p8e08435f74)" style="fill: none; stroke: #234862; stroke-width: 0.25"/>
+    <path d="M 731.159326 112.739996 
+L 731.383997 112.808002 
+" clip-path="url(#p8e08435f74)" style="fill: none; stroke: #234862; stroke-width: 0.25"/>
+    <path d="M 476.307129 101.889331 
+L 476.414575 101.674731 
+L 476.522021 101.460114 
+L 476.629468 101.245514 
+L 476.736914 101.030896 
+L 476.844342 100.816296 
+L 476.951788 100.601697 
+L 477.059216 100.387097 
+L 477.166663 100.172479 
+L 477.274109 99.957861 
+L 477.381555 99.743262 
+L 477.489001 99.528662 
+L 477.489862 99.526941 
+L 477.727991 99.496948 
+L 477.966101 99.466956 
+L 478.204211 99.436981 
+L 478.44234 99.407007 
+L 478.680469 99.377014 
+L 478.856873 99.354803 
+L 478.708557 99.166113 
+L 478.56026 98.977405 
+L 478.411963 98.788733 
+L 478.263647 98.600024 
+L 478.115332 98.411334 
+L 478.109985 98.404541 
+L 479.089856 98.308667 
+L 478.889941 98.175879 
+L 478.690009 98.043127 
+L 478.490076 97.910339 
+L 478.290161 97.77757 
+L 478.090228 97.6448 
+L 477.890295 97.512012 
+L 477.824744 97.468469 
+L 477.942004 97.25907 
+L 478.059265 97.04967 
+L 478.176544 96.840271 
+L 478.293823 96.630872 
+L 478.411084 96.421472 
+L 478.484601 96.290204 
+L 478.245465 96.269788 
+L 478.006348 96.249353 
+L 477.767212 96.228937 
+L 477.528076 96.208521 
+L 477.28894 96.188086 
+L 477.049823 96.167688 
+L 476.810687 96.147253 
+L 476.57157 96.126819 
+L 476.332434 96.106421 
+L 476.093298 96.085986 
+L 475.854163 96.06557 
+L 475.615045 96.045154 
+L 475.375909 96.024719 
+L 475.136792 96.004303 
+L 474.897656 95.983887 
+L 474.658521 95.963452 
+L 474.419385 95.943036 
+L 474.180267 95.92262 
+L 473.94115 95.902185 
+L 473.702014 95.881787 
+L 473.462878 95.861353 
+L 473.223743 95.840918 
+L 472.984607 95.82052 
+L 472.74549 95.800085 
+L 472.506372 95.779669 
+L 472.267236 95.759253 
+L 472.028101 95.738818 
+L 471.788965 95.718402 
+L 471.549829 95.697986 
+L 471.310712 95.677551 
+L 471.071594 95.657135 
+L 470.832458 95.636719 
+L 470.593323 95.616284 
+L 470.354187 95.595868 
+L 470.11507 95.575452 
+L 469.875934 95.555017 
+L 469.850592 95.552856 
+L 469.95434 95.769287 
+L 470.058087 95.985718 
+L 470.161816 96.20213 
+L 470.265564 96.418542 
+L 470.369312 96.634973 
+L 470.473041 96.851385 
+L 470.576788 97.067798 
+L 470.680518 97.284229 
+L 470.784265 97.500659 
+L 470.888013 97.717072 
+L 470.99176 97.933484 
+L 471.002728 97.956409 
+L 471.19552 98.099341 
+L 471.388312 98.242273 
+L 471.581104 98.385223 
+L 471.773877 98.528174 
+L 471.966687 98.671106 
+L 472.15946 98.814056 
+L 472.352252 98.957007 
+L 472.545044 99.099939 
+L 472.737817 99.242871 
+L 472.930627 99.385822 
+L 473.123401 99.528772 
+L 473.316193 99.671704 
+L 473.508984 99.814655 
+L 473.701758 99.957605 
+L 473.894568 100.100537 
+L 474.087341 100.243469 
+L 474.280133 100.38642 
+L 474.472925 100.52937 
+L 474.665717 100.672302 
+L 474.858508 100.815253 
+L 475.051282 100.958203 
+L 475.244092 101.101135 
+L 475.436865 101.244067 
+L 475.629657 101.387018 
+L 475.822449 101.529968 
+L 476.015222 101.6729 
+L 476.208032 101.815851 
+L 476.307129 101.889331 
+" clip-path="url(#p8e08435f74)" style="fill: none; stroke: #234862; stroke-width: 0.25"/>
+    <path d="M 485.697144 102.415997 
+L 485.462732 102.46756 
+L 485.228339 102.519122 
+L 484.993945 102.570685 
+L 484.759552 102.622247 
+L 484.525159 102.67381 
+L 484.290747 102.725372 
+L 484.056372 102.776935 
+L 483.82196 102.828497 
+L 483.587567 102.88006 
+L 483.353174 102.931622 
+L 483.118781 102.983185 
+L 482.884387 103.034747 
+L 482.649976 103.08631 
+L 482.415601 103.137872 
+L 482.181189 103.189435 
+L 481.946814 103.240997 
+L 481.712402 103.29256 
+L 481.503735 103.338464 
+" clip-path="url(#p8e08435f74)" style="fill: none; stroke: #234862; stroke-width: 0.25"/>
+    <path d="M 478.150745 99.516998 
+L 478.362451 99.630011 
+L 478.574194 99.743024 
+L 478.785901 99.856036 
+L 478.997644 99.969049 
+L 479.209369 100.082062 
+L 479.421094 100.195074 
+L 479.632819 100.308069 
+L 479.844543 100.421082 
+L 480.056287 100.534094 
+L 480.267993 100.647107 
+L 480.479736 100.76012 
+L 480.691443 100.873132 
+L 480.860797 100.963531 
+L 480.204675 101.848206 
+" clip-path="url(#p8e08435f74)" style="fill: none; stroke: #234862; stroke-width: 0.25"/>
+    <path d="M 477.212988 93.822198 
+L 477.368115 94.005322 
+L 477.523242 94.188464 
+L 477.678369 94.371588 
+L 477.833496 94.554712 
+L 477.988623 94.737854 
+L 478.14375 94.920978 
+L 478.298877 95.104102 
+L 478.454004 95.287244 
+L 478.609131 95.470367 
+L 478.624402 95.488403 
+L 478.433679 95.634082 
+L 478.242957 95.779761 
+L 478.052234 95.925458 
+L 477.861511 96.071155 
+L 477.670789 96.216833 
+L 477.493195 96.352478 
+" clip-path="url(#p8e08435f74)" style="fill: none; stroke: #234862; stroke-width: 0.25"/>
+    <path d="M 471.854626 92.454712 
+L 471.624133 92.521655 
+L 471.393677 92.588599 
+L 471.163202 92.65556 
+L 470.932727 92.722522 
+L 470.702252 92.789465 
+L 470.471777 92.856409 
+L 470.241321 92.923352 
+L 470.010846 92.990314 
+L 469.780371 93.057257 
+L 469.549896 93.124219 
+L 469.487274 93.142401 
+L 469.401636 93.366614 
+L 469.315997 93.590808 
+L 469.230377 93.815002 
+L 469.144739 94.039215 
+L 469.0591 94.263428 
+L 468.97348 94.487622 
+L 468.887842 94.711816 
+L 468.816193 94.89939 
+L 468.576233 94.895691 
+L 468.336255 94.891956 
+L 468.096277 94.888257 
+L 467.856317 94.884521 
+L 467.616339 94.880804 
+L 467.376379 94.877087 
+L 467.136401 94.87337 
+L 466.896423 94.869653 
+L 466.656464 94.865936 
+L 466.416486 94.862219 
+L 466.176526 94.858502 
+L 465.936548 94.854785 
+L 465.69657 94.85105 
+L 465.45661 94.847351 
+L 465.216632 94.843616 
+L 464.976654 94.839917 
+L 464.736694 94.836182 
+L 464.61687 94.834332 
+" clip-path="url(#p8e08435f74)" style="fill: none; stroke: #234862; stroke-width: 0.25"/>
+    <path d="M 559.414563 164.086084 
+L 556.798315 158.401685 
+L 549.666815 159.422076 
+L 547.491504 160.583569 
+L 545.240881 163.318323 
+L 544.198315 162.519598 
+L 536.25 161.93855 
+L 534.730554 164.69328 
+L 534.730554 164.69328 
+" clip-path="url(#p8e08435f74)" style="fill: none; stroke: #234862; stroke-width: 0.25"/>
+    <path d="M 516.24071 124.572949 
+L 516.434949 124.431958 
+L 516.62915 124.290967 
+L 516.823389 124.149976 
+L 517.01759 124.008984 
+L 517.211829 123.867993 
+L 517.40603 123.727002 
+L 517.600269 123.586011 
+L 517.79447 123.44502 
+L 517.988708 123.304028 
+L 518.18291 123.163037 
+L 518.377148 123.022046 
+L 518.571368 122.881055 
+L 518.765588 122.740063 
+L 518.959808 122.599072 
+L 519.154028 122.458099 
+L 519.348248 122.317108 
+L 519.542468 122.176117 
+L 519.736688 122.035126 
+L 519.887988 121.925281 
+L 519.497278 120.874072 
+L 518.353931 120.825366 
+" clip-path="url(#p8e08435f74)" style="fill: none; stroke: #234862; stroke-width: 0.25"/>
+    <path d="M 517.495605 124.21062 
+L 517.504651 124.450452 
+L 517.513696 124.690283 
+L 517.522723 124.930096 
+L 517.53175 125.169928 
+L 517.540796 125.40976 
+L 517.545868 125.544104 
+" clip-path="url(#p8e08435f74)" style="fill: none; stroke: #234862; stroke-width: 0.25"/>
+    <path d="M 517.334326 126.264771 
+L 517.313507 126.50387 
+L 517.292688 126.742969 
+L 517.271887 126.982068 
+L 517.251086 127.221167 
+L 517.230286 127.460266 
+L 517.209467 127.699365 
+L 517.188647 127.938464 
+L 517.167847 128.177563 
+L 517.147998 128.405695 
+" clip-path="url(#p8e08435f74)" style="fill: none; stroke: #234862; stroke-width: 0.25"/>
+    <path d="M 533.74801 174.084009 
+L 533.57113 173.921777 
+L 533.39425 173.759564 
+L 533.217371 173.597333 
+L 533.040509 173.43512 
+L 532.863647 173.272888 
+L 532.686768 173.110675 
+L 532.509888 172.948444 
+L 532.333008 172.78623 
+L 532.156128 172.623999 
+L 531.979266 172.461786 
+L 531.802405 172.299573 
+L 531.625525 172.137341 
+L 531.448645 171.975128 
+L 531.271765 171.812897 
+L 531.094904 171.650684 
+L 530.918024 171.488452 
+L 530.741162 171.326239 
+L 530.564282 171.164008 
+L 530.387402 171.001794 
+L 530.210522 170.839563 
+L 530.033661 170.67735 
+L 529.856799 170.515137 
+L 529.679919 170.352905 
+L 529.50304 170.190692 
+L 529.32616 170.028461 
+L 529.14928 169.866248 
+L 528.972418 169.704016 
+L 528.795557 169.541803 
+L 528.618677 169.379572 
+L 528.441797 169.217358 
+L 528.295129 169.082831 
+L 528.055865 169.101617 
+L 527.816602 169.120404 
+L 527.577338 169.139172 
+L 527.338074 169.157959 
+L 527.09881 169.176746 
+L 526.859546 169.195514 
+L 526.620282 169.214301 
+L 526.381018 169.233087 
+L 526.141754 169.251855 
+L 525.90249 169.270642 
+L 525.663226 169.289429 
+L 525.423962 169.308197 
+L 525.184698 169.326984 
+L 524.945435 169.345752 
+L 524.706171 169.364539 
+L 524.466907 169.383325 
+L 524.279077 169.398065 
+L 524.099487 169.238873 
+L 523.919879 169.079663 
+L 523.740271 168.920471 
+L 523.560681 168.761279 
+L 523.381091 168.602069 
+L 523.201483 168.442877 
+L 523.021875 168.283667 
+L 522.989465 168.254938 
+L 522.875189 168.465985 
+L 522.760913 168.677032 
+L 522.646655 168.888098 
+L 522.532397 169.099146 
+L 522.418121 169.310193 
+L 522.303845 169.52124 
+L 522.189587 169.732306 
+L 522.07533 169.943353 
+L 522.067841 169.957178 
+L 521.551318 169.326636 
+L 521.318262 169.384021 
+L 521.085242 169.441406 
+L 520.852185 169.49881 
+L 520.619165 169.556195 
+L 520.386108 169.61358 
+L 520.153088 169.670966 
+L 519.920032 169.728351 
+L 519.708435 169.780444 
+" clip-path="url(#p8e08435f74)" style="fill: none; stroke: #234862; stroke-width: 0.25"/>
+    <path d="M 504.321075 92.600262 
+L 504.081427 92.587244 
+L 503.841779 92.574243 
+L 503.60213 92.561243 
+L 503.362482 92.548224 
+L 503.122833 92.535223 
+L 502.883203 92.522205 
+L 502.643555 92.509204 
+L 502.403906 92.496204 
+L 502.164258 92.483185 
+L 501.924609 92.470166 
+L 501.684961 92.457166 
+L 501.586084 92.451801 
+L 501.439801 92.642065 
+L 501.293518 92.832312 
+L 501.147217 93.022559 
+L 501.000916 93.212842 
+L 500.854614 93.403088 
+L 500.708313 93.593335 
+L 500.56203 93.7836 
+L 500.415747 93.973865 
+L 500.269446 94.164111 
+L 500.123145 94.354358 
+L 499.976843 94.544641 
+L 499.830542 94.734888 
+L 499.692334 94.914624 
+" clip-path="url(#p8e08435f74)" style="fill: none; stroke: #234862; stroke-width: 0.25"/>
+    <path d="M 490.21864 183.170105 
+L 492.170178 179.315131 
+L 493.972797 178.994403 
+L 495.941089 181.228656 
+L 501.021753 181.590894 
+L 503.793054 179.293561 
+L 507.172925 180.576068 
+L 509.934576 177.533057 
+L 509.218469 175.427069 
+L 510.537598 175.425604 
+L 510.537598 174.674396 
+L 511.934436 174.713177 
+L 511.792639 178.295068 
+L 513.484351 179.601068 
+L 513.874585 181.22915 
+L 513.874585 181.22915 
+" clip-path="url(#p8e08435f74)" style="fill: none; stroke: #234862; stroke-width: 0.25"/>
+   </g>
+  </g>
+ </g>
+ <defs>
+  <clipPath id="p8e08435f74">
+   <rect x="0" y="-0" width="864" height="348"/>
+  </clipPath>
+ </defs>
+</svg></div><div class="map-caption">LIVE WORLD VIEW • Strategic maritime developments</div><div class="map-legend"><span><i style="background:var(--red)"></i>Risk</span><span><i style="background:var(--green)"></i>Opportunity</span><span><i style="background:var(--amber)"></i>Risk + Opportunity</span><span><i style="background:var(--blue)"></i>Watch</span></div></div></div>
+      <div class="card" style="margin-top:14px"><h3>Selected Intelligence</h3><div id="selectedEvent" class="hint">Click a marker on the map.</div></div>
+    </section>
+
+    <section class="page" id="radar">
+      <div class="hero"><div><h1>Risk & Opportunity Radar</h1><p>Priority intelligence plotted by risk and opportunity intensity. The upper-right quadrant is strategic tension.</p></div></div>
+      <div class="grid2">
+        <div class="card"><div class="radar" id="radarCanvas"><div class="axisx"></div><div class="axisy"></div><div class="q tl">High opportunity / low risk</div><div class="q tr">High opportunity / high risk</div><div class="q bl">Low opportunity / low risk</div><div class="q br">Low opportunity / high risk</div></div></div>
+        <div class="card"><h3>Highest Priority Events</h3><div id="riskTable"></div></div>
+      </div>
+    </section>
+
+    <section class="page" id="ports">
+      <div class="hero"><div><h1>Ports & Infrastructure</h1><p>Port capacity, infrastructure investment, gateway competitiveness and operational resilience. This view combines explicit port-development records with port-specific trade and infrastructure signals from the same edition dataset.</p></div></div>
+      <div class="grid3" id="portKpis"></div>
+      <div class="port-insight-note" id="portInsightNote"></div>
+      <div class="port-grid">
+        <div class="card"><h3>Port / Infrastructure Signals by Region</h3><div class="bars" id="portBars"></div></div>
+        <div class="card"><h3>Strategic Signal Mix</h3><div class="bars" id="portSignalBars"></div></div>
+        <div class="card"><h3>Top Port Locations</h3><div class="bars" id="portLocationBars"></div></div>
+      </div>
+      <div class="grid2">
+        <div class="card"><h3>Highest-Priority Port Developments</h3><div class="table-wrap" id="portTable"></div></div>
+        <div class="card"><h3>Operational / Investment Themes</h3><div class="bars" id="portThemeBars"></div></div>
+      </div>
+      <div class="card" style="margin-top:14px"><h3>Port & Infrastructure Dataset</h3><div class="table-wrap" id="portDatasetTable"></div></div>
+    </section>
+
+    <section class="page" id="trade">
+      <div class="hero"><div><h1>Trade & Logistics</h1><p>Trade developments, supply-chain pressure, port efficiency, corridor resilience and operational impact.</p></div></div>
+      <div class="grid2"><div class="card"><h3>Trade / Logistics Signals</h3><div class="bars" id="tradeBars"></div></div><div class="card"><h3>Operational Intelligence</h3><div id="tradeTable"></div></div></div>
+    </section>
+
+    <section class="page" id="themes">
+      <div class="hero"><div><h1>Energy, Digitalisation & Security</h1><p>Three strategic themes shaping ports, vessel operations and maritime trade.</p></div></div>
+      <div class="grid3">
+        <div class="card"><h3>Energy Transition</h3><div id="energyPanel"></div></div>
+        <div class="card"><h3>Digitalisation</h3><div id="digitalPanel"></div></div>
+        <div class="card"><h3>Maritime Security</h3><div id="securityPanel"></div></div>
+      </div>
+      <div class="card" style="margin-top:14px"><h3>Strategic Theme Mix</h3><div class="bars" id="themeBars"></div></div>
+    </section>
+
+    <section class="page" id="brief">
+      <div class="hero"><div><h1>DeeMarine Intelligence Brief — SO WHAT?</h1><p>The decision page: what changed, why it matters and what should management watch next.</p></div></div>
+      <div class="briefs">
+        <div class="brief"><h4>What Changed?</h4><p id="whatChanged"></p></div>
+        <div class="brief"><h4>Why It Matters</h4><p id="whyMatters"></p></div>
+        <div class="brief"><h4>What Should We Watch?</h4><p id="watchNext"></p></div>
+      </div>
+      <div class="card" style="margin-top:14px"><h3>Top 5 Strategic Developments</h3><div id="briefTable"></div></div>
+      <div class="card" style="margin-top:14px"><h3>Intelligence Detail</h3><div id="detailPanel" class="hint">Select a development above to view the detailed intelligence record.</div></div>
+    </section>
+
+    <section class="page" id="method">
+      <div class="hero"><div><h1>Data & Methodology</h1><p>Aligned to the DeeMarine Power BI source structure. Duplicate source rows are retained for traceability but excluded from visible metrics and weekly totals.</p></div></div>
+      <div class="grid2">
+        <div class="card"><h3>Source Structure</h3><p class="hint">Each intelligence record contains region, country, port/location, organization, category, development, key data/detail, operational significance, DeeMarine analysis angle, source, URL, source quality, status, impact, risk signal, opportunity signal, strategic impact and priority.</p></div>
+        <div class="card"><h3>Weekly Edition Model</h3><p class="hint">Monday starts the edition. Tuesday–Friday append verified intelligence. Saturday consolidates and deduplicates the weekly dataset. Source rows flagged Duplicate remain traceable in the fact table but are excluded from website metrics and weekly totals. Sunday remains the final day. The same analytical layer feeds Power BI and the website.</p></div>
+      </div>
+      <div class="card" style="margin-top:14px"><h3>Signal Logic</h3><div class="note"><b>Risk</b> = operational/commercial exposure • <b>Opportunity</b> = growth/efficiency/investment potential • <b>Risk + Opportunity</b> = both are material • <b>Watch</b> = emerging/low-confidence signal.</div></div>
+    </section>
+
+    <div class="footer">DeeMarine Maritime Intelligence • Weekly maritime developments transformed into structured data, verified intelligence and decision insight. • Sea to Screen</div>
+  </div>
+</main>
+</div>
+
+<script>
+const DATA = [{"edition":"Edition 2","published":"2026-10-05","region":"Canada","country":"Canada","location":"Corner Brook, Newfoundland and Labrador","organization":"Port of Corner Brook / LOGISTEC / NEAS","original_category":"Arctic Shipping & Trade Corridor","category":"Trade & Logistics","development":"NEAS launched a new liner service to Western Newfoundland, with ice-class vessel UKPIK arriving at the Port of Corner Brook.","detail":"New liner service; ice-class UKPIK; Arctic cargo logistics and Western Newfoundland gateway.","why":"Adds a scheduled maritime link supporting Arctic communities and strengthens the port's role in Atlantic Canada–Arctic logistics.","insight":"Arctic and northern supply chains are becoming more structured; monitor vessel calls, cargo volumes, seasonal constraints and port-handling demand.","source":"Port of Corner Brook","url":"https://cornerbrookport.com/port-of-corner-brook-logistec-and-neas-strengthen-canadas-arctic-supply-chain-resiliency/","source_quality":"Tier 1","status":"Verified","impact":"High","event_id":"DM2-AEF2484825","impact_score":3,"source_confidence":1,"status_factor":1,"confidence_score":1,"risk":0,"opportunity":3,"strategic":3,"priority":4.5,"signal":"Opportunity","dup":"Unique"},{"edition":"Edition 2","published":"2026-10-05","region":"Canada","country":"Canada","location":"Canadian commercial fishing waters","organization":"Fisheries and Oceans Canada / Canadian authorities","original_category":"Marine Regulation & Compliance","category":"Safety & Security","development":"A commercial vessel master was fined C$30,000 for illegal prawn fishing activity and licence-condition violations.","detail":"C$30,000 fine; commercial fishing compliance.","why":"Reinforces enforcement of fishing licence conditions and the compliance burden on commercial marine operators.","insight":"Regulatory enforcement is an operational cost and risk signal; track repeat violations, fisheries zones and enforcement intensity.","source":"Canada NewsWire / maritime release","url":"https://www.newswire.ca/news-releases/","source_quality":"Tier 1","status":"Verified","impact":"Medium","event_id":"DM2-C26426789B","impact_score":2,"source_confidence":1,"status_factor":1,"confidence_score":1,"risk":3,"opportunity":0,"strategic":2,"priority":3.5,"signal":"Risk","dup":"Unique"},{"edition":"Edition 2","published":"2026-10-05","region":"Europe","country":"Norway","location":"Valderhaugfjorden near Alesund","organization":"Norwegian Safety Authority / local authorities","original_category":"Marine Safety","category":"Safety & Security","development":"Three short-sea vessels collided near Alesund; two vessels were detained for repairs while an investigation into navigation circumstances continued.","detail":"3 vessels involved; 2 detained; approximately 30 crew members; no reported crew injuries.","why":"Highlights collision risk in coastal/fjord traffic and the importance of navigation, visibility and electronic-data review.","insight":"Short-sea traffic density plus navigation conditions can create concentrated safety risk; track incident clusters and vessel-routing patterns.","source":"The Maritime Executive","url":"https://news.maritime-executive.com/article/norwegian-authorities-investigating-collision-of-three-ships","source_quality":"Tier 2","status":"Verified","impact":"High","event_id":"DM2-A6C57993E2","impact_score":3,"source_confidence":1,"status_factor":1,"confidence_score":1,"risk":3,"opportunity":0,"strategic":3,"priority":4.5,"signal":"Risk","dup":"Unique"},{"edition":"Edition 2","published":"2026-10-05","region":"Europe","country":"European Union","location":"EU TEN-T maritime corridors","organization":"European Union / TEN-T","original_category":"Port Decarbonisation","category":"Port Development & Infrastructure","development":"EU TEN-T corridor work plans highlighted a major shortfall in shore-power connections across European core ports ahead of the 2029 requirements.","detail":"Examples include 13 of 142 required connections on the North Sea–Rhine–Mediterranean corridor and 21 of 120 on the Baltic–Black Sea–Aegean corridor.","why":"Ports face substantial infrastructure deployment requirements, affecting berth planning, grid capacity and vessel compliance.","insight":"Shore power is shifting from an environmental initiative to a measurable port-capacity and investment requirement; map connection gaps by corridor.","source":"Ports Europe","url":"https://www.portseurope.com/baltic-black-sea-aegean-ports-have-21-of-120-required-shore-power-connections/","source_quality":"Tier 2","status":"Verified","impact":"High","event_id":"DM2-519A464432","impact_score":3,"source_confidence":1,"status_factor":1,"confidence_score":1,"risk":2,"opportunity":2,"strategic":3,"priority":5,"signal":"Risk + Opportunity","dup":"Unique"},{"edition":"Edition 2","published":"2026-10-05","region":"Europe","country":"Italy","location":"Gioia Tauro","organization":"Gioia Tauro Port Authority","original_category":"Port Capacity & Decarbonisation","category":"Port Development & Infrastructure","development":"Gioia Tauro awarded a €5 million dredging contract and started cold-ironing works to support larger ships and reduce berth emissions.","detail":"€5 million dredging contract; channel work aimed at keeping the port open to vessels up to 24,000 TEU.","why":"Maintains deep-draft container capability while adding shore-power infrastructure.","insight":"Dredging plus cold ironing shows how European ports are combining physical capacity expansion with decarbonisation investment.","source":"Ports Europe","url":"https://www.portseurope.com/","source_quality":"Tier 2","status":"Verified","impact":"High","event_id":"DM2-9CC7D69BED","impact_score":3,"source_confidence":1,"status_factor":1,"confidence_score":1,"risk":0,"opportunity":3,"strategic":3,"priority":4.5,"signal":"Opportunity","dup":"Unique"},{"edition":"Edition 2","published":"2026-10-05","region":"United States","country":"United States","location":"Corpus Christi, Texas","organization":"DP World / Port of Corpus Christi","original_category":"Container Terminal Development","category":"Port Development & Infrastructure","development":"DP World and the Port of Corpus Christi signed a lease option for a container terminal that could eventually handle about 1 million TEUs annually.","detail":"Potential capacity of about 1 million TEUs annually; Corpus Christi is historically dominated by energy cargo.","why":"Could diversify Gulf Coast cargo flows and create new demand for rail, warehousing, trucking and container services.","insight":"A major energy gateway is positioning for container diversification; monitor investment milestones, hinterland connectivity and carrier commitments.","source":"FreightWaves","url":"https://www.freightwaves.com/news/dp-world-plots-us-port-comeback-with-corpus-christi-container-terminal","source_quality":"Tier 2","status":"Verified","impact":"High","event_id":"DM2-90B33202C7","impact_score":3,"source_confidence":1,"status_factor":1,"confidence_score":1,"risk":0,"opportunity":3,"strategic":3,"priority":4.5,"signal":"Opportunity","dup":"Unique"},{"edition":"Edition 2","published":"2026-10-05","region":"United States","country":"United States / Israel","location":"U.S.-Israel liner trade","organization":"Hapag-Lloyd / ZIM / FIMI","original_category":"Carrier Consolidation & Regulation","category":"Trade & Logistics","development":"Hapag-Lloyd's proposed $4.2 billion acquisition of ZIM moved into a new Israeli review process after the original transaction structure was rejected for further review.","detail":"$4.2 billion transaction; combined organization projected at more than 400 vessels and over 3 million TEU capacity if completed.","why":"Creates uncertainty around liner consolidation, service networks, strategic cargo protections and future capacity allocation.","insight":"Regulatory conditions can reshape carrier consolidation; monitor approval milestones, fleet/network changes and effects on U.S. and global trade lanes.","source":"FreightWaves","url":"https://www.freightwaves.com/news/hapag-lloyds-zim-takeover-heads-for-reset-as-israel-requires-new-review","source_quality":"Tier 2","status":"Verified","impact":"High","event_id":"DM2-32E0DE8927","impact_score":3,"source_confidence":1,"status_factor":1,"confidence_score":1,"risk":2,"opportunity":3,"strategic":3,"priority":5.5,"signal":"Risk + Opportunity","dup":"Unique"},{"edition":"Edition 2","published":"2026-10-05","region":"United States","country":"United States / South Korea","location":"U.S.–South Korea trade route","organization":"Liberty Global Logistics / Hyundai Glovis","original_category":"Alternative Propulsion","category":"Energy Transition","development":"Liberty Global Logistics and Hyundai Glovis signed an MoU to evaluate an SMR-powered pure car and truck carrier.","detail":"Feasibility study for a small-modular-reactor-powered PCTC initially targeting U.S.–South Korea service.","why":"Moves nuclear propulsion for commercial vehicle carriers from concept toward regulatory, infrastructure and commercial feasibility assessment.","insight":"Alternative propulsion is expanding beyond conventional fuels; monitor regulatory approval, port requirements, insurance and ship-design economics.","source":"MarineLink / maritime reporting","url":"https://www.marinelink.com/news/liberty-global-logistics-hyundai-glovis-study-nuclear-powered-pctcs-543471","source_quality":"Tier 2","status":"Verified","impact":"Medium","event_id":"DM2-47835EEFEE","impact_score":2,"source_confidence":1,"status_factor":1,"confidence_score":1,"risk":1,"opportunity":1,"strategic":2,"priority":3,"signal":"Watch","dup":"Unique"},{"edition":"Edition 2","published":"2026-10-05","region":"West Africa","country":"Nigeria","location":"Ogun State / Ogun Deep Sea Port","organization":"DP World / Ogun State Government / Ogun Deep Sea Port Company","original_category":"Deep-Sea Port & SEZ Development","category":"Port Development & Infrastructure","development":"DP World, Ogun State and Ogun Deep Sea Port Company signed MOUs to explore a greenfield deep-sea port and special economic zone across a 10,000-hectare site.","detail":"10,000-hectare proposed development; reported project value above US$7 billion; port and economic zone planned as an integrated gateway.","why":"Could create a new Nigerian trade gateway and shift cargo, industrial and logistics activity toward Ogun State.","insight":"This is a major West African infrastructure signal; track financing, concession structure, construction milestones, cargo forecasts and hinterland links.","source":"DredgeWire / project reporting","url":"https://dredgewire.com/dp-world-signs-mous-for-proposed-port-and-economic-zone-in-ogun-state-nigeria/","source_quality":"Tier 2","status":"Verified","impact":"High","event_id":"DM2-EEFBFB1CBF","impact_score":3,"source_confidence":1,"status_factor":1,"confidence_score":1,"risk":0,"opportunity":3,"strategic":3,"priority":4.5,"signal":"Opportunity","dup":"Unique"},{"edition":"Edition 2","published":"2026-10-05","region":"West Africa","country":"Nigeria","location":"Nigerian Ship Registry, Lagos","organization":"NIMASA","original_category":"Maritime Digitalisation","category":"Digitalization & AI","development":"NIMASA announced stakeholder webinars for the ongoing automation of the Nigerian Ship Registry, including a digital platform for faster registration and electronic certificates.","detail":"24/7 access planned; user-testing phase underway; webinars scheduled for October 6 and 8, 2026.","why":"Could reduce administrative delays, improve registry transparency and strengthen the competitiveness of the Nigerian flag.","insight":"Digital registry performance can be measured through processing time, application volumes, certificate turnaround and adoption by shipowners.","source":"Business & Maritime West Africa","url":"https://www.businessandmaritimewestafrica.com/2026/10/05/nimasa-to-host-webinars-on-automation-of-nigeria-ship-registry/","source_quality":"Tier 1","status":"Verified","impact":"High","event_id":"DM2-6543F2B596","impact_score":3,"source_confidence":1,"status_factor":1,"confidence_score":1,"risk":1,"opportunity":2,"strategic":3,"priority":4.5,"signal":"Opportunity","dup":"Unique"},{"edition":"Edition 2","published":"2026-10-06","region":"Canada","country":"Canada","location":"Corner Brook, Newfoundland and Labrador","organization":"Port of Corner Brook / LOGISTEC / NEAS","original_category":"Arctic Shipping & Trade Corridor","category":"Trade & Logistics","development":"NEAS launched a new liner service to Western Newfoundland with the arrival of ice-class vessel UKPIK.","detail":"New liner service; ice-class vessel UKPIK; Arctic-grade cargo handling.","why":"Strengthens Atlantic Canada–Arctic logistics and creates a new service/cargo-flow signal.","insight":"Monitor vessel calls, cargo volumes, seasonal constraints and port-handling demand.","source":"Port of Corner Brook / CNW","url":"https://www.newswire.ca/news-releases/port-of-corner-brook-logistec-and-neas-strengthen-canada-s-arctic-supply-chain-resiliency-848989280.html","source_quality":"Tier 1","status":"Verified","impact":"High","event_id":"DM2-F69CE40A71","impact_score":3,"source_confidence":1,"status_factor":1,"confidence_score":1,"risk":0,"opportunity":2,"strategic":3,"priority":4,"signal":"Opportunity","dup":"Duplicate"},{"edition":"Edition 2","published":"2026-10-06","region":"Canada","country":"Canada","location":"Kingston, Ontario","organization":"Canadian Coast Guard / government partners","original_category":"Maritime Emergency Response","category":"Safety & Security","development":"Canadian Coast Guard began Cataraqui Convergence, a large multi-agency maritime emergency-response exercise in Kingston, running 6–8 October.","detail":"Exercise runs 6–8 October; ships, aircraft, drones and emergency personnel involved.","why":"Tests maritime emergency interoperability and coordination across multiple agencies.","insight":"Use as a resilience indicator: monitor emergency-response capability, drone integration and maritime-domain coordination.","source":"Government of Canada","url":"https://www.canada.ca/en/canadian-coast-guard/news/2026/10/canadian-coast-guard-to-conduct-large-scale-exercise-in-kingston.html","source_quality":"Tier 1","status":"Verified","impact":"Medium","event_id":"DM2-4FBE83E315","impact_score":2,"source_confidence":1,"status_factor":1,"confidence_score":1,"risk":2,"opportunity":0,"strategic":2,"priority":3,"signal":"Risk","dup":"Unique"},{"edition":"Edition 2","published":"2026-10-06","region":"Europe","country":"European Union","location":"TEN-T maritime corridors","organization":"European Union / TEN-T","original_category":"Port Decarbonisation & Infrastructure","category":"Port Development & Infrastructure","development":"EU TEN-T work plans show European ports remain behind on required shore-power connections and rail infrastructure.","detail":"Only 13 of 142 required shore-power connections on one corridor and 21 of 120 on another were cited as available.","why":"Creates infrastructure compliance and investment pressure ahead of 2029 requirements.","insight":"Build a corridor infrastructure-gap index covering shore power, rail links, berth readiness and vessel compliance exposure.","source":"Ports Europe","url":"https://www.portseurope.com/news/","source_quality":"Tier 2","status":"Verified","impact":"High","event_id":"DM2-45623DAF58","impact_score":3,"source_confidence":1,"status_factor":1,"confidence_score":1,"risk":1,"opportunity":2,"strategic":3,"priority":4.5,"signal":"Opportunity","dup":"Duplicate"},{"edition":"Edition 2","published":"2026-10-06","region":"Europe","country":"Romania / Ukraine","location":"Black Sea","organization":"Commercial shipping / maritime authorities","original_category":"Black Sea Maritime Security","category":"Safety & Security","development":"A 6,933-dwt grain carrier sank off Romania after a suspected Russian drone strike; two seafarers were killed.","detail":"6,933 dwt vessel; two fatalities reported; vessel was carrying grain from Ukraine.","why":"Raises immediate navigational, security, insurance and routing risk for Black Sea shipping.","insight":"Track incident clusters, vessel-routing changes, war-risk premiums and cargo-flow disruption in the Black Sea.","source":"Splash 247","url":"https://splash247.com/grain-carrier-sinks-off-romania-after-suspected-russian-drone-strike/","source_quality":"Tier 2","status":"Verified","impact":"High","event_id":"DM2-7BE3841DC3","impact_score":3,"source_confidence":1,"status_factor":1,"confidence_score":1,"risk":3,"opportunity":0,"strategic":3,"priority":4.5,"signal":"Risk","dup":"Unique"},{"edition":"Edition 2","published":"2026-10-06","region":"Europe","country":"European maritime trade","location":"Strait of Hormuz","organization":"UK Maritime Trade Operations / commercial shipping","original_category":"Maritime Chokepoint Security","category":"Safety & Security","development":"UKMTO issued multiple warnings concerning attacks and threats to commercial shipping around the Strait of Hormuz.","detail":"Four attack warnings were reported within four hours; advisories were also issued on 5 October.","why":"Creates elevated vessel-routing, security, insurance and fuel-supply-chain risk at a major chokepoint.","insight":"Track vessel diversions, war-risk exposure, bunker costs and congestion at alternative routes and ports.","source":"Seatrade Maritime","url":"https://www.seatrade-maritime.com/security/ukmto-issues-four-hormuz-attack-warnings-in-four-hours","source_quality":"Tier 2","status":"Verified","impact":"High","event_id":"DM2-B74488C46B","impact_score":3,"source_confidence":1,"status_factor":1,"confidence_score":1,"risk":3,"opportunity":0,"strategic":3,"priority":4.5,"signal":"Risk","dup":"Unique"},{"edition":"Edition 2","published":"2026-10-06","region":"United States","country":"United States","location":"Corpus Christi, Texas","organization":"DP World / Port of Corpus Christi","original_category":"Container Terminal Development","category":"Port Development & Infrastructure","development":"DP World and the Port of Corpus Christi signed a lease option for a container terminal that could eventually handle about 1 million TEUs annually.","detail":"Potential capacity of about 1 million TEUs per year.","why":"Could diversify Gulf Coast cargo flows and stimulate rail, warehousing, trucking and container-service demand.","insight":"Monitor investment milestones, carrier commitments, hinterland connectivity and competitive effects on Gulf Coast ports.","source":"FreightWaves","url":"https://www.freightwaves.com/news/dp-world-plots-us-port-comeback-with-corpus-christi-container-terminal","source_quality":"Tier 2","status":"Verified","impact":"High","event_id":"DM2-4A62725E05","impact_score":3,"source_confidence":1,"status_factor":1,"confidence_score":1,"risk":0,"opportunity":3,"strategic":3,"priority":4.5,"signal":"Opportunity","dup":"Duplicate"},{"edition":"Edition 2","published":"2026-10-06","region":"United States","country":"United States","location":"U.S. liner trade","organization":"U.S. Federal Maritime Commission / COSCO Shipping","original_category":"Maritime Regulation","category":"Trade & Logistics","development":"The U.S. Federal Maritime Commission ordered COSCO Shipping to explain why it should not be liable for millions of dollars related to a late payment of a reparations award.","detail":"$24,328 reparations award could expose the carrier to up to $16.7 million in liability if upheld.","why":"Signals increased regulatory pressure around carrier compliance and payment obligations.","insight":"Track FMC enforcement, carrier compliance costs and whether regulatory action affects commercial terms or service behaviour.","source":"Seatrade Maritime","url":"https://www.seatrade-maritime.com/regulations/fmc-targets-cosco-with-millions-in-late-payment-fines","source_quality":"Tier 2","status":"Verified","impact":"High","event_id":"DM2-253EF0DED7","impact_score":3,"source_confidence":1,"status_factor":1,"confidence_score":1,"risk":3,"opportunity":1,"strategic":3,"priority":5,"signal":"Risk","dup":"Unique"},{"edition":"Edition 2","published":"2026-10-06","region":"United States","country":"United States","location":"Gulf / global shipping","organization":"Energy and commercial shipping markets","original_category":"Energy & Chokepoint Risk","category":"Safety & Security","development":"Security concerns around the Strait of Hormuz are sustaining an elevated geopolitical risk premium for oil and shipping.","detail":"Brent was reported above $100 as maritime-security risk remained elevated.","why":"Higher bunker and insurance costs can propagate into freight rates and voyage economics.","insight":"Add bunker-price and chokepoint-risk variables to the DeeMarine trade-disruption model.","source":"NV market reporting","url":"https://english.nv.ua/business/oil-prices-rise-as-strait-of-hormuz-attacks-keep-gulf-risks-elevated-50647527.html","source_quality":"Tier 2","status":"Verified","impact":"Medium","event_id":"DM2-4CA679D7F2","impact_score":2,"source_confidence":1,"status_factor":1,"confidence_score":1,"risk":3,"opportunity":0,"strategic":2,"priority":3.5,"signal":"Risk","dup":"Unique"},{"edition":"Edition 2","published":"2026-10-06","region":"West Africa","country":"Nigeria","location":"Lagos / Nigerian ports and hinterland","organization":"Nigerian Ports Authority","original_category":"Export Logistics & Port Efficiency","category":"Trade & Logistics","development":"NPA stepped up efforts to remove bottlenecks affecting non-oil exports, expand export channels and improve cargo processing and hinterland logistics.","detail":"Focus on export channels, port infrastructure and maritime logistics extending into the hinterland.","why":"Could improve export throughput and reduce logistics friction for Nigerian non-oil cargo.","insight":"Track export dwell time, port-to-hinterland connectivity, cargo volumes and forex-generating export flows.","source":"The Guardian Nigeria","url":"https://guardian.ng/business-services/maritime/npa-moves-to-cut-export-bottlenecks-targets-forex-inflows/","source_quality":"Tier 1","status":"Verified","impact":"High","event_id":"DM2-08BEAEC1BD","impact_score":3,"source_confidence":1,"status_factor":1,"confidence_score":1,"risk":1,"opportunity":2,"strategic":3,"priority":4.5,"signal":"Opportunity","dup":"Unique"},{"edition":"Edition 2","published":"2026-10-06","region":"West Africa","country":"Ghana","location":"Tema Port, Ghana","organization":"China Harbour Engineering / Ghanaian port stakeholders","original_category":"Port Dredging & Regional Hub Competition","category":"Port Development & Infrastructure","development":"Ghana is advancing dredging and port-development work at Tema to strengthen its position as a West and Central African maritime trade hub.","detail":"Dredging and port-capacity development highlighted as strategic trade infrastructure.","why":"Potentially improves vessel access, cargo-handling capacity and Ghana's regional hub competitiveness.","insight":"Compare Tema's capacity, draft, vessel calls and transit performance against Lagos, Lomé and Abidjan.","source":"DredgeWire","url":"https://dredgewire.com/china-harbors-dredging-of-tema-port-to-boost-ghanas-maritime-trade/","source_quality":"Tier 2","status":"Verified","impact":"High","event_id":"DM2-867CFDB384","impact_score":3,"source_confidence":1,"status_factor":1,"confidence_score":1,"risk":0,"opportunity":3,"strategic":3,"priority":4.5,"signal":"Opportunity","dup":"Unique"},{"edition":"Edition 2","published":"2026-10-06","region":"West Africa","country":"Nigeria","location":"Nigerian Ship Registry / Lagos","organization":"NIMASA","original_category":"Maritime Digitalisation","category":"Digitalization & AI","development":"Nigeria's ship registry is moving toward a 24/7 digital registration platform with electronic applications, transaction tracking and digital certificates.","detail":"User testing underway; stakeholder webinars scheduled for 6 and 8 October.","why":"Can reduce administrative friction and improve registry transparency and competitiveness.","insight":"Measure registration turnaround time, digital adoption, certificate issuance and transaction visibility.","source":"Ships & Ports","url":"https://shipsandports.com.ng/nigerias-ship-registry-set-for-digital-transformation/","source_quality":"Tier 1","status":"Verified","impact":"High","event_id":"DM2-499148DA4F","impact_score":3,"source_confidence":1,"status_factor":1,"confidence_score":1,"risk":0,"opportunity":3,"strategic":3,"priority":4.5,"signal":"Opportunity","dup":"Unique"},{"edition":"Edition 2","published":"2026-10-06","region":"West Africa","country":"South Africa","location":"South African ports","organization":"South African government / port stakeholders","original_category":"Port Governance Reform","category":"Port Development & Infrastructure","development":"South Africa approved steps toward establishing an independent port authority as part of wider port reform.","detail":"Port-governance reform under development.","why":"Could change port governance, investment incentives and operational accountability across South African gateways.","insight":"Track implementation milestones, concession opportunities, tariff changes and performance indicators at Durban, Cape Town and Ngqura.","source":"The Maritime Executive","url":"https://maritime-executive.com/","source_quality":"Tier 2","status":"Verified","impact":"High","event_id":"DM2-6E79CC0505","impact_score":3,"source_confidence":1,"status_factor":1,"confidence_score":1,"risk":0,"opportunity":3,"strategic":3,"priority":4.5,"signal":"Opportunity","dup":"Unique"},{"edition":"Edition 2","published":"2026-10-08","region":"Canada","country":"Canada","location":"Michipicoten Harbour, Ontario","organization":"Superior Aggregates Corporation / Government of Ontario","original_category":"Port Infrastructure Revitalisation","category":"Port Development & Infrastructure","development":"Ontario is investing C$1 million through the Northern Ontario Heritage Fund to revitalize Michipicoten Harbour near Wawa, including infrastructure repairs, upgrades and equipment to restore commercial shipping capability.","detail":"C$1 million provincial investment; harbour inactive since the late 1990s; shared-use model for forestry and mining supply chains.","why":"Restoring Great Lakes marine capacity can reduce inland freight pressure and improve access to southern Ontario, U.S. Midwest and European markets via the St. Lawrence Seaway.","insight":"Northern Canadian marine infrastructure is being repositioned as a supply-chain resilience asset; monitor project completion, cargo commitments, vessel calls and rail/road connections.","source":"SooToday","url":"https://www.sootoday.com/local-news/province-investing-1-million-into-revitalizing-harbour-near-wawa-12823282","source_quality":"Tier 2","status":"Verified","impact":"High","event_id":"DM2-BA7CC789C6","impact_score":3,"source_confidence":1,"status_factor":1,"confidence_score":1,"risk":1,"opportunity":3,"strategic":3,"priority":4.5,"signal":"Opportunity","dup":"Unique"},{"edition":"Edition 2","published":"2026-10-08","region":"Europe","country":"Germany","location":"Germany / European inland logistics network","organization":"German Federal Government / COSCO / Zippel","original_category":"Strategic Logistics Investment Screening","category":"Trade & Logistics","development":"Germany blocked COSCO's planned 80% acquisition of logistics company Zippel, citing national-security and critical supply-chain resilience concerns.","detail":"80% acquisition blocked; Zippel connects containers between seaports and inland locations.","why":"The decision signals tighter scrutiny of foreign ownership in logistics infrastructure and could reshape investment strategies around European port-to-hinterland networks.","insight":"Strategic logistics assets are increasingly treated as security-sensitive infrastructure; track future screening decisions, ownership structures and alternative capital routes.","source":"Reuters","url":"https://www.reuters.com/world/china/germany-blocks-sale-logistics-company-chinas-cosco-2026-10-07/","source_quality":"Tier 1","status":"Verified","impact":"High","event_id":"DM2-B36C7C75B6","impact_score":3,"source_confidence":1,"status_factor":1,"confidence_score":1,"risk":3,"opportunity":1,"strategic":3,"priority":4.5,"signal":"Risk + Opportunity","dup":"Unique"},{"edition":"Edition 2","published":"2026-10-08","region":"Europe","country":"Netherlands","location":"Port of Rotterdam","organization":"Port of Rotterdam Authority","original_category":"Port Drone Operations & Digital Airspace","category":"Digitalization & AI","development":"Port of Rotterdam is expanding drone operations and digital airspace management, with more than 75 companies providing drone services across the port and work underway to support U-space and safer uncrewed operations.","detail":"More than 75 drone-service companies; applications include infrastructure inspection, security checks, mapping, stockpile measurement and incident response.","why":"Drone-enabled inspection, monitoring and emergency response can improve port safety, asset visibility and operational efficiency while creating new cybersecurity and airspace-management requirements.","insight":"Port digitalisation is moving beyond dashboards into physical automation; track drone adoption, U-space implementation, inspection savings and security incidents.","source":"Port of Rotterdam Authority","url":"https://www.portofrotterdam.com/en/port-future/innovation/drones","source_quality":"Tier 1","status":"Verified","impact":"High","event_id":"DM2-CBE2A808CA","impact_score":3,"source_confidence":1,"status_factor":1,"confidence_score":1,"risk":2,"opportunity":3,"strategic":3,"priority":4.5,"signal":"Risk + Opportunity","dup":"Unique"},{"edition":"Edition 2","published":"2026-10-09","region":"United States","country":"United States","location":"Port of Mobile, Alabama","organization":"NOAA/National Hurricane Center; Alabama Port Authority","original_category":"Severe Weather & Port Operations","category":"Safety & Security","development":"Port of Mobile remained listed as closed under U.S. Coast Guard Port Condition ZULU ahead of Hurricane Isaias; no newer official post-storm reopening notice was visible by 10 October.","detail":"The Alabama Port Authority's latest accessible official notice states that vessel traffic is closed and cargo handling at public berths is suspended except for Coast Guard-authorized activity. The notice was last updated 9 October; post-storm status remains unconfirmed.","why":"A closure can delay vessel calls, cargo handling, berth plans and inland handoffs. Because the latest accessible port notice predates landfall, do not assume the port has reopened or remains closed without a current authority update.","insight":"Keep this record flagged Needs Review until the Alabama Port Authority or U.S. Coast Guard posts a post-storm assessment/reopening notice. Verify vessel entry permissions, terminal restart, channel surveys and cargo access before operational use.","source":"Alabama Port Authority (official status page)","url":"https://alports.com/","source_quality":"Tier 1","status":"Needs Review","impact":"High","event_id":"DM2-BC1B4283B0","impact_score":3,"source_confidence":1,"status_factor":0.6,"confidence_score":0.6,"risk":3.0,"opportunity":0.0,"strategic":1.8,"priority":3.0,"signal":"Risk","dup":"Unique"},{"edition":"Edition 2","published":"2026-10-08","region":"West Africa","country":"Nigeria","location":"Nigerian Ship Registry / Lagos","organization":"NIMASA","original_category":"Maritime Registry Digitalisation","category":"Digitalization & AI","development":"NIMASA is demonstrating an automated Nigerian Ship Registry platform designed to provide 24/7 registration access, streamline approvals and issue electronic certificates.","detail":"Stakeholder webinars held October 6 and 8; platform targets faster applications, approvals and electronic certification.","why":"A digital registry can reduce administrative delays, improve transparency and strengthen the competitiveness of the Nigerian flag.","insight":"Registry modernisation is a practical maritime digitalisation use case; track turnaround time, digital adoption, certificate issuance and user exceptions.","source":"The Punch","url":"https://punchng.com/nimasa-moves-to-digitise-ship-registry-services/","source_quality":"Tier 1","status":"Verified","impact":"High","event_id":"DM2-8725A4C3F2","impact_score":3,"source_confidence":1,"status_factor":1,"confidence_score":1,"risk":0,"opportunity":3,"strategic":3,"priority":4.5,"signal":"Opportunity","dup":"Unique"},{"edition":"Edition 2","published":"2026-10-08","region":"Global / Cross-Regional","country":"Qatar / Persian Gulf","location":"Gulf near Qatar / Strait of Hormuz approaches","organization":"UKMTO / tanker Acers / maritime risk sources","original_category":"Maritime Chokepoint Security","category":"Safety & Security","development":"Projectiles struck the Antigua and Barbuda-flagged chemical tanker Acers about 51 nautical miles off Qatar; maritime security sources reported minor crew injuries as Iran warned it would block oil-export routes it had not authorised.","detail":"Reuters reported on 8 October that UKMTO had reported a projectile incident in the Gulf; maritime security sources identified Acers as struck north of Qatar's Madinat ash Shamal.","why":"The incident widens the risk picture beyond the Strait of Hormuz transit lane toward approaches to Qatar, Bahrain, Saudi Arabia, Kuwait and Iraq, with potential consequences for war-risk insurance, tanker routing and energy freight costs.","insight":"Track UKMTO advisories, insurer war-risk notices, tanker AIS/transit counts, voyage diversions and emergency fuel surcharges. Treat the wider Gulf as a risk area rather than monitoring the Strait alone.","source":"Reuters (reporting UKMTO and maritime risk sources)","url":"https://www.reuters.com/world/asia-pacific/attack-risks-rise-tankers-iran-vows-block-more-hormuz-routes-2026-10-08/","source_quality":"Tier 2","status":"Verified","impact":"High","event_id":"DM-356B1F8807","impact_score":3,"source_confidence":1,"status_factor":1,"confidence_score":1,"risk":3,"opportunity":0,"strategic":3,"priority":4.5,"signal":"Risk","dup":"Unique"},{"edition":"Edition 2","published":"2026-10-06","region":"Canada","country":"Canada","location":"Halifax / Montréal / Prince Rupert / Vancouver","organization":"Kuehne+Nagel Seaexplorer","original_category":"Port Rail Dwell & Hinterland Connectivity","category":"Trade & Logistics","development":"Kuehne+Nagel's weekly port operations update reported rail dwell figures of 4 days at Halifax, 6 days at Montréal, 8 days at Prince Rupert and 5 days at Vancouver for the 30 September–6 October reporting period.","detail":"Reported rail dwell: Halifax 4 days; Montréal 6 days; Prince Rupert 8 days; Vancouver 5 days. Reporting period: 30 September–6 October 2026.","why":"Rail dwell is a leading indicator of inland handoff friction and can extend container availability, increase demurrage exposure and weaken import/export lead-time reliability.","insight":"Prioritise Prince Rupert and Montréal for closer rail-interface monitoring. Compare dwell with vessel bunching, container availability, terminal density and inland rail service reliability before recommending routing changes.","source":"Kuehne+Nagel Seaexplorer","url":"https://mykn.kuehne-nagel.com/news/article/port-operational-updates-from-06-10-2026","source_quality":"Tier 1","status":"Verified","impact":"Medium","event_id":"DM-E9ADA5E1DC","impact_score":2,"source_confidence":1,"status_factor":1,"confidence_score":1,"risk":2,"opportunity":1,"strategic":2,"priority":3,"signal":"Risk + Opportunity","dup":"Unique"},{"edition":"Edition 2","published":"2026-10-06","region":"Europe","country":"Germany","location":"German rivers and canals / inland barge network","organization":"Kuehne+Nagel Seaexplorer","original_category":"Inland Waterway Capacity & Low-Water Risk","category":"Trade & Logistics","development":"Kuehne+Nagel reported that declining water levels on German rivers and canals since August were effectively preventing loaded barges from moving beyond a measuring point.","detail":"Weekly port operations update for 30 September–6 October 2026; loaded-barge movement constraints linked to low water levels.","why":"Reduced inland-waterway payload or route availability can shift cargo to rail and road, raise logistics costs and disrupt port-to-hinterland flows.","insight":"Monitor river gauges, barge draught limits, affected cargo classes, rail/road substitution and port stock buffers. Model low-water contingency scenarios for inland-connected terminals.","source":"Kuehne+Nagel Seaexplorer","url":"https://mykn.kuehne-nagel.com/news/article/port-operational-updates-from-06-10-2026","source_quality":"Tier 1","status":"Verified","impact":"High","event_id":"DM-743A21EC25","impact_score":3,"source_confidence":1,"status_factor":1,"confidence_score":1,"risk":3,"opportunity":1,"strategic":3,"priority":4.5,"signal":"Risk + Opportunity","dup":"Unique"},{"edition":"Edition 2","published":"2026-10-06","region":"West Africa","country":"Ghana","location":"Tema Port","organization":"Kuehne+Nagel Seaexplorer","original_category":"Port Congestion & Reefer Capacity","category":"Trade & Logistics","development":"Kuehne+Nagel reported a 7-day average vessel waiting time of about 5.8 days at Tema, with high yard density, trucking shortages and fully utilised reefer capacity constraining operations.","detail":"Reporting period 30 September–6 October 2026; average vessel wait approximately 5.8 days; reefer capacity reported fully utilised.","why":"Long vessel waits and reefer scarcity threaten schedule reliability, temperature-sensitive cargo windows, equipment availability and onward delivery commitments.","insight":"Track berth-window adherence, reefer-plug utilisation, truck turn times and vessel waiting time. Consider booking buffers and alternative gateway options for time-sensitive or temperature-controlled cargo.","source":"Kuehne+Nagel Seaexplorer","url":"https://mykn.kuehne-nagel.com/news/article/port-operational-updates-from-06-10-2026","source_quality":"Tier 1","status":"Verified","impact":"High","event_id":"DM-A500AC9996","impact_score":3,"source_confidence":1,"status_factor":1,"confidence_score":1,"risk":3,"opportunity":1,"strategic":3,"priority":4.5,"signal":"Risk + Opportunity","dup":"Unique"},{"edition":"Edition 2","published":"2026-10-06","region":"West Africa","country":"Côte d'Ivoire","location":"Port of Abidjan","organization":"Kuehne+Nagel Seaexplorer","original_category":"Port Congestion & Terminal Reliability","category":"Trade & Logistics","development":"Kuehne+Nagel reported a 7-day average vessel waiting time of about 4.5 days at Abidjan, with waits reaching up to 12 days amid equipment reliability issues, truck shortages, strong cargo volumes and elevated dwell times.","detail":"Reporting period 30 September–6 October 2026; average vessel wait approximately 4.5 days; reported delays up to 12 days.","why":"Extended queueing creates schedule slippage, inventory uncertainty and inland-transport misalignment for importers, exporters and carriers using Abidjan as a gateway.","insight":"Build a port disruption watchlist using vessel waiting time, yard occupancy, equipment uptime and truck availability. Test routing and transshipment alternatives when waits exceed four days.","source":"Kuehne+Nagel Seaexplorer","url":"https://mykn.kuehne-nagel.com/news/article/port-operational-updates-from-06-10-2026","source_quality":"Tier 1","status":"Verified","impact":"High","event_id":"DM-D8694A95B7","impact_score":3,"source_confidence":1,"status_factor":1,"confidence_score":1,"risk":3,"opportunity":1,"strategic":3,"priority":4.5,"signal":"Risk + Opportunity","dup":"Unique"},{"edition":"Edition 2","published":"2026-10-09","region":"Canada","country":"Canada","location":"Port of Vancouver / Canada Place, British Columbia","organization":"Vancouver Fraser Port Authority / Cruise Industry News","original_category":"Cruise Port Performance & Shore Power","category":"Energy Transition","development":"The Port of Vancouver reported a record 2026 cruise season, with 1.4 million passenger visits and 358 cruise ship calls; expanded shore-power capacity is planned for the next season.","detail":"1.4 million passenger visits; 358 cruise calls; passenger visits up 18% and calls up 19% versus 2025. Planned shore-power expansion is expected to avoid about 3,300 tonnes of greenhouse-gas emissions per cruise season.","why":"Cruise growth raises requirements for berth planning, terminal access and passenger-flow management, while shore power provides a measurable decarbonisation opportunity.","insight":"Track passenger peaks, berth occupancy, shore-power-equipped calls, grid readiness and realised emissions avoided. Separate announced future benefits from measured operational performance.","source":"Cruise Industry News (reporting Vancouver Fraser Port Authority figures)","url":"https://cruiseindustrynews.com/cruise-news/2026/10/norwegian-encore-to-close-vancouvers-record-breaking-2026-season/","source_quality":"Tier 2","status":"Verified","impact":"Medium","event_id":"DM2-28B9E72EDC","impact_score":2,"source_confidence":1.0,"status_factor":1.0,"confidence_score":1.0,"risk":1.0,"opportunity":2.0,"strategic":2.0,"priority":4.0,"signal":"Risk + Opportunity","dup":"Unique"},{"edition":"Edition 2","published":"2026-10-06","region":"Europe","country":"Bulgaria / Black Sea","location":"Bulgarian exclusive economic zone, Black Sea","organization":"Bulgarian authorities / Reuters / maritime security sources","original_category":"Black Sea Maritime Security","category":"Safety & Security","development":"Two commercial vessels were struck by drones in Bulgaria's Black Sea exclusive economic zone; the Togo-flagged ALFA WATAN sank and the Palau-flagged ABLE was damaged. The origin of the drones was not independently confirmed.","detail":"Reuters reported on 6 October that one vessel sank, another was damaged, and crew members from the sunken vessel were missing. Authorities and security analysts described a widening threat to civilian shipping in the western Black Sea.","why":"Attacks in a NATO member's exclusive economic zone increase crew-safety, insurance, routing and food-trade risks beyond waters immediately adjacent to Ukraine.","insight":"Monitor official Bulgarian investigation updates, UKMTO / maritime security advisories, war-risk premiums and carrier routing changes. Attribute responsibility only where authorities confirm it.","source":"Reuters","url":"https://www.reuters.com/world/drones-strike-two-ships-bulgarias-black-sea-zone-president-2026-10-06/","source_quality":"Tier 1","status":"Verified","impact":"High","event_id":"DM2-0D828CDDDA","impact_score":3,"source_confidence":1.0,"status_factor":1.0,"confidence_score":1.0,"risk":3.0,"opportunity":0.0,"strategic":3.0,"priority":5.0,"signal":"Risk","dup":"Unique"},{"edition":"Edition 2","published":"2026-10-09","region":"United States","country":"United States","location":"Port of Los Angeles, California","organization":"Port of Los Angeles / Reuters","original_category":"Container Throughput & Port Performance","category":"Port Development & Infrastructure","development":"The Port of Los Angeles handled a record 1.04 million TEUs in September 2026, while loaded containers reached nearly 547,000 TEUs; the port forecast about 900,000 TEUs for October.","detail":"September throughput: 1.04 million TEUs; loaded containers: almost 547,000 TEUs. Reuters reported U.S. container imports also reached a September record of 2.55 million TEUs. Panama Canal drought-related routing and holiday inventory replenishment contributed to the shift toward the U.S. West Coast.","why":"Record volumes test berth, yard, rail and gate capacity. Strong throughput is an opportunity, but route concentration and trade-policy uncertainty can alter volumes quickly.","insight":"Benchmark throughput against vessel calls, dwell, rail performance and gate turn times. Monitor whether West Coast share persists as Panama Canal conditions and trade policy change.","source":"Reuters","url":"https://www.reuters.com/business/retail-consumer/port-los-angeles-sets-september-volume-record-executive-director-says-2026-10-09/","source_quality":"Tier 1","status":"Verified","impact":"High","event_id":"DM2-9E33668793","impact_score":3,"source_confidence":1.0,"status_factor":1.0,"confidence_score":1.0,"risk":1.0,"opportunity":3.0,"strategic":3.0,"priority":5.0,"signal":"Risk + Opportunity","dup":"Unique"},{"edition":"Edition 2","published":"2026-10-10","region":"Global / Cross-Regional","country":"Taiwan / China / United States","location":"East coast of Taiwan and adjacent maritime approaches","organization":"U.S. State Department / Taiwan Coast Guard / Reuters","original_category":"Maritime Security & Freedom of Navigation","category":"Safety & Security","development":"The U.S. State Department described China's maritime activity off Taiwan's east coast as deeply destabilising after reports of a Chinese militia boat and regular coast-guard patrols. Taiwanese officials said the pattern could rehearse a potential maritime blockade; the reported vessels were outside restricted waters.","detail":"Reuters report published 10 October 2026. Taiwan's east coast is considered important to allied supply routes in a conflict scenario. No incursion into restricted waters was reported in this account.","why":"Potential pressure on eastern approaches to Taiwan could threaten freedom of navigation and contingency supply lines even without a declared blockade.","insight":"Track official notices, AIS anomalies, exercise zones, insurance advisories and changes to carrier routing. Keep scenario risk separate from confirmed disruption.","source":"Reuters","url":"https://www.reuters.com/world/china/us-says-chinese-actions-off-taiwan-are-deeply-destabilising-2026-10-10/","source_quality":"Tier 1","status":"Verified","impact":"High","event_id":"DM2-AF5CFDF00C","impact_score":3,"source_confidence":1.0,"status_factor":1.0,"confidence_score":1.0,"risk":3.0,"opportunity":0.0,"strategic":3.0,"priority":5.0,"signal":"Risk","dup":"Unique"},{"edition":"Edition 2","published":"2026-10-05","region":"West Africa","country":"Nigeria / Ghana / Côte d’Ivoire / Togo / West and Central Africa","location":"Apapa / Onne / Tema / Abidjan / Lomé / Pointe-Noire","organization":"Maersk / Africa Procurement and Supply Chain Mag","original_category":"Carrier Network & Transshipment Reconfiguration","category":"Trade & Logistics","development":"Maersk's October 2026 Europe–West Africa service redesign places Apapa on two mainline rotations and connects Onne through transshipment at Abidjan, with Abidjan, Lomé, Tema and Pointe-Noire serving as key regional hubs.","detail":"The WAF3 rotation includes Lomé, Abidjan, Tema and Apapa with a West African export focus; WAF6 links Tema and Apapa with Pointe-Noire; Onne connects through WAF5 and Abidjan. Published 5 October 2026.","why":"Carrier rotations and export-only calls change import routing, transshipment dependence, schedule reliability and the relative competitiveness of regional gateways.","insight":"Compare origin–destination routings, transshipment dwell, cut-off times, all-in freight charges and actual service rotations. Do not assume a direct call is available for both import and export directions.","source":"Africa Procurement and Supply Chain Mag","url":"https://www.pscmag.net/article/maersk-places-apapa-and-onne-at-centre-of-revamped-europe-and-west-africa-network","source_quality":"Tier 2","status":"Verified","impact":"High","event_id":"DM2-78F431AC8F","impact_score":3,"source_confidence":1.0,"status_factor":1.0,"confidence_score":1.0,"risk":1.0,"opportunity":3.0,"strategic":3.0,"priority":5.0,"signal":"Risk + Opportunity","dup":"Unique"},{"edition":"Edition 2","published":"2026-10-09","region":"Global / Cross-Regional","country":"Europe / Asia / Red Sea / Suez Canal","location":"Suez Canal and Asia–Europe container services","organization":"Ocean Freight Japan / COSCO-OOCL / Premier Alliance carriers","original_category":"Suez Route Normalisation & Network Capacity","category":"Trade & Logistics","development":"A specialist shipping-weekly report documented the first westbound Suez transit by COSCO/OOCL's 24,200-TEU OOCL Spain in more than two years and reported that the Premier Alliance plans to return selected Europe services to Suez routing.","detail":"OOCL Spain transited westbound on 4 October 2026. The 9 October report says selected Premier Alliance services FE1 and IOX/INX are scheduled to return to Suez, while individual services and sailings remain subject to security decisions.","why":"Shorter Suez routings can reduce voyage time and release vessel capacity, but security risk may still trigger reversals, schedule volatility and uneven service-level changes.","insight":"Track actual vessel transits, carrier advisories, transit-time changes, blank sailings and spot rates. Treat route normalisation as service-specific, not a universal return to Suez.","source":"Ocean Freight Japan","url":"https://hub.oceanfreight.jp/en/news/shipping-weekly-2026-10-09/","source_quality":"Tier 2","status":"Verified","impact":"High","event_id":"DM2-3A10B728E6","impact_score":3,"source_confidence":1.0,"status_factor":1.0,"confidence_score":1.0,"risk":2.0,"opportunity":3.0,"strategic":3.0,"priority":5.5,"signal":"Risk + Opportunity","dup":"Unique"}];
+const REGION_OPTIONS = ["Canada", "Europe", "United States", "West Africa"];
+const CATEGORY_OPTIONS = ["Digitalization & AI", "Energy Transition", "Port Development & Infrastructure", "Safety & Security", "Trade & Logistics"];
+
+const editionSelect = document.getElementById('edition');
+const regionSelect = document.getElementById('region');
+const categorySelect = document.getElementById('category');
+const impactSelect = document.getElementById('impact');
+const EDITION_OPTIONS = [...new Set(DATA.map(d=>d.edition).filter(Boolean))].sort((a,b)=>a.localeCompare(b, undefined, {numeric:true}));
+EDITION_OPTIONS.forEach(v=>{let o=document.createElement('option');o.textContent=v;o.value=v;editionSelect.appendChild(o)});
+REGION_OPTIONS.forEach(v=>{let o=document.createElement('option');o.textContent=v;o.value=v;regionSelect.appendChild(o)});
+CATEGORY_OPTIONS.forEach(v=>{let o=document.createElement('option');o.textContent=v;o.value=v;categorySelect.appendChild(o)});
+
+function filtered(){
+  return DATA.filter(d => d.dup !== 'Duplicate' &&
+    (editionSelect.value==='All Editions' || d.edition===editionSelect.value) &&
+    (regionSelect.value==='All Regions' || d.region===regionSelect.value) &&
+    (categorySelect.value==='All Categories' || d.category===categorySelect.value) &&
+    (impactSelect.value==='All Impact' || d.impact===impactSelect.value)
+  );
+}
+function selectedEditionLabel(){
+  return editionSelect.value==='All Editions' ? 'All Editions' : editionSelect.value;
+}
+function updateEditionHeader(d){
+  const dates=d.map(x=>x.published).filter(Boolean).sort();
+  const latest=dates.length?dates[dates.length-1]:'';
+  const subtitle=document.querySelector('.subtitle');
+  if(subtitle) subtitle.textContent=`NEWS → DATA → SIGNAL → IMPACT → INSIGHT → DECISION • ${selectedEditionLabel()} • Latest report date: ${latest || '—'}`;
+  const badge=document.getElementById('recordBadge');
+  if(badge) badge.textContent=`${d.length} ${selectedEditionLabel()} records`.replace('All Editions records', 'records');
+}
+function counts(arr,key){const m={};arr.forEach(d=>m[d[key]]=(m[d[key]]||0)+1);return Object.entries(m).sort((a,b)=>b[1]-a[1]);}
+function barHTML(items, cls=''){const max=Math.max(1,...items.map(x=>x[1]));return items.map(([k,v])=>`<div class="barrow"><div>${k}</div><div class="bar"><div class="fill ${cls}" style="width:${(v/max*100).toFixed(1)}%"></div></div><b>${v}</b></div>`).join('');}
+function signalClass(s){return s==='Risk'?'risk':s==='Opportunity'?'opp':s==='Risk + Opportunity'?'mix':'watch';}
+function fmtScore(v){return Number(v).toFixed(1)}
+function table(rows, cells){return `<table><thead><tr>${cells.map(c=>`<th>${c[0]}</th>`).join('')}</tr></thead><tbody>${rows.map(d=>`<tr>${cells.map(c=>{
+  let v=d[c[1]];
+  if(c[1]==='signal') v=`<span class="signal ${signalClass(d.signal)}">${d.signal}</span>`;
+  if(c[1]==='priority'||c[1]==='strategic') v=fmtScore(v);
+  if(c[1]==='url') v=`<a href="${d.url}" target="_blank" rel="noopener">Open source ↗</a>`;
+  if(c[0]==='Organization / Development') v=`<b>${d.organization}</b><br><span style="color:#5a7085">${d.development}</span>`;
+  if(c[1]==='priority' && cells.some(x=>x[1]==='development')) v=`<button style="background:none;border:0;color:var(--cyan2);cursor:pointer;font-weight:700" onclick="openDetailById('${encodeURIComponent(d.event_id||d.development)}')">${fmtScore(d.priority)}</button>`;
+  return `<td>${v ?? ''}</td>`;
+}).join('')}</tr>`).join('')}</tbody></table>`;}
+
+const DATA_BY_ID = {};
+DATA.forEach((d,i)=>{d._id='e'+i;DATA_BY_ID[d._id]=d;});
+function openDetailById(id){
+  const d=DATA_BY_ID[id] || DATA.find(x=>encodeURIComponent(x.development)===id); if(d) openDetail(d);
+}
+function openDetail(d){
+  document.getElementById('detailPanel').innerHTML=`<div class="detail"><div class="detailbox"><h4>Development</h4><p>${d.development}</p><div class="detail-meta"><div class="meta"><small>Region / Country</small><b>${d.region} • ${d.country}</b></div><div class="meta"><small>Port / Location</small><b>${d.location}</b></div><div class="meta"><small>Category</small><b>${d.category}</b></div><div class="meta"><small>Organization</small><b>${d.organization}</b></div></div></div><div class="detailbox"><h4>DeeMarine Intelligence</h4><p><b>Why it matters:</b> ${d.why}</p><p style="margin-top:8px"><b>Analysis angle:</b> ${d.insight}</p><div class="detail-meta"><div class="meta"><small>Impact</small><b>${d.impact}</b></div><div class="meta"><small>Signal</small><b>${d.signal}</b></div><div class="meta"><small>Risk / Opportunity</small><b>${d.risk} / ${d.opportunity}</b></div><div class="meta"><small>Strategic Impact</small><b>${fmtScore(d.strategic)}</b></div><div class="meta"><small>Priority</small><b>${fmtScore(d.priority)}</b></div><div class="meta"><small>Source Quality</small><b>${d.source_quality}</b></div><div class="meta"><small>Status</small><b>${d.status}</b></div></div><p style="margin-top:10px"><a href="${d.url}" target="_blank" rel="noopener">Open source: ${d.source}</a></p></div></div>`;
+}
+function refresh(){
+  const d=filtered();
+  updateEditionHeader(d);
+  const total=d.length, high=d.filter(x=>x.impact==='High').length, verified=d.filter(x=>x.status==='Verified').length;
+  const strategic=total?d.reduce((s,x)=>s+x.strategic,0)/total:0, risk=d.reduce((s,x)=>s+x.risk,0), opp=d.reduce((s,x)=>s+x.opportunity,0);
+  const regions=[...new Set(d.map(x=>x.region).filter(Boolean))].length;
+  const wa=d.filter(x=>x.region==='West Africa').length;
+  const verifiedPct=total?(verified/total*100):0;
+  const waPct=total?(wa/total*100):0;
+  document.getElementById('kpis').innerHTML=[
+    ['Developments Tracked',total,'Weekly intelligence records'],
+    ['Regions Covered',regions,'Canada • U.S. • Europe • West Africa'],
+    ['Verified Intelligence',verifiedPct.toFixed(1)+'%',verified+' of '+total+' verified'],
+    ['West Africa Share',waPct.toFixed(1)+'%',wa+' developments']
+  ].map(k=>`<div class="kpi"><div class="label">${k[0]}</div><div class="value">${k[1]}</div><div class="sub">${k[2]}</div></div>`).join('');
+  document.getElementById('regionBars').innerHTML=barHTML(counts(d,'region'));
+  document.getElementById('impactBars').innerHTML=barHTML(counts(d,'impact'),'mix');
+  document.getElementById('categoryBars').innerHTML=barHTML(counts(d,'category'));
+  const top=[...d].sort((a,b)=>b.priority-a.priority).slice(0,7);
+  const top5=top.slice(0,5);
+  document.getElementById('topEvents').innerHTML=top5.map((e,i)=>`<div class="top5-item"><div class="top5-rank">${i+1}</div><div><div class="top5-title">${e.organization}</div><div class="top5-meta">${e.development}</div><span class="top5-pill">${e.category}</span></div><div class="top5-side">${e.region}<br>${e.published}</div></div>`).join('');
+  const verifiedRows=d.filter(x=>x.status==='Verified').sort((a,b)=>String(b.published).localeCompare(String(a.published)));
+  const allVerified=document.getElementById('allVerified');
+  if(allVerified) allVerified.innerHTML=table(verifiedRows,[['Date','published'],['Region','region'],['Organization / Development','organization'],['Category','category'],['Impact','impact'],['Source','url']]);
+  const iv=document.querySelector('#allVerifiedCard h3'); if(iv) iv.firstChild.nodeValue=`Verified Developments (${verifiedRows.length})`;
+  document.getElementById('riskTable').innerHTML=table(top,[['Development','development'],['Impact','impact'],['Signal','signal'],['Priority','priority']]);
+  document.getElementById('briefTable').innerHTML=table(top.slice(0,5),[['Rank','priority'],['Region','region'],['Development','development'],['Signal','signal'],['Priority','priority']]);
+  const lead=top[0];
+  const ih=document.getElementById('insightHeadline'), ib=document.getElementById('insightBody');
+  if(ih) ih.textContent=lead ? (lead.signal==='Risk' ? 'Risk is rising where operations and policy intersect.' : lead.signal==='Opportunity' ? 'The strongest opportunity is where infrastructure meets execution.' : 'Infrastructure alone is no longer enough.') : 'What is the signal behind the headlines?';
+  if(ib) ib.textContent=lead ? `${lead.why} ${lead.insight}` : 'The weekly dataset is converted into a management-level interpretation of what changed, why it matters and what should be watched next.';
+  document.getElementById('whatChanged').textContent=lead?lead.development:'No matching intelligence record.';
+  document.getElementById('whyMatters').textContent=lead?lead.why:'Adjust the filters to inspect the dataset.';
+  document.getElementById('watchNext').textContent=lead?lead.insight:'Use the risk and opportunity filters to identify emerging signals.';
+  if(lead) openDetail(lead);
+
+  const portKeywords=['port','terminal','dredg','shore power','cold-ironing','gateway','harbour','harbor'];
+  const isPortRecord=x=>{
+    const cat=String(x.category||'').toLowerCase();
+    const original=String(x.original_category||'').toLowerCase();
+    const locOrg=(String(x.location||'')+' '+String(x.organization||'')).toLowerCase();
+    const explicit=cat==='port development & infrastructure';
+    const sourceTaxonomy=portKeywords.some(k=>original.includes(k));
+    const physicalAsset=portKeywords.some(k=>locOrg.includes(k));
+    return explicit || sourceTaxonomy || physicalAsset;
+  };
+  const ports=d.filter(isPortRecord);
+  const portHigh=ports.filter(x=>x.impact==='High').length;
+  const portRisk=ports.reduce((s,x)=>s+Number(x.risk||0),0);
+  const portOpp=ports.reduce((s,x)=>s+Number(x.opportunity||0),0);
+  const portAvgPriority=ports.length?ports.reduce((s,x)=>s+Number(x.priority||0),0)/ports.length:0;
+  document.getElementById('portKpis').innerHTML=[
+    ['PORT / INFRA RECORDS',ports.length,'Explicit port + port-specific infrastructure signals'],
+    ['HIGH-IMPACT PORT EVENTS',portHigh,'High-impact developments in the selected edition'],
+    ['RISK / OPPORTUNITY',`${portRisk.toFixed(0)} / ${portOpp.toFixed(0)}`,'Aggregate port-sector signals'],
+    ['AVG PRIORITY',fmtScore(portAvgPriority),'Average priority score for port records']
+  ].map(k=>`<div class="kpi"><div class="label">${k[0]}</div><div class="value">${k[1]}</div><div class="sub">${k[2]}</div></div>`).join('');
+
+  const portSourceMsg = ports.length
+    ? `<b>${ports.length} port-related records identified.</b> The page now includes explicit Port Development & Infrastructure records plus relevant port, terminal, dredging, gateway and infrastructure signals held under Trade & Logistics or other categories.`
+    : `<b>No port-related records match the current filters.</b> Try All Categories / All Impact or select another Edition.`;
+  document.getElementById('portInsightNote').innerHTML=portSourceMsg;
+
+  document.getElementById('portBars').innerHTML=barHTML(counts(ports,'region'),'opp');
+  document.getElementById('portSignalBars').innerHTML=barHTML(counts(ports,'signal'),'mix');
+  document.getElementById('portLocationBars').innerHTML=barHTML(counts(ports,'location'),'opp');
+
+  const portThemeCounts={
+    'Capacity / Expansion':0,
+    'Dredging / Marine Access':0,
+    'Decarbonisation / Shore Power':0,
+    'Gateway / Regional Competitiveness':0,
+    'Port Efficiency / Logistics':0,
+    'Governance / Regulation':0
+  };
+  ports.forEach(x=>{
+    const t=String(x.original_category||'').toLowerCase()+' '+String(x.development||'').toLowerCase()+' '+String(x.insight||'').toLowerCase();
+    if(/shore power|cold-ironing|decarbon|green fuel|emission/.test(t)) portThemeCounts['Decarbonisation / Shore Power']++;
+    if(/dredg|draft|deep-sea|channel|berth/.test(t)) portThemeCounts['Dredging / Marine Access']++;
+    if(/capacity|terminal|expansion|development/.test(t)) portThemeCounts['Capacity / Expansion']++;
+    if(/hub|gateway|competit|regional/.test(t)) portThemeCounts['Gateway / Regional Competitiveness']++;
+    if(/export|logistics|throughput|cargo|bottleneck|efficien/.test(t)) portThemeCounts['Port Efficiency / Logistics']++;
+    if(/governance|authority|regulatory|reform/.test(t)) portThemeCounts['Governance / Regulation']++;
+  });
+  document.getElementById('portThemeBars').innerHTML=barHTML(Object.entries(portThemeCounts).filter(x=>x[1]>0),'opp');
+
+  const portTop=[...ports].sort((a,b)=>b.priority-a.priority).slice(0,8);
+  document.getElementById('portTable').innerHTML=ports.length ? table(portTop,[['Location','location'],['Organization / Development','organization'],['Impact','impact'],['Signal','signal'],['Priority','priority'],['Source','url']]) : '<div class="note">No matching port intelligence records.</div>';
+  const portRows=[...ports].sort((a,b)=>String(b.published).localeCompare(String(a.published)) || b.priority-a.priority);
+  document.getElementById('portDatasetTable').innerHTML=portRows.length ? table(portRows,[['Date','published'],['Region','region'],['Country','country'],['Port / Location','location'],['Category','category'],['Original Category','original_category'],['Development','development'],['Operational Relevance','why'],['Impact','impact'],['Risk','risk'],['Opportunity','opportunity'],['Priority','priority'],['Source','url']]) : '<div class="note">No matching port intelligence records.</div>';
+
+  const trade=d.filter(x=>x.category==='Trade & Logistics');
+  document.getElementById('tradeBars').innerHTML=barHTML(counts(trade,'region'),'risk');
+  document.getElementById('tradeTable').innerHTML=table(trade,[['Region','region'],['Location','location'],['Development','development'],['Priority','priority']]);
+
+  const energy=d.filter(x=>x.category==='Energy Transition'), digital=d.filter(x=>x.category==='Digitalisation'), security=d.filter(x=>x.category==='Safety & Security');
+  document.getElementById('energyPanel').innerHTML=`<b>${energy.length}</b> events<br><span class="hint">Port decarbonisation, shore power, alternative fuels and infrastructure readiness.</span>`;
+  document.getElementById('digitalPanel').innerHTML=`<b>${digital.length}</b> events<br><span class="hint">Digital registry, maritime data, automation and process visibility.</span>`;
+  document.getElementById('securityPanel').innerHTML=`<b>${security.length}</b> events<br><span class="hint">Vessel security, chokepoints, incidents and emergency readiness.</span>`;
+  document.getElementById('themeBars').innerHTML=barHTML([['Energy Transition',energy.length],['Digitalisation',digital.length],['Safety & Security',security.length]]);
+
+  const canvas=document.getElementById('mapCanvas');
+  canvas.querySelectorAll('.port').forEach(x=>x.remove());
+  const eventCoords={
+    'Corner Brook, Newfoundland and Labrador':[-57.95,48.95],
+    'Canadian commercial fishing waters':[-48.5,48.0],
+    'Valderhaugfjorden near Alesund':[6.15,62.47],
+    'EU TEN-T maritime corridors':[16.0,50.0],
+    'Gioia Tauro':[15.9,38.45],
+    'Corpus Christi, Texas':[-97.40,27.80],
+    'U.S.-Israel liner trade':[18.0,35.2],
+    'U.S.–South Korea trade route':[154.0,31.0],
+    'Ogun State / Ogun Deep Sea Port':[3.45,6.35],
+    'Nigerian Ship Registry, Lagos':[3.38,6.48],
+    'Kingston, Ontario':[-76.48,44.23],
+    'TEN-T maritime corridors':[11.5,54.0],
+    'Black Sea':[30.2,43.5],
+    'Strait of Hormuz':[56.4,26.6],
+    'U.S. liner trade':[-74.0,40.7],
+    'Gulf / global shipping':[-90.0,25.2],
+    'Lagos / Nigerian ports and hinterland':[4.55,7.20],
+    'Tema Port, Ghana':[-0.20,5.62],
+    'Nigerian Ship Registry / Lagos':[3.55,6.05],
+    'South African ports':[31.0,-29.90]
+  };
+  const fallbackCoords={'Canada':[-105,58],'Norway':[10,62],'European Union':[15,50],'European maritime trade':[10,45],'Italy':[12.5,42.5],'Romania / Ukraine':[29,46],'United States':[-95,38],'United States / Israel':[10,35],'United States / South Korea':[145,30],'Ghana':[-1.2,7.9],'Nigeria':[7.7,9.5],'South Africa':[24,-30.6]};
+  const proj=(lon,lat)=>({left:((lon+180)/360*100),top:((85-lat)/(145)*100)});
+  d.forEach((e,i)=>{let c=eventCoords[e.location]||fallbackCoords[e.country]||[0,0];let p=proj(c[0],c[1]);let dot=document.createElement('button');dot.type='button';dot.className='port';let size=10+Math.min(10,(e.priority||3)*1.0);dot.style.width=size+'px';dot.style.height=size+'px';dot.style.left=p.left+'%';dot.style.top=p.top+'%';dot.style.background=e.signal==='Risk'?'var(--red)':e.signal==='Opportunity'?'var(--green)':e.signal==='Risk + Opportunity'?'var(--amber)':'var(--blue)';dot.setAttribute('aria-label',e.country+' • '+e.location+' • '+e.development);dot.title=e.country+' • '+e.location+' • Priority '+fmtScore(e.priority)+' • '+e.signal;dot.addEventListener('click',()=>{canvas.querySelectorAll('.port.selected').forEach(x=>x.classList.remove('selected'));dot.classList.add('selected');openDetail(e)});canvas.appendChild(dot)});
+  const radar=document.getElementById('radarCanvas');radar.querySelectorAll('.dot').forEach(x=>x.remove());
+  d.forEach(e=>{let dot=document.createElement('div');dot.className='dot';dot.style.left=(8+(e.opportunity/5)*84)+'%';dot.style.top=(92-(e.risk/5)*84)+'%';dot.style.background=e.signal==='Risk'?'var(--red)':e.signal==='Opportunity'?'var(--green)':e.signal==='Risk + Opportunity'?'var(--amber)':'var(--blue)';dot.title=e.development;radar.appendChild(dot)});
+}
+
+document.querySelectorAll('.nav button').forEach(btn=>btn.addEventListener('click',()=>{document.querySelectorAll('.nav button').forEach(b=>b.classList.remove('active'));btn.classList.add('active');document.querySelectorAll('.page').forEach(p=>p.classList.remove('active'));document.getElementById(btn.dataset.page).classList.add('active')}));
+[editionSelect,regionSelect,categorySelect,impactSelect].forEach(x=>x.addEventListener('change',refresh));
+refresh();
+</script>
+</body>
+</html>
