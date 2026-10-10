@@ -759,7 +759,7 @@ async function populateEditionSlicer(){
     });
     editionSelect.value='Choose Edition';
   }catch(err){
-    editionSelect.innerHTML='<option value="Choose Edition">Choose Edition</option><option value="Edition 2">Edition 2</option><option value="Edition 1">Edition 1</option>';
+    editionSelect.innerHTML='<option value="Choose Edition">Choose Edition</option><option value="Edition 2">Edition 2</option>';
     editionSelect.value='Choose Edition';
   }
 }
