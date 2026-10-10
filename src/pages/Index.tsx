@@ -258,6 +258,47 @@ export default function Index() {
         </div>
       </section>
 
+
+      {/* Maritime Intelligence */}
+      <section className="section-padding bg-[#071d3b] text-white">
+        <div className="container-max">
+          <div className="grid lg:grid-cols-[1.15fr_.85fr] gap-10 items-center">
+            <div className="space-y-6">
+              <div className="inline-flex items-center gap-2 px-3 py-1.5 bg-cyan-400/10 border border-cyan-300/25 rounded-full text-cyan-200 text-sm font-medium">
+                <BarChart3 className="h-4 w-4" />
+                Weekly Maritime Intelligence
+              </div>
+              <h2 className="text-white">From maritime developments to decision intelligence.</h2>
+              <p className="text-slate-300 text-lg leading-relaxed max-w-3xl">
+                Follow DeeMarine's weekly intelligence across Canada, the United States, Europe and West Africa. We structure maritime news into data, verify the sources, identify risk and opportunity signals, and translate the developments into practical industry insight.
+              </p>
+              <div className="flex flex-wrap gap-3 text-sm text-blue-100">
+                <span className="px-3 py-1.5 rounded-full bg-blue-500/15 border border-blue-400/20">Ports & Infrastructure</span>
+                <span className="px-3 py-1.5 rounded-full bg-blue-500/15 border border-blue-400/20">Trade & Logistics</span>
+                <span className="px-3 py-1.5 rounded-full bg-blue-500/15 border border-blue-400/20">Energy Transition</span>
+                <span className="px-3 py-1.5 rounded-full bg-blue-500/15 border border-blue-400/20">Safety & Security</span>
+                <span className="px-3 py-1.5 rounded-full bg-blue-500/15 border border-blue-400/20">Digitalisation</span>
+              </div>
+              <Button asChild size="lg" className="bg-blue-500 hover:bg-blue-600 text-white cursor-pointer">
+                <Link to="/maritime-intelligence" className="flex items-center gap-2">
+                  Explore Maritime Intelligence <ArrowRight className="h-4 w-4" />
+                </Link>
+              </Button>
+            </div>
+            <div className="rounded-2xl border border-blue-400/25 bg-gradient-to-br from-[#0b2b56] to-[#0d4775] p-6 md:p-8 shadow-2xl">
+              <div className="text-cyan-300 text-sm font-semibold mb-2">DEEMARINE INTELLIGENCE FLOW</div>
+              <div className="text-2xl md:text-3xl font-bold leading-tight mb-5">NEWS → DATA → SIGNAL → IMPACT → INSIGHT → DECISION</div>
+              <p className="text-slate-300 text-sm leading-relaxed">
+                Updated weekly with sourced developments, interactive filters, regional analysis, strategic themes, risk and opportunity signals, and DeeMarine's decision-intelligence brief.
+              </p>
+              <div className="mt-6 pt-5 border-t border-white/10 text-xs text-slate-400">
+                Original dashboard design by <span className="text-cyan-200 font-semibold">Engr. Olumide</span>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
       {/* Our Impact */}
       <section className="section-padding bg-[#0f2744] text-white">
         <div className="container-max text-center">
