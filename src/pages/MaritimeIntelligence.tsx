@@ -1,6 +1,23 @@
-import { BarChart3, ExternalLink } from "lucide-react";
+import { useState } from "react";
+import { BarChart3, ExternalLink, Archive } from "lucide-react";
+
+const editions = [
+  {
+    id: "edition-2",
+    label: "Edition 2",
+    period: "Latest",
+    src: "/maritime-intelligence-dashboard.html",
+  },
+  {
+    id: "edition-1",
+    label: "Edition 1",
+    period: "27 Sep–3 Oct 2026",
+    src: "/maritime-intelligence-edition-1.html",
+  },
+];
 
 export default function MaritimeIntelligence() {
+  const [activeEdition, setActiveEdition] = useState(editions[0]);
   return (
     <div className="bg-[#061a33] min-h-screen">
       <section className="bg-[#0f2744] text-white border-b border-blue-900/60">
@@ -17,7 +34,7 @@ export default function MaritimeIntelligence() {
               </p>
             </div>
             <a
-              href="/maritime-intelligence-dashboard.html"
+              href={activeEdition.src}
               target="_blank"
               rel="noreferrer"
               className="inline-flex items-center gap-2 self-start lg:self-auto px-4 py-2.5 rounded-lg border border-blue-400/40 bg-blue-500/10 text-blue-100 hover:bg-blue-500/20 transition-colors text-sm font-semibold"
@@ -25,13 +42,41 @@ export default function MaritimeIntelligence() {
               Open full-screen <ExternalLink className="h-4 w-4" />
             </a>
           </div>
+
+          <div className="mt-7 rounded-xl border border-blue-400/20 bg-[#0a2a55]/70 p-4">
+            <div className="flex items-center gap-2 text-sm font-semibold text-cyan-200 mb-3">
+              <Archive className="h-4 w-4" />
+              Edition Archive
+            </div>
+            <div className="flex flex-wrap gap-3">
+              {editions.map((edition) => {
+                const active = activeEdition.id === edition.id;
+                return (
+                  <button
+                    key={edition.id}
+                    type="button"
+                    onClick={() => setActiveEdition(edition)}
+                    className={`rounded-lg border px-4 py-2.5 text-left transition-colors ${
+                      active
+                        ? "bg-blue-500 border-blue-300 text-white shadow-lg"
+                        : "bg-[#071d3b] border-blue-400/25 text-blue-100 hover:bg-blue-500/15"
+                    }`}
+                  >
+                    <span className="block text-sm font-bold">{edition.label}</span>
+                    <span className="block text-xs opacity-80 mt-0.5">{edition.period}</span>
+                  </button>
+                );
+              })}
+            </div>
+          </div>
         </div>
       </section>
 
       <section className="w-full bg-[#061a33]">
         <iframe
-          title="DeeMarine Maritime Intelligence dashboard"
-          src="/maritime-intelligence-dashboard.html"
+          key={activeEdition.src}
+          title={`DeeMarine Maritime Intelligence ${activeEdition.label}`}
+          src={activeEdition.src}
           className="w-full border-0 block"
           style={{ minHeight: "calc(100vh - 84px)", height: "1500px" }}
           loading="eager"
