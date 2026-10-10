@@ -7,11 +7,6 @@ const editions = [
     label: "Edition 2",
     src: "/maritime-intelligence-dashboard.html",
   },
-  {
-    id: "edition-1",
-    label: "Edition 1",
-    src: "/maritime-intelligence-edition-1.html",
-  },
 ];
 
 export default function MaritimeIntelligence() {
