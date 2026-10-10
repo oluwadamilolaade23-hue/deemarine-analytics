@@ -107,7 +107,7 @@ body{background:#061a33;color:var(--dma-ink);font-family:Inter,'Segoe UI',Arial,
       <div class="subtitle">From maritime developments to decision intelligence. • Latest report date: 10 October 2026 • Weekly consolidation: 5–10 October</div>
     </div>
     <div class="filters">
-      <select id="edition" title="Choose report edition"><option value="Choose Edition">Choose Edition</option></select>
+      <select id="edition" title="Select report edition"><option>All Editions</option></select>
       <select id="region"><option>All Regions</option></select>
       <select id="category"><option>All Categories</option></select>
       <select id="impact"><option>All Impact</option><option>High</option><option>Medium</option><option>Low</option></select>
