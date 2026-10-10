@@ -744,8 +744,26 @@ const editionSelect = document.getElementById('edition');
 const regionSelect = document.getElementById('region');
 const categorySelect = document.getElementById('category');
 const impactSelect = document.getElementById('impact');
-const EDITION_OPTIONS = [...new Set(DATA.map(d=>d.edition).filter(Boolean))].sort((a,b)=>a.localeCompare(b, undefined, {numeric:true}));
-EDITION_OPTIONS.forEach(v=>{let o=document.createElement('option');o.textContent=v;o.value=v;editionSelect.appendChild(o)});
+const CURRENT_EDITION = 'Edition 2';
+async function populateEditionSlicer(){
+  try{
+    const res = await fetch('/maritime-intelligence-editions.json',{cache:'no-store'});
+    const editions = await res.json();
+    editionSelect.innerHTML = '';
+    editions.forEach(item=>{
+      const o=document.createElement('option');
+      o.textContent=item.label;
+      o.value=item.label;
+      o.dataset.url=item.url;
+      if(item.label===CURRENT_EDITION) o.selected=true;
+      editionSelect.appendChild(o);
+    });
+  }catch(err){
+    editionSelect.innerHTML='<option value="Edition 2">Edition 2</option><option value="Edition 1">Edition 1</option>';
+    editionSelect.value=CURRENT_EDITION;
+  }
+}
+populateEditionSlicer();
 REGION_OPTIONS.forEach(v=>{let o=document.createElement('option');o.textContent=v;o.value=v;regionSelect.appendChild(o)});
 CATEGORY_OPTIONS.forEach(v=>{let o=document.createElement('option');o.textContent=v;o.value=v;categorySelect.appendChild(o)});
 
@@ -923,7 +941,16 @@ function refresh(){
 }
 
 document.querySelectorAll('.nav button').forEach(btn=>btn.addEventListener('click',()=>{document.querySelectorAll('.nav button').forEach(b=>b.classList.remove('active'));btn.classList.add('active');document.querySelectorAll('.page').forEach(p=>p.classList.remove('active'));document.getElementById(btn.dataset.page).classList.add('active')}));
-[editionSelect,regionSelect,categorySelect,impactSelect].forEach(x=>x.addEventListener('change',refresh));
+editionSelect.addEventListener('change',()=>{
+  if(editionSelect.value!==CURRENT_EDITION){
+    const selected=editionSelect.options[editionSelect.selectedIndex];
+    const target=selected?.dataset?.url;
+    if(target) window.location.href=target;
+    return;
+  }
+  refresh();
+});
+[regionSelect,categorySelect,impactSelect].forEach(x=>x.addEventListener('change',refresh));
 refresh();
 </script>
 </body>
