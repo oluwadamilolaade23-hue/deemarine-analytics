@@ -749,18 +749,18 @@ async function populateEditionSlicer(){
   try{
     const res = await fetch('/maritime-intelligence-editions.json',{cache:'no-store'});
     const editions = await res.json();
-    editionSelect.innerHTML = '';
+    editionSelect.innerHTML = '<option value="Choose Edition">Choose Edition</option>';
     editions.forEach(item=>{
       const o=document.createElement('option');
       o.textContent=item.label;
       o.value=item.label;
       o.dataset.url=item.url;
-      if(item.label===CURRENT_EDITION) o.selected=true;
       editionSelect.appendChild(o);
     });
+    editionSelect.value='Choose Edition';
   }catch(err){
-    editionSelect.innerHTML='<option value="Edition 2">Edition 2</option><option value="Edition 1">Edition 1</option>';
-    editionSelect.value=CURRENT_EDITION;
+    editionSelect.innerHTML='<option value="Choose Edition">Choose Edition</option><option value="Edition 2">Edition 2</option><option value="Edition 1">Edition 1</option>';
+    editionSelect.value='Choose Edition';
   }
 }
 populateEditionSlicer();
@@ -769,14 +769,14 @@ CATEGORY_OPTIONS.forEach(v=>{let o=document.createElement('option');o.textConten
 
 function filtered(){
   return DATA.filter(d => d.dup !== 'Duplicate' &&
-    (editionSelect.value==='All Editions' || d.edition===editionSelect.value) &&
+    (editionSelect.value==='Choose Edition' || d.edition===editionSelect.value) &&
     (regionSelect.value==='All Regions' || d.region===regionSelect.value) &&
     (categorySelect.value==='All Categories' || d.category===categorySelect.value) &&
     (impactSelect.value==='All Impact' || d.impact===impactSelect.value)
   );
 }
 function selectedEditionLabel(){
-  return editionSelect.value==='All Editions' ? 'All Editions' : editionSelect.value;
+  return editionSelect.value==='Choose Edition' ? CURRENT_EDITION : editionSelect.value;
 }
 function updateEditionHeader(d){
   const dates=d.map(x=>x.published).filter(Boolean).sort();
