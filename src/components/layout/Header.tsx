@@ -13,6 +13,7 @@ const navigation = [
   { name: "Awards & Recognition", href: "/awards" },
   { name: "Partnerships", href: "/partnerships" },
   { name: "Community", href: "/community" },
+  { name: "Maritime Intelligence", href: "/maritime-intelligence" },
   { name: "Blog & Insights", href: "/blog" },
   { name: "Contact", href: "/contact" },
 ];
