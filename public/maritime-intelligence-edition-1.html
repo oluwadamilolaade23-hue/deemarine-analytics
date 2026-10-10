@@ -27,7 +27,7 @@ a{color:#0078a8;text-decoration:none} a:hover{text-decoration:underline} .footer
 <div class="shell">
   <div class="top">
     <div><div class="badge">DEE MARINE MARITIME INTELLIGENCE</div><h1>Edition 1</h1><div class="sub">27 September–3 October 2026 · From maritime developments to decision intelligence</div></div>
-    <div class="filters"><select id="edition" title="Select report edition"><option value="Edition 1">Edition 1</option></select><select id="region"><option value="">All regions</option></select><select id="category"><option value="">All categories</option></select><select id="signal"><option value="">All signals</option></select></div>
+    <div class="filters"><select id="edition" title="Choose report edition"><option value="Choose Edition">Choose Edition</option></select><select id="region"><option value="">All regions</option></select><select id="category"><option value="">All categories</option></select><select id="signal"><option value="">All signals</option></select></div>
   </div>
   <div class="kpis">
     <div class="kpi"><small>Developments Tracked</small><b id="kTotal">26</b></div>
@@ -52,17 +52,18 @@ async function populateEditionSlicer(){
     const res=await fetch('/maritime-intelligence-editions.json',{cache:'no-store'});
     const editions=await res.json();
     const select=$('edition');
-    select.innerHTML='';
+    select.innerHTML='<option value="Choose Edition">Choose Edition</option>';
     editions.forEach(item=>{
       const o=document.createElement('option');
       o.textContent=item.label;
       o.value=item.label;
       o.dataset.url=item.url;
-      if(item.label===CURRENT_EDITION) o.selected=true;
       select.appendChild(o);
     });
+    select.value='Choose Edition';
   }catch(err){
-    $('edition').innerHTML='<option value="Edition 2">Edition 2</option><option value="Edition 1" selected>Edition 1</option>';
+    $('edition').innerHTML='<option value="Choose Edition">Choose Edition</option><option value="Edition 2">Edition 2</option><option value="Edition 1">Edition 1</option>';
+    $('edition').value='Choose Edition';
   }
 }
 populateEditionSlicer();
@@ -93,6 +94,7 @@ function render(){
  </article>`).join('');
 }
 $('edition').addEventListener('change',()=>{
+  if($('edition').value==='Choose Edition') return;
   if($('edition').value!==CURRENT_EDITION){
     const selected=$('edition').options[$('edition').selectedIndex];
     const target=selected?.dataset?.url;
