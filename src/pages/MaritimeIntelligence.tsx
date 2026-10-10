@@ -1,16 +1,6 @@
-import { useState } from "react";
-import { BarChart3, ExternalLink, Archive } from "lucide-react";
-
-const editions = [
-  {
-    id: "edition-2",
-    label: "Edition 2",
-    src: "/maritime-intelligence-dashboard.html",
-  },
-];
+import { BarChart3, ExternalLink } from "lucide-react";
 
 export default function MaritimeIntelligence() {
-  const [activeEdition, setActiveEdition] = useState(editions[0]);
   return (
     <div className="bg-[#061a33] min-h-screen">
       <section className="bg-[#0f2744] text-white border-b border-blue-900/60">
@@ -27,7 +17,7 @@ export default function MaritimeIntelligence() {
               </p>
             </div>
             <a
-              href={activeEdition.src}
+              href="/maritime-intelligence-dashboard.html"
               target="_blank"
               rel="noreferrer"
               className="inline-flex items-center gap-2 self-start lg:self-auto px-4 py-2.5 rounded-lg border border-blue-400/40 bg-blue-500/10 text-blue-100 hover:bg-blue-500/20 transition-colors text-sm font-semibold"
@@ -35,48 +25,13 @@ export default function MaritimeIntelligence() {
               Open full-screen <ExternalLink className="h-4 w-4" />
             </a>
           </div>
-
-          <div className="mt-7 rounded-xl border border-blue-400/20 bg-[#0a2a55]/70 p-4">
-            <div className="flex flex-col md:flex-row md:items-end md:justify-between gap-4">
-              <div>
-                <div className="flex items-center gap-2 text-sm font-semibold text-cyan-200 mb-1">
-                  <Archive className="h-4 w-4" />
-                  Edition Slicer
-                </div>
-                <p className="text-xs text-slate-400">
-                  Select any published DeeMarine Maritime Intelligence edition.
-                </p>
-              </div>
-              <div className="w-full md:w-[360px]">
-                <label htmlFor="edition-slicer" className="block text-xs font-semibold text-blue-100 mb-2">
-                  Choose edition
-                </label>
-                <select
-                  id="edition-slicer"
-                  value={activeEdition.id}
-                  onChange={(e) => {
-                    const selected = editions.find((edition) => edition.id === e.target.value);
-                    if (selected) setActiveEdition(selected);
-                  }}
-                  className="w-full rounded-lg border border-blue-400/35 bg-[#071d3b] px-4 py-3 text-sm font-semibold text-white outline-none focus:border-cyan-300 focus:ring-2 focus:ring-cyan-300/20"
-                >
-                  {editions.map((edition) => (
-                    <option key={edition.id} value={edition.id}>
-                      {edition.label}
-                    </option>
-                  ))}
-                </select>
-              </div>
-            </div>
-          </div>
         </div>
       </section>
 
       <section className="w-full bg-[#061a33]">
         <iframe
-          key={activeEdition.src}
-          title={`DeeMarine Maritime Intelligence ${activeEdition.label}`}
-          src={activeEdition.src}
+          title="DeeMarine Maritime Intelligence dashboard"
+          src="/maritime-intelligence-dashboard.html"
           className="w-full border-0 block"
           style={{ minHeight: "calc(100vh - 84px)", height: "1500px" }}
           loading="eager"
