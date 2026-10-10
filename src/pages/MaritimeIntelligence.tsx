@@ -44,29 +44,36 @@ export default function MaritimeIntelligence() {
           </div>
 
           <div className="mt-7 rounded-xl border border-blue-400/20 bg-[#0a2a55]/70 p-4">
-            <div className="flex items-center gap-2 text-sm font-semibold text-cyan-200 mb-3">
-              <Archive className="h-4 w-4" />
-              Edition Archive
-            </div>
-            <div className="flex flex-wrap gap-3">
-              {editions.map((edition) => {
-                const active = activeEdition.id === edition.id;
-                return (
-                  <button
-                    key={edition.id}
-                    type="button"
-                    onClick={() => setActiveEdition(edition)}
-                    className={`rounded-lg border px-4 py-2.5 text-left transition-colors ${
-                      active
-                        ? "bg-blue-500 border-blue-300 text-white shadow-lg"
-                        : "bg-[#071d3b] border-blue-400/25 text-blue-100 hover:bg-blue-500/15"
-                    }`}
-                  >
-                    <span className="block text-sm font-bold">{edition.label}</span>
-                    <span className="block text-xs opacity-80 mt-0.5">{edition.period}</span>
-                  </button>
-                );
-              })}
+            <div className="flex flex-col md:flex-row md:items-end md:justify-between gap-4">
+              <div>
+                <div className="flex items-center gap-2 text-sm font-semibold text-cyan-200 mb-1">
+                  <Archive className="h-4 w-4" />
+                  Edition Slicer
+                </div>
+                <p className="text-xs text-slate-400">
+                  Select any published DeeMarine Maritime Intelligence edition.
+                </p>
+              </div>
+              <div className="w-full md:w-[360px]">
+                <label htmlFor="edition-slicer" className="block text-xs font-semibold text-blue-100 mb-2">
+                  Choose edition
+                </label>
+                <select
+                  id="edition-slicer"
+                  value={activeEdition.id}
+                  onChange={(e) => {
+                    const selected = editions.find((edition) => edition.id === e.target.value);
+                    if (selected) setActiveEdition(selected);
+                  }}
+                  className="w-full rounded-lg border border-blue-400/35 bg-[#071d3b] px-4 py-3 text-sm font-semibold text-white outline-none focus:border-cyan-300 focus:ring-2 focus:ring-cyan-300/20"
+                >
+                  {editions.map((edition) => (
+                    <option key={edition.id} value={edition.id}>
+                      {edition.label} — {edition.period}
+                    </option>
+                  ))}
+                </select>
+              </div>
             </div>
           </div>
         </div>
