@@ -5,13 +5,11 @@ const editions = [
   {
     id: "edition-2",
     label: "Edition 2",
-    period: "Latest",
     src: "/maritime-intelligence-dashboard.html",
   },
   {
     id: "edition-1",
     label: "Edition 1",
-    period: "27 Sep–3 Oct 2026",
     src: "/maritime-intelligence-edition-1.html",
   },
 ];
@@ -69,7 +67,7 @@ export default function MaritimeIntelligence() {
                 >
                   {editions.map((edition) => (
                     <option key={edition.id} value={edition.id}>
-                      {edition.label} — {edition.period}
+                      {edition.label}
                     </option>
                   ))}
                 </select>
