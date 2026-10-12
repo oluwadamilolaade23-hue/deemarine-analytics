@@ -1,5 +1,3 @@
-import WebSocket from "ws";
-
 const AIS_URL = "wss://stream.aisstream.io/v0/stream";
 const LOOKUP_TIMEOUT_MS = 12000;
 
@@ -41,9 +39,9 @@ export default async function handler(req: any, res: any) {
   }, LOOKUP_TIMEOUT_MS);
 
   try {
-    socket = new WebSocket(AIS_URL, { perMessageDeflate: true });
+    socket = new WebSocket(AIS_URL);
 
-    socket.on("open", () => {
+    socket.addEventListener("open", () => {
       socket?.send(JSON.stringify({
         APIKey: apiKey,
         BoundingBoxes: [[[90, -180], [-90, 180]]],
@@ -52,26 +50,32 @@ export default async function handler(req: any, res: any) {
       }));
     });
 
-    socket.on("message", (buffer) => {
+    socket.addEventListener("message", (event) => {
       try {
-        const event = JSON.parse(buffer.toString());
-        if (event.MessageType === "SubscriptionConfirmation") return;
+        const eventData = typeof event.data === "string" ? event.data : "";
+        if (!eventData) return;
+        const aisEvent = JSON.parse(eventData);
+        if (aisEvent.MessageType === "SubscriptionConfirmation") return;
 
-        const meta = event.MetaData || {};
+        const meta = aisEvent.MetaData || {};
         const message =
-          event.Message?.PositionReport ||
-          event.Message?.StandardClassBPositionReport ||
-          event.Message?.ExtendedClassBPositionReport;
+          aisEvent.Message?.PositionReport ||
+          aisEvent.Message?.StandardClassBPositionReport ||
+          aisEvent.Message?.ExtendedClassBPositionReport;
 
         if (!message) return;
         if (String(meta.MMSI ?? message.UserID ?? "") !== mmsi) return;
+
+        const latitude = Number(meta.Latitude ?? message.Latitude);
+        const longitude = Number(meta.Longitude ?? message.Longitude);
+        if (!Number.isFinite(latitude) || !Number.isFinite(longitude)) return;
 
         clearTimeout(timer);
         finish(200, {
           mmsi,
           shipName: meta.ShipName || "",
-          latitude: Number(meta.Latitude ?? message.Latitude),
-          longitude: Number(meta.Longitude ?? message.Longitude),
+          latitude,
+          longitude,
           sog: Number.isFinite(Number(message.Sog)) ? Number(message.Sog) : undefined,
           cog: Number.isFinite(Number(message.Cog)) ? Number(message.Cog) : undefined,
           heading: Number.isFinite(Number(message.TrueHeading)) ? Number(message.TrueHeading) : undefined,
@@ -83,12 +87,12 @@ export default async function handler(req: any, res: any) {
       }
     });
 
-    socket.on("error", () => {
+    socket.addEventListener("error", () => {
       clearTimeout(timer);
       finish(502, { error: "The AIS data service could not be reached. Please try again." });
     });
 
-    socket.on("close", () => {
+    socket.addEventListener("close", () => {
       if (!settled) {
         clearTimeout(timer);
         finish(502, { error: "The AIS data stream closed before a vessel position was received." });
