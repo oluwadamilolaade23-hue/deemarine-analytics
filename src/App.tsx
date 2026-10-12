@@ -12,6 +12,7 @@ import Partnerships from "@/pages/Partnerships";
 import Community from "@/pages/Community";
 import Blog from "@/pages/Blog";
 import MaritimeIntelligence from "@/pages/MaritimeIntelligence";
+import VesselTracker from "@/pages/VesselTracker";
 import Contact from "@/pages/Contact";
 import Admin from "@/pages/Admin";
 import Internship from "@/pages/Internship";
@@ -100,6 +101,7 @@ function App() {
                   <Route path="/partnerships" element={<Partnerships />} />
                   <Route path="/community" element={<Community />} />
                   <Route path="/maritime-intelligence" element={<MaritimeIntelligence />} />
+                  <Route path="/maritime-intelligence/vessel-tracker" element={<VesselTracker />} />
                   <Route path="/blog" element={<Blog />} />
                   <Route path="/contact" element={<Contact />} />
                   <Route path="/admin" element={<Admin />} />
