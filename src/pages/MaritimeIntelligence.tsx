@@ -1,4 +1,5 @@
-import { BarChart3, ExternalLink } from "lucide-react";
+import { BarChart3, ExternalLink, Ship } from "lucide-react";
+import { Link } from "react-router-dom";
 
 export default function MaritimeIntelligence() {
   return (
@@ -15,15 +16,24 @@ export default function MaritimeIntelligence() {
               <p className="mt-4 text-slate-300 text-base md:text-lg leading-relaxed">
                 Weekly maritime developments transformed into structured data, verified intelligence and practical decision insight across ports, shipping, logistics, safety, energy transition and digitalisation.
               </p>
+              <div className="mt-5 flex flex-wrap gap-3">
+                <Link
+                  to="/maritime-intelligence/vessel-tracker"
+                  className="inline-flex items-center gap-2 px-4 py-2.5 rounded-lg bg-cyan-400 text-[#061a33] hover:bg-cyan-300 transition-colors text-sm font-bold"
+                >
+                  <Ship className="h-4 w-4" />
+                  DMA Vessel Intelligence
+                </Link>
+                <a
+                  href="/maritime-intelligence-dashboard.html"
+                  target="_blank"
+                  rel="noreferrer"
+                  className="inline-flex items-center gap-2 px-4 py-2.5 rounded-lg border border-blue-400/40 bg-blue-500/10 text-blue-100 hover:bg-blue-500/20 transition-colors text-sm font-semibold"
+                >
+                  Open dashboard full-screen <ExternalLink className="h-4 w-4" />
+                </a>
+              </div>
             </div>
-            <a
-              href="/maritime-intelligence-dashboard.html"
-              target="_blank"
-              rel="noreferrer"
-              className="inline-flex items-center gap-2 self-start lg:self-auto px-4 py-2.5 rounded-lg border border-blue-400/40 bg-blue-500/10 text-blue-100 hover:bg-blue-500/20 transition-colors text-sm font-semibold"
-            >
-              Open full-screen <ExternalLink className="h-4 w-4" />
-            </a>
           </div>
         </div>
       </section>
