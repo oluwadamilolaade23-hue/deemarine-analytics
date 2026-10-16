@@ -63,8 +63,8 @@ const programmes = [
 
 const projects = [
   {
-    title: "Green Port Intelligence Platform",
-    description: "Smart ports, sustainability, and operational visibility.",
+    title: "GreenPort IQ — In Development",
+    description: "Developing data insights for port operations and emissions. MVP scoping and data-source research are underway.",
   },
   {
     title: "DeeMarine Navigator",
@@ -237,6 +237,77 @@ export default function Index() {
               Building practical data solutions for the maritime industry.
             </p>
           </div>
+          <article id="greenport-iq" aria-labelledby="greenport-heading" className="mb-10 overflow-hidden rounded-2xl border border-emerald-200 bg-white shadow-sm scroll-mt-24">
+            <figure className="relative bg-slate-900">
+              <div className="grid md:grid-cols-[2fr_1fr] gap-1">
+              <img src="https://images.unsplash.com/photo-1770068511943-aad3cc27860d?auto=format&amp;fit=crop&amp;w=1200&amp;q=85" alt="Container ship and cargo cranes at the Port of Vancouver, Canada" width="1600" height="720" loading="lazy" className="h-64 md:h-96 w-full object-cover" />
+              <img src="https://images.unsplash.com/photo-1769144256227-5185141c3aca?auto=format&amp;fit=crop&amp;w=800&amp;q=85" alt="Aerial view of colourful shipping containers at the Port of Vancouver" width="800" height="720" loading="lazy" className="hidden md:block h-96 w-full object-cover" />
+              </div>
+              <figcaption className="px-6 py-3 text-xs text-slate-300">Port of Vancouver • Illustrative port photography; not a GreenPort IQ deployment. Photos: <a className="underline hover:text-white" href="https://unsplash.com/photos/A0IOJ34brD0" target="_blank" rel="noopener noreferrer">Daniel Miksha / Unsplash</a></figcaption>
+            </figure>
+            <div className="grid lg:grid-cols-2">
+              <div className="bg-[#0f2744] p-6 md:p-10 text-white space-y-5">
+                <div className="inline-flex items-center gap-2 rounded-full border border-emerald-300/30 bg-emerald-400/10 px-3 py-1.5 text-sm font-medium text-emerald-200">
+                  <Leaf className="h-4 w-4" aria-hidden="true" /> In Development
+                </div>
+                <p className="text-sm font-semibold tracking-widest uppercase text-slate-300">Innovation &amp; Projects</p>
+                <h3 id="greenport-heading" className="text-3xl md:text-4xl font-bold text-white">GreenPort IQ</h3>
+                <p className="text-lg text-emerald-200">Better port decisions, powered by data.</p>
+                <p className="text-slate-300 leading-relaxed">
+                  DeeMarine Analytics is developing GreenPort IQ to help ports understand operational performance and emissions through data.
+                </p>
+                <Button asChild className="bg-emerald-400 hover:bg-emerald-300 text-slate-950">
+                  <a href="mailto:info@deemarineanalytics.ca?subject=GreenPort%20IQ%20pilot%20enquiry">Express Interest in Testing <ArrowRight className="ml-2 h-4 w-4" aria-hidden="true" /></a>
+                </Button>
+                <p className="text-xs text-slate-400">Pilot interest enquiries are welcome. Testing dates and access will be confirmed as development progresses.</p>
+              </div>
+              <div className="p-6 md:p-10">
+                <div className="flex flex-wrap items-center justify-between gap-3 mb-6">
+                  <h4 className="text-xl font-semibold text-slate-900">Development progress</h4>
+                  <p className="text-xs text-slate-500">Updated <time dateTime="2026-10-16">16 October 2026</time></p>
+                </div>
+                <ul className="space-y-5">
+                  <li className="border-l-2 border-emerald-500 pl-4">
+                    <p className="text-xs font-semibold uppercase tracking-wide text-emerald-700">Current focus</p>
+                    <p className="font-semibold text-slate-900 mt-1">Defining the first MVP</p>
+                    <p className="text-sm text-slate-600 mt-1">Scoping the first version around port performance and emissions insights.</p>
+                  </li>
+                  <li className="border-l-2 border-blue-400 pl-4">
+                    <p className="text-xs font-semibold uppercase tracking-wide text-blue-700">Research underway</p>
+                    <p className="font-semibold text-slate-900 mt-1">Exploring relevant data sources</p>
+                    <p className="text-sm text-slate-600 mt-1">Assessing available datasets and how they could support a practical port analytics solution.</p>
+                  </li>
+                  <li className="border-l-2 border-slate-200 pl-4">
+                    <p className="text-xs font-semibold uppercase tracking-wide text-slate-500">Next step</p>
+                    <p className="font-semibold text-slate-900 mt-1">Exploring pilot opportunities</p>
+                    <p className="text-sm text-slate-600 mt-1">Welcoming conversations with ports, researchers and potential collaborators to help shape a future pilot.</p>
+                  </li>
+                </ul>
+              </div>
+            </div>
+            <div className="border-t border-slate-100 p-6 md:p-10">
+              <h4 className="text-xl font-semibold text-slate-900">What we are working towards</h4>
+              <p className="mt-2 text-slate-600">Designed for port and terminal teams, sustainability professionals and maritime researchers who need a clearer view of their data. Planned capabilities will be refined through research and pilot feedback.</p>
+              <div className="mt-6 grid md:grid-cols-3 gap-6">
+                <div><Anchor className="h-6 w-6 text-blue-600 mb-3" aria-hidden="true" /><h5 className="font-semibold text-slate-900">Understand port performance</h5><p className="mt-2 text-sm text-slate-600">Explore vessel calls, turnaround times and operational patterns to help identify areas for improvement.</p></div>
+                <div><Leaf className="h-6 w-6 text-emerald-600 mb-3" aria-hidden="true" /><h5 className="font-semibold text-slate-900">Build emissions visibility</h5><p className="mt-2 text-sm text-slate-600">Investigate how operational and energy data can support emissions estimates and sustainability decisions.</p></div>
+                <div><BarChart3 className="h-6 w-6 text-blue-600 mb-3" aria-hidden="true" /><h5 className="font-semibold text-slate-900">Turn data into clear insights</h5><p className="mt-2 text-sm text-slate-600">Bring useful indicators into an accessible dashboard to support discussion, planning and future pilot evaluation.</p></div>
+              </div>
+              <div className="mt-8 rounded-xl bg-emerald-50 border border-emerald-100 p-5">
+                <h5 className="font-semibold text-slate-900">Help shape GreenPort IQ</h5>
+                <p className="mt-2 text-sm text-slate-700">Tell us about your port, your operational or sustainability challenges, and the datasets you work with. We welcome prospective pilot participants, data collaborators and research partners.</p>
+                <Link to="/contact?subject=GreenPort%20IQ%20collaboration" className="mt-3 inline-flex items-center gap-2 font-semibold text-emerald-800 underline">Contact the GreenPort IQ team <ArrowRight className="h-4 w-4" aria-hidden="true" /></Link>
+              </div>
+            </div>
+            <div className="border-t border-slate-100 bg-slate-50 p-6 md:px-10">
+              <h4 className="text-lg font-semibold text-slate-900">Project acknowledgements</h4>
+              <p className="mt-2 text-sm text-slate-600">GreenPort IQ acknowledges sponsorship from Mitacs and the support of Nova Scotia Community College (NSCC).</p>
+              <div className="mt-5 flex flex-wrap gap-6">
+                <a href="https://www.mitacs.ca/" target="_blank" rel="noopener noreferrer" className="rounded-xl border border-slate-200 bg-white p-6 min-w-48"><img src="https://www.mitacs.ca/wp-content/uploads/2023/11/Mitacs_logo_blue.png" alt="Mitacs" loading="lazy" className="h-12 w-40 object-contain object-left" /><span className="mt-4 block text-sm text-slate-600">Project sponsor</span></a>
+                <a href="https://www.nscc.ca/" target="_blank" rel="noopener noreferrer" className="rounded-xl border border-slate-200 bg-white p-6 min-w-48"><img src="https://www.nscc.ca/img/aboutnscc/visual-identity-guidelines/artwork/nscc-logo.png" alt="Nova Scotia Community College (NSCC)" loading="lazy" className="h-12 w-40 object-contain object-left" /><span className="mt-4 block text-sm text-slate-600">Project support</span></a>
+              </div>
+            </div>
+          </article>
           <div className="grid md:grid-cols-3 gap-6">
             {projects.map((project) => (
               <Card key={project.title} className="border-0 shadow-sm hover:shadow-md transition-shadow bg-white">
