@@ -1,5 +1,5 @@
-import { useEffect } from "react";
-import { BrowserRouter, Routes, Route, Navigate } from "react-router-dom";
+import { useEffect, useLayoutEffect } from "react";
+import { BrowserRouter, Routes, Route, Navigate, useLocation } from "react-router-dom";
 import { Header } from "@/components/layout/Header";
 import { Footer } from "@/components/layout/Footer";
 import Index from "@/pages/Index";
@@ -66,9 +66,42 @@ function RedirectToNewPortal() {
   );
 }
 
+// Reset each destination page while preserving links to specific sections.
+function RouteScrollReset() {
+  const { pathname, hash } = useLocation();
+
+  useEffect(() => {
+    const previous = window.history.scrollRestoration;
+    window.history.scrollRestoration = "manual";
+    return () => {
+      window.history.scrollRestoration = previous;
+    };
+  }, []);
+
+  useLayoutEffect(() => {
+    if (hash) {
+      let id = hash.slice(1);
+      try {
+        id = decodeURIComponent(id);
+      } catch {
+        // A malformed fragment can still match a literal element ID.
+      }
+      const target = document.getElementById(id);
+      if (target) {
+        target.scrollIntoView({ behavior: "instant", block: "start" });
+        return;
+      }
+    }
+    window.scrollTo({ top: 0, left: 0, behavior: "instant" });
+  }, [pathname, hash]);
+
+  return null;
+}
+
 function App() {
   return (
     <BrowserRouter>
+      <RouteScrollReset />
       <div className="min-h-screen flex flex-col">
         <Routes>
           {/* BlueData Hub Fellow Portal redirect to operational staging portal */}
