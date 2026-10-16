@@ -20,6 +20,7 @@ const navigation = [
   ] },
   { name: "Learning & Community", items: [
     { name: "DMA Institute", href: "/institute" },
+    { name: "Practice Analytics", href: "/practice-analytics" },
     { name: "DMA BlueData Hub", href: "/dma-bluedata-hub" },
     { name: "Community", href: "/community" },
     { name: "Blog & Insights", href: "/blog" },

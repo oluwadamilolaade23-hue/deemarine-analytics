@@ -1,4 +1,4 @@
-import { useEffect, useLayoutEffect } from "react";
+import { lazy, Suspense, useEffect, useLayoutEffect } from "react";
 import { BrowserRouter, Routes, Route, Navigate, useLocation } from "react-router-dom";
 import { Header } from "@/components/layout/Header";
 import { Footer } from "@/components/layout/Footer";
@@ -26,6 +26,8 @@ import { PortalProgramme, PortalSessions, PortalAnnouncements, PortalResources, 
 import { PortalLearning, PortalProjectLab, PortalTeam, PortalAssignments } from "@/portal/PortalProject";
 import { PortalSkillPassport, PortalProgress, PortalPortfolio } from "@/portal/PortalSkills";
 import { PortalAdmin } from "@/portal/PortalAdmin";
+
+const PracticeAnalytics = lazy(() => import("@/pages/PracticeAnalytics"));
 
 function ProtectedRoute({ children }: { children: React.ReactNode }) {
   const { participant, loading } = usePortalAuth();
@@ -161,6 +163,7 @@ function App() {
                   <Route path="/" element={<Index />} />
                   <Route path="/about" element={<About />} />
                   <Route path="/services" element={<Services />} />
+                  <Route path="/practice-analytics" element={<Suspense fallback={<div className="p-12 text-center" role="status">Loading Practice Analytics…</div>}><PracticeAnalytics /></Suspense>} />
                   <Route path="/institute" element={<Institute />} />
                   <Route path="/dma-bluedata-hub" element={<Internship />} />
                   <Route path="/internship" element={<Internship />} />
