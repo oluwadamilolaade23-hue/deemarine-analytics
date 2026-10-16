@@ -79,20 +79,56 @@ function RouteScrollReset() {
   }, []);
 
   useLayoutEffect(() => {
-    if (hash) {
-      let id = hash.slice(1);
-      try {
-        id = decodeURIComponent(id);
-      } catch {
-        // A malformed fragment can still match a literal element ID.
+    const resetScroll = () => {
+      if (hash) {
+        let id = hash.slice(1);
+        try {
+          id = decodeURIComponent(id);
+        } catch {
+          // Keep malformed fragments usable as literal IDs.
+        }
+        const target = document.getElementById(id);
+        if (target) {
+          target.scrollIntoView({ behavior: "instant", block: "start" });
+          return;
+        }
       }
-      const target = document.getElementById(id);
-      if (target) {
-        target.scrollIntoView({ behavior: "instant", block: "start" });
-        return;
+      window.scrollTo({ top: 0, left: 0, behavior: "instant" });
+    };
+
+    resetScroll();
+
+    // Menus lock body scrolling and restore focus after their exit animation.
+    // Apply the destination position after that cleanup has finished as well.
+    let firstFrame = 0;
+    let secondFrame = 0;
+    const afterMenuCleanup = () => {
+      cancelAnimationFrame(firstFrame);
+      cancelAnimationFrame(secondFrame);
+      firstFrame = requestAnimationFrame(() => {
+        secondFrame = requestAnimationFrame(resetScroll);
+      });
+    };
+    const observer = new MutationObserver(() => {
+      if (!document.body.hasAttribute("data-scroll-locked")) {
+        observer.disconnect();
+        afterMenuCleanup();
       }
+    });
+    if (document.body.hasAttribute("data-scroll-locked")) {
+      observer.observe(document.body, {
+        attributes: true,
+        attributeFilter: ["data-scroll-locked"],
+      });
+    } else {
+      afterMenuCleanup();
     }
-    window.scrollTo({ top: 0, left: 0, behavior: "instant" });
+
+    return () => {
+      observer.disconnect();
+      cancelAnimationFrame(firstFrame);
+      cancelAnimationFrame(secondFrame);
+    };
   }, [pathname, hash]);
 
   return null;
