@@ -136,8 +136,8 @@ export default function Institute() {
             <Card className="border-0 shadow-sm bg-blue-50">
               <CardContent className="p-6 text-center space-y-2">
                 <Calendar className="h-8 w-8 text-blue-600 mx-auto" />
-                <p className="font-semibold text-slate-900">August 2026</p>
-                <p className="text-sm text-slate-600">Start Date</p>
+                <p className="font-semibold text-slate-900">Coming soon</p>
+                <p className="text-sm text-slate-600">Next Cohort</p>
               </CardContent>
             </Card>
             <Card className="border-0 shadow-sm bg-blue-50">
