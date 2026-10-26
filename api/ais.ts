@@ -89,11 +89,23 @@ export default async function handler(req: any, res: any) {
     });
 
     socket.addEventListener("error", (event: any) => {
-      // WebSocket errors often hide handshake details; log only safe diagnostic fields.
+      // Log safe connection diagnostics only. Never log the API key or subscription.
+      const err = event?.error;
+      const cause = err?.cause;
       console.error("[DMA AIS] WebSocket connection error", {
         type: event?.type,
-        message: event?.error?.message || event?.message || "WebSocket connection failed",
-        cause: event?.error?.cause?.code || event?.error?.code || undefined
+        name: err?.name,
+        message: String(err?.message || event?.message || "WebSocket connection failed").slice(0, 350),
+        code: err?.code,
+        causeName: cause?.name,
+        causeCode: cause?.code,
+        causeMessage: typeof cause?.message === "string" ? cause.message.slice(0, 350) : undefined,
+        causeErrors: Array.isArray(cause?.errors)
+          ? cause.errors.slice(0, 4).map((item: any) => ({
+              code: item?.code,
+              message: String(item?.message || "").slice(0, 200)
+            }))
+          : undefined
       });
       finish(502, { error: "The AIS data service could not be reached. Please try again." });
     });
