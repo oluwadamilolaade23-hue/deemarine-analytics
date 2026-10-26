@@ -28,6 +28,7 @@ export default async function handler(req: any, res: any) {
   const finish = (status: number, payload: any) => {
     if (settled) return;
     settled = true;
+    clearTimeout(timer);
     try { socket?.close(); } catch {}
     res.status(status).json(payload);
   };
@@ -44,7 +45,7 @@ export default async function handler(req: any, res: any) {
     socket.addEventListener("open", () => {
       socket?.send(JSON.stringify({
         APIKey: apiKey,
-        BoundingBoxes: [[[90, -180], [-90, 180]]],
+        BoundingBoxes: [[[-90, -180], [90, 180]]],
         FiltersShipMMSI: [mmsi],
         FilterMessageTypes: ["PositionReport", "StandardClassBPositionReport", "ExtendedClassBPositionReport"]
       }));
@@ -87,19 +88,27 @@ export default async function handler(req: any, res: any) {
       }
     });
 
-    socket.addEventListener("error", () => {
-      clearTimeout(timer);
+    socket.addEventListener("error", (event: any) => {
+      // WebSocket errors often hide handshake details; log only safe diagnostic fields.
+      console.error("[DMA AIS] WebSocket connection error", {
+        type: event?.type,
+        message: event?.error?.message || event?.message || "WebSocket connection failed",
+        cause: event?.error?.cause?.code || event?.error?.code || undefined
+      });
       finish(502, { error: "The AIS data service could not be reached. Please try again." });
     });
 
-    socket.addEventListener("close", () => {
+    socket.addEventListener("close", (event: any) => {
       if (!settled) {
-        clearTimeout(timer);
+        console.error("[DMA AIS] WebSocket closed before receiving position", {
+          code: event?.code,
+          reason: String(event?.reason || "").slice(0, 200)
+        });
         finish(502, { error: "The AIS data stream closed before a vessel position was received." });
       }
     });
-  } catch {
-    clearTimeout(timer);
+  } catch (error: any) {
+    console.error("[DMA AIS] Unable to start vessel lookup", { message: error?.message || "Unknown error" });
     finish(500, { error: "Unable to start the vessel lookup." });
   }
 }
