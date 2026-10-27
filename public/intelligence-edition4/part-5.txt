@@ -4746,6 +4746,16 @@ const categorySelect = document.getElementById('category');
 const impactSelect = document.getElementById('impact');
 const EDITION_OPTIONS = [...new Set(DATA.map(d=>d.edition).filter(Boolean))].sort((a,b)=>a.localeCompare(b, undefined, {numeric:true}));
 EDITION_OPTIONS.forEach(v=>{let o=document.createElement('option');o.textContent=v;o.value=v;editionSelect.appendChild(o)});
+// Older editions have their own archived dashboards, not rows in Edition 4's DATA.
+const archiveOption = document.createElement('option');
+archiveOption.value = '__archive_edition_3__';
+archiveOption.textContent = 'Edition 3 (Archive)';
+editionSelect.appendChild(archiveOption);
+editionSelect.addEventListener('change', function () {
+  if (editionSelect.value === '__archive_edition_3__') {
+    window.location.assign('/maritime-intelligence-edition-3.html');
+  }
+}, true);
 REGION_OPTIONS.forEach(v=>{let o=document.createElement('option');o.textContent=v;o.value=v;regionSelect.appendChild(o)});
 CATEGORY_OPTIONS.forEach(v=>{let o=document.createElement('option');o.textContent=v;o.value=v;categorySelect.appendChild(o)});
 
