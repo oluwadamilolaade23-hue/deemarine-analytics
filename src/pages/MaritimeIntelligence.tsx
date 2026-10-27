@@ -1,7 +1,10 @@
+import { useState } from "react";
 import { BarChart3, ExternalLink, Ship } from "lucide-react";
 import { Link } from "react-router-dom";
 
 export default function MaritimeIntelligence() {
+  const [edition, setEdition] = useState<3 | 4>(4);
+  const dashboardUrl = edition === 4 ? '/maritime-intelligence-dashboard.html' : '/maritime-intelligence-edition-3.html';
   return (
     <div className="bg-[#061a33] min-h-screen">
       <section className="bg-[#0f2744] text-white border-b border-blue-900/60">
@@ -25,7 +28,7 @@ export default function MaritimeIntelligence() {
                   DMA Vessel Intelligence
                 </Link>
                 <a
-                  href="/maritime-intelligence-dashboard.html"
+                  href={dashboardUrl}
                   target="_blank"
                   rel="noreferrer"
                   className="inline-flex items-center gap-2 px-4 py-2.5 rounded-lg border border-blue-400/40 bg-blue-500/10 text-blue-100 hover:bg-blue-500/20 transition-colors text-sm font-semibold"
@@ -38,10 +41,21 @@ export default function MaritimeIntelligence() {
         </div>
       </section>
 
+      <section className="bg-[#081e39] border-b border-blue-900/60">
+        <div className="container-max px-4 sm:px-6 lg:px-8 py-5">
+          <h2 className="text-white text-lg font-bold">Maritime Intelligence Editions</h2>
+          <p className="text-slate-300 text-sm mt-1 mb-4">Explore the latest weekly analysis or revisit previous editions.</p>
+          <div className="flex flex-wrap gap-2" role="group" aria-label="Choose maritime intelligence edition">
+            <button type="button" onClick={() => setEdition(4)} aria-pressed={edition === 4} className={edition === 4 ? "rounded-lg px-4 py-2.5 font-semibold bg-cyan-400 text-[#061a33]" : "rounded-lg px-4 py-2.5 font-semibold border border-blue-400/40 text-white hover:bg-blue-500/20"}>Edition 4 · Latest</button>
+            <button type="button" onClick={() => setEdition(3)} aria-pressed={edition === 3} className={edition === 3 ? "rounded-lg px-4 py-2.5 font-semibold bg-cyan-400 text-[#061a33]" : "rounded-lg px-4 py-2.5 font-semibold border border-blue-400/40 text-white hover:bg-blue-500/20"}>Edition 3 · Archive</button>
+          </div>
+        </div>
+      </section>
       <section className="w-full bg-[#061a33]">
         <iframe
           title="DeeMarine Maritime Intelligence dashboard"
-          src="/maritime-intelligence-dashboard.html"
+          key={edition}
+          src={dashboardUrl}
           className="w-full border-0 block"
           style={{ minHeight: "calc(100vh - 84px)", height: "1500px" }}
           loading="eager"
