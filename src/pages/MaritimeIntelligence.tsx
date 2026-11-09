@@ -3,8 +3,8 @@ import { BarChart3, ExternalLink, Ship } from "lucide-react";
 import { Link } from "react-router-dom";
 
 export default function MaritimeIntelligence() {
-  const [edition, setEdition] = useState<3 | 4>(4);
-  const dashboardUrl = edition === 4 ? '/maritime-intelligence-dashboard.html' : '/maritime-intelligence-edition-3.html';
+  const [edition, setEdition] = useState<3 | 4 | 5 | 6>(6);
+  const dashboardUrl = edition === 6 ? '/maritime-intelligence-edition-6.html' : edition === 5 ? '/maritime-intelligence-edition-5.html' : edition === 4 ? '/maritime-intelligence-dashboard.html' : '/maritime-intelligence-edition-3.html';
   return (
     <div className="bg-[#061a33] min-h-screen">
       <section className="bg-[#0f2744] text-white border-b border-blue-900/60">
@@ -46,7 +46,9 @@ export default function MaritimeIntelligence() {
           <h2 className="text-white text-lg font-bold">Maritime Intelligence Editions</h2>
           <p className="text-slate-300 text-sm mt-1 mb-4">Explore the latest weekly analysis or revisit previous editions.</p>
           <div className="flex flex-wrap gap-2" role="group" aria-label="Choose maritime intelligence edition">
-            <button type="button" onClick={() => setEdition(4)} aria-pressed={edition === 4} className={edition === 4 ? "rounded-lg px-4 py-2.5 font-semibold bg-cyan-400 text-[#061a33]" : "rounded-lg px-4 py-2.5 font-semibold border border-blue-400/40 text-white hover:bg-blue-500/20"}>Edition 4 · Latest</button>
+            <button type="button" onClick={() => setEdition(6)} aria-pressed={edition === 6} className={edition === 6 ? "rounded-lg px-4 py-2.5 font-semibold bg-cyan-400 text-[#061a33]" : "rounded-lg px-4 py-2.5 font-semibold border border-blue-400/40 text-white hover:bg-blue-500/20"}>Edition 6 · Latest</button>
+            <button type="button" onClick={() => setEdition(5)} aria-pressed={edition === 5} className={edition === 5 ? "rounded-lg px-4 py-2.5 font-semibold bg-cyan-400 text-[#061a33]" : "rounded-lg px-4 py-2.5 font-semibold border border-blue-400/40 text-white hover:bg-blue-500/20"}>Edition 5 · Archive</button>
+            <button type="button" onClick={() => setEdition(4)} aria-pressed={edition === 4} className={edition === 4 ? "rounded-lg px-4 py-2.5 font-semibold bg-cyan-400 text-[#061a33]" : "rounded-lg px-4 py-2.5 font-semibold border border-blue-400/40 text-white hover:bg-blue-500/20"}>Edition 4 · Archive</button>
             <button type="button" onClick={() => setEdition(3)} aria-pressed={edition === 3} className={edition === 3 ? "rounded-lg px-4 py-2.5 font-semibold bg-cyan-400 text-[#061a33]" : "rounded-lg px-4 py-2.5 font-semibold border border-blue-400/40 text-white hover:bg-blue-500/20"}>Edition 3 · Archive</button>
           </div>
         </div>
