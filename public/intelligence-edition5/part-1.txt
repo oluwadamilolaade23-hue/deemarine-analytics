@@ -3,7 +3,7 @@
 <head>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title>DeeMarine Maritime Intelligence — Edition 4</title>
+<title>DeeMarine Maritime Intelligence — Edition 5</title>
 <style>
 :root{
   --bg:#06121e;--panel:#0d1c2b;--panel2:#10263a;--line:#24415a;--text:#eaf4fb;--muted:#8fa8bd;
@@ -104,7 +104,7 @@ body{background:#061a33;color:var(--dma-ink);font-family:Inter,'Segoe UI',Arial,
   <header class="topbar">
     <div>
       <div class="title">Maritime Intelligence</div>
-      <div class="subtitle">From maritime developments to decision intelligence. • Latest report date: 11 October 2026 • Edition 4 final closeout: 5–11 October</div>
+      <div class="subtitle">From maritime developments to decision intelligence. • Latest report date: 18 October 2026 • Edition 5 final closeout: 12–18 October</div>
     </div>
     <div class="filters">
       <select id="edition" title="Select report edition"><option>All Editions</option></select>
