@@ -175,6 +175,7 @@ function App() {
                   <Route path="/maritime-intelligence" element={<MaritimeIntelligence />} />
                   <Route path="/maritime-intelligence/vessel-tracker" element={<VesselTracker />} />
                   <Route path="/blog" element={<Blog />} />
+                  <Route path="/blog/transforming-raw-operational-data-into-active-reliability" element={<Blog />} />
                   <Route path="/contact" element={<Contact />} />
                   <Route path="/admin" element={<Admin />} />
                   <Route path="/admin/bluedata-hub" element={<AdminInternship />} />
