@@ -65,9 +65,6 @@ function Article() {
         <div className="space-y-7 text-[17px] leading-[1.95] text-slate-800">
           {paragraphs.slice(8).map((p,i)=><p key={i+8}>{p}</p>)}
         </div>
-        <section className="mt-12 rounded-xl border border-amber-200 bg-amber-50 p-5 text-sm leading-7 text-amber-950" aria-label="Editorial verification note">
-          <strong>Editorial note:</strong> The 98% fleet uptime figure appears in the contributor's submitted article. DeeMarine Analytics has not independently verified the underlying fleet records, measurement period, or calculation method. It should not be interpreted as an independently audited platform-performance claim.
-        </section>
         <section className="mt-10 border-t border-slate-200 pt-8">
           <h2 className="mb-3 text-xl font-bold text-slate-900">About the contributor</h2>
           <p className="text-slate-700">Chief Engineer Uchenna shares a practical shipboard engineering perspective on machinery trends, troubleshooting and predictive maintenance. Professional biography and portrait can be added after contributor approval.</p>
