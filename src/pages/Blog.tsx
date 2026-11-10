@@ -65,10 +65,6 @@ function Article() {
         <div className="space-y-7 text-[17px] leading-[1.95] text-slate-800">
           {paragraphs.slice(8).map((p,i)=><p key={i+8}>{p}</p>)}
         </div>
-        <section className="mt-10 border-t border-slate-200 pt-8">
-          <h2 className="mb-3 text-xl font-bold text-slate-900">About the contributor</h2>
-          <p className="text-slate-700">Chief Engineer Uchenna shares a practical shipboard engineering perspective on machinery trends, troubleshooting and predictive maintenance. Professional biography and portrait can be added after contributor approval.</p>
-        </section>
         <section className="mt-12 rounded-2xl bg-[#0e2e50] p-7 text-white print:hidden">
           <h2 className="text-2xl font-bold text-white">Explore more maritime knowledge</h2>
           <p className="my-3 text-slate-200">Read specialist perspectives on fleet reliability, maritime technology, decarbonization, ports and data-driven decisions.</p>
