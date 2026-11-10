@@ -1,109 +1,127 @@
-import { Link } from "react-router-dom";
-import { Button } from "@/components/ui/button";
-import { Badge } from "@/components/ui/badge";
-import { Ship, Waves, BarChart3, Activity } from "lucide-react";
+import { Link, useLocation } from "react-router-dom";
+import { ArrowLeft, ArrowRight, BookOpen, CalendarDays, Download, ExternalLink, Ship, Wrench } from "lucide-react";
 
-const topics = [
-  "Maritime Data Analytics",
-  "Smart Ports & Digital Transformation",
-  "Fleet Performance & Planned & Preventive Maintenance Analytics",
-  "Fuel & Energy Consumption and Carbon Emissions",
-  "Maritime Cybersecurity",
-  "Safety Performance",
-  "Shipping & Port Operations",
-  "AI Skills Optimization & Business Intelligence for Maritime",
-  "Career Development for Maritime Professionals",
-  "Blue Economy Innovation",
+const slug = "/blog/transforming-raw-operational-data-into-active-reliability";
+const photos = {
+  control: "https://images.unsplash.com/photo-1685720543547-cc4873188c75?auto=format&fit=crop&w=1800&q=85",
+  engine: "https://images.unsplash.com/photo-1652837135894-cd1d7f74588a?auto=format&fit=crop&w=1400&q=85",
+  machinery: "https://images.unsplash.com/photo-1705129472480-2145aecb9aaa?auto=format&fit=crop&w=1400&q=85",
+  detail: "https://images.unsplash.com/photo-1759148413708-a21d619d1f0b?auto=format&fit=crop&w=1400&q=85",
+};
+
+const paragraphs = [
+  "As a Chief Engineer, I make daily decisions that affect the safety of the crew, the availability of the machinery and the cost of operating the vessel.",
+  "Good decisions begin with understanding what the machinery is telling us: not simply the latest reading, but what has changed, why it matters and what needs checking.",
+  "Fuel consumption, exhaust gas temperatures, engine load, pressures and cylinder oil feed rates each provide part of the picture. A single reading rarely tells the full story.",
+  "The useful information is in the trend, especially when it is compared with engine load and previous performance readings.",
+  "A steady rise in one cylinder’s exhaust temperature, or an increasing pressure differential between cylinders, is a signal to investigate before it develops into a more serious problem.",
+  "A change in fuel consumption may also point to reduced engine efficiency.",
+  "Cylinder oil parameters, together with drain oil analysis and inspections, help assess lubrication and wear in individual cylinders.",
+  "These indications guide troubleshooting and adjustments within the engine manufacturer’s recommended limits, but they do not replace engineering judgement or physical checks.",
+  "In my role as Chief Engineer, predictive maintenance supports 98% fleet uptime. DeeMarine Navigator brings operational trends and key figures into one connected dashboard for ship and shore teams.",
+  "For a Chief Engineer, that means a clearer shared view of developing issues during discussions with the office, superintendents and technical teams.",
+  "It also gives the Chief Engineer a stronger basis for requesting critical spares, planning an overhaul or asking for a maintenance window. Instead of a general request, the engineer can show what is changing, which checks supports the concern and what delay could mean for the vessel.The aim is to identify developing issues early enough to plan a response.",
+  "Used well, predictive maintenance gives engineers time to act before a fault becomes an unplanned stop.",
 ];
 
-export default function Blog() {
-  return (
-    <div>
-      {/* Hero */}
-      <section className="section-padding bg-[#0f2744] text-white">
-        <div className="container-max">
-          <div className="max-w-3xl">
-            <h1 className="text-white mb-6">Maritime Insights</h1>
-            <p className="text-slate-300 text-xl leading-relaxed">
-              Practical, research-informed content for maritime professionals, organizations, and aspiring digital leaders.
-            </p>
+function Photo({ src, alt, credit, link }: {src: string; alt: string; credit: string; link: string}) {
+  return <figure className="my-10 overflow-hidden rounded-2xl bg-slate-100 print:break-inside-avoid">
+    <img src={src} alt={alt} loading="lazy" className="h-72 w-full object-cover md:h-[390px]" />
+    <figcaption className="px-4 py-2 text-xs text-slate-500">Documentary photograph: <a className="underline hover:text-blue-700" href={link} target="_blank" rel="noopener noreferrer">{credit} / Unsplash</a>. Illustrative only; not a portrait of the author.</figcaption>
+  </figure>;
+}
+
+function Article() {
+  return <article className="bg-white">
+    <header className="bg-[#0b2039] text-white">
+      <div className="container-max px-5 py-7 md:py-10"><Link to="/blog" className="inline-flex items-center gap-2 text-blue-200 hover:text-white text-sm"><ArrowLeft size={16}/> All Knowledge Insight Articles</Link></div>
+      <div className="container-max grid gap-8 px-5 pb-12 md:grid-cols-2 md:items-center md:pb-20">
+        <div>
+          <div className="mb-5 inline-flex rounded-full border border-cyan-400/40 bg-cyan-400/10 px-4 py-1.5 text-xs font-semibold uppercase tracking-widest text-cyan-200">Expert Knowledge Insights · Fleet Performance & Reliability</div>
+          <h1 className="mb-6 max-w-2xl text-4xl font-bold leading-tight text-white md:text-5xl">Transforming Raw Operational Data Into Active Reliability</h1>
+          <p className="text-lg font-medium text-slate-100">Chief Engineer Uchenna</p>
+          <p className="mt-2 text-sm text-slate-300">Contributor's experience and perspective · DeeMarine Analytics Knowledge Hub</p>
+          <div className="mt-7 flex flex-wrap gap-3 print:hidden">
+            <button onClick={() => window.print()} className="inline-flex items-center gap-2 rounded-lg bg-cyan-500 px-5 py-3 font-semibold text-slate-950 hover:bg-cyan-400"><Download size={18}/> Save article as PDF</button>
+            <button onClick={() => navigator.clipboard?.writeText(window.location.href)} className="rounded-lg border border-white/40 px-5 py-3 font-semibold text-white hover:bg-white/10">Copy article link</button>
           </div>
         </div>
-      </section>
-
-      {/* Coming Soon Section */}
-      <section className="section-padding bg-white relative overflow-hidden">
-        {/* Subtle background illustration */}
-        <div className="absolute inset-0 pointer-events-none overflow-hidden">
-          {/* Ocean waves */}
-          <div className="absolute bottom-0 left-0 right-0 h-48 opacity-[0.04]">
-            <svg viewBox="0 0 1440 320" className="w-full h-full" preserveAspectRatio="none">
-              <path fill="#2563eb" d="M0,160L48,170.7C96,181,192,203,288,197.3C384,192,480,160,576,154.7C672,149,768,171,864,186.7C960,203,1056,213,1152,197.3C1248,181,1344,139,1392,117.3L1440,96L1440,320L1392,320C1344,320,1248,320,1152,320C1056,320,960,320,864,320C768,320,672,320,576,320C480,320,384,320,288,320C192,320,96,320,48,320L0,320Z" />
-            </svg>
-          </div>
-          {/* Floating data elements */}
-          <div className="absolute top-20 right-10 md:right-32 opacity-[0.06]">
-            <BarChart3 className="h-32 w-32 text-blue-600" />
-          </div>
-          <div className="absolute top-40 left-10 md:left-20 opacity-[0.05]">
-            <Activity className="h-24 w-24 text-blue-600" />
-          </div>
-          <div className="absolute bottom-32 right-20 md:right-48 opacity-[0.05]">
-            <Waves className="h-28 w-28 text-blue-600" />
-          </div>
-          <div className="absolute top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2 opacity-[0.03]">
-            <Ship className="h-64 w-64 text-blue-800" />
-          </div>
+        <img className="h-72 w-full rounded-2xl object-cover shadow-2xl md:h-[430px]" src={photos.control} alt="Photograph of a real ship's engine control room showing instrument panels" />
+      </div>
+    </header>
+    <div className="container-max grid gap-12 px-5 py-12 lg:grid-cols-[minmax(0,1fr)_260px] lg:py-20">
+      <div className="max-w-3xl">
+        <div className="mb-10 border-l-4 border-cyan-600 bg-slate-50 px-6 py-5 text-slate-700">
+          <p className="font-semibold text-slate-900">From the engine room</p>
+          <p className="mt-2 text-sm leading-7">An expert perspective on interpreting performance trends, investigating machinery anomalies, and communicating maintenance priorities across ship and shore teams.</p>
         </div>
-
-        <div className="container-max relative z-10">
-          <div className="max-w-3xl mx-auto text-center space-y-8">
-            {/* Coming Soon Badge */}
-            <Badge className="bg-blue-100 text-blue-700 hover:bg-blue-100 text-sm px-4 py-1.5 font-medium">
-              Coming Soon
-            </Badge>
-
-            {/* Headline */}
-            <h2 className="text-slate-900 text-3xl md:text-4xl font-bold">
-              Knowledge Hub Coming Soon
-            </h2>
-
-            {/* Body Text */}
-            <div className="space-y-6 text-left md:text-center">
-              <p className="text-slate-600 text-lg leading-relaxed">
-                Our Maritime Insights Centre is currently being developed to provide practical, research-informed content for maritime professionals, organizations, and aspiring digital leaders.
-              </p>
-              <p className="text-slate-600 text-lg leading-relaxed">
-                Soon, you'll find expert articles, industry insights, case studies, and practical guides covering topics such as:
-              </p>
-            </div>
-
-            {/* Topics List */}
-            <div className="flex flex-wrap justify-center gap-3 py-4">
-              {topics.map((topic) => (
-                <span
-                  key={topic}
-                  className="px-4 py-2 bg-slate-50 border border-slate-200 rounded-full text-sm text-slate-700 font-medium"
-                >
-                  {topic}
-                </span>
-              ))}
-            </div>
-
-            {/* Closing paragraph */}
-            <p className="text-slate-600 text-lg leading-relaxed max-w-2xl mx-auto">
-              Our goal is to bridge maritime expertise with data-driven decision-making by sharing practical knowledge that helps the industry work smarter, safer, and more sustainably.
-            </p>
-
-            {/* CTA Button */}
-            <div className="pt-4">
-              <Button asChild size="lg" className="bg-blue-600 hover:bg-blue-700 text-white cursor-pointer px-8">
-                <Link to="/contact">Stay Connected</Link>
-              </Button>
-            </div>
-          </div>
+        <div className="space-y-7 text-[17px] leading-[1.95] text-slate-800">
+          {paragraphs.slice(0,4).map((p,i)=><p key={i}>{p}</p>)}
         </div>
-      </section>
+        <Photo src={photos.engine} alt="Real ship main engine pipework and machinery" credit="iSawRed" link="https://unsplash.com/photos/a-row-of-pipes-lined-up-in-a-factory-nuMOBM0qtv4" />
+        <div className="space-y-7 text-[17px] leading-[1.95] text-slate-800">
+          {paragraphs.slice(4,8).map((p,i)=><p key={i+4}>{p}</p>)}
+        </div>
+        <Photo src={photos.machinery} alt="Actual compressor equipment in a container vessel engine room" credit="Bernd Dittrich" link="https://unsplash.com/photos/a-couple-of-green-machines-sitting-inside-of-a-building-JKTTnxWhNeg" />
+        <div className="space-y-7 text-[17px] leading-[1.95] text-slate-800">
+          {paragraphs.slice(8).map((p,i)=><p key={i+8}>{p}</p>)}
+        </div>
+        <section className="mt-12 rounded-xl border border-amber-200 bg-amber-50 p-5 text-sm leading-7 text-amber-950" aria-label="Editorial verification note">
+          <strong>Editorial note:</strong> The 98% fleet uptime figure appears in the contributor's submitted article. DeeMarine Analytics has not independently verified the underlying fleet records, measurement period, or calculation method. It should not be interpreted as an independently audited platform-performance claim.
+        </section>
+        <section className="mt-10 border-t border-slate-200 pt-8">
+          <h2 className="mb-3 text-xl font-bold text-slate-900">About the contributor</h2>
+          <p className="text-slate-700">Chief Engineer Uchenna shares a practical shipboard engineering perspective on machinery trends, troubleshooting and predictive maintenance. Professional biography and portrait can be added after contributor approval.</p>
+          <p className="mt-4 text-sm text-slate-500">Editorial attribution requires confirmation: the source document's cover names “Uche Godwin,” while the contributor was identified for this publication as Chief Engineer Uchenna.</p>
+        </section>
+        <section className="mt-12 rounded-2xl bg-[#0e2e50] p-7 text-white print:hidden">
+          <h2 className="text-2xl font-bold text-white">Explore more maritime knowledge</h2>
+          <p className="my-3 text-slate-200">Read specialist perspectives on fleet reliability, maritime technology, decarbonization, ports and data-driven decisions.</p>
+          <Link to="/blog" className="inline-flex items-center gap-2 font-semibold text-cyan-200 hover:text-white">Explore Knowledge Insight Articles <ArrowRight size={16}/></Link>
+        </section>
+        <div className="mt-10 text-xs leading-6 text-slate-500">
+          <p>Photography: Dmitrijs Safrans, iSawRed, Bernd Dittrich / Unsplash (credited above). Photos illustrate marine engineering settings and do not depict the contributor.</p>
+          <p>Original contributor text reproduced without substantive editing; PDF text ligatures are normalized for screen accessibility.</p>
+        </div>
+      </div>
+      <aside className="hidden lg:block print:hidden"><div className="sticky top-28 rounded-2xl border border-slate-200 p-6">
+        <div className="flex items-center gap-2 text-cyan-700"><Wrench size={18}/><span className="text-sm font-semibold uppercase tracking-wide">Knowledge area</span></div>
+        <h2 className="mt-3 text-xl font-bold text-slate-900">Fleet Performance & Reliability</h2>
+        <p className="mt-4 text-sm leading-6 text-slate-600">Engine monitoring · Machinery trends · Maintenance planning · Engineering judgement</p>
+        <div className="my-5 border-t border-slate-200" />
+        <p className="text-xs text-slate-500">Expert Knowledge Insights series</p>
+        <Link className="mt-4 inline-flex items-center gap-2 text-sm font-semibold text-blue-700 hover:underline" to="/maritime-intelligence">Maritime Intelligence <ExternalLink size={14}/></Link>
+      </div></aside>
     </div>
-  );
+  </article>;
+}
+
+export default function Blog() {
+  const { pathname } = useLocation();
+  if (pathname === slug || pathname === slug + "/") return <Article/>;
+  return <div className="bg-white">
+    <section className="bg-[#0b2039] px-5 py-20 text-white"><div className="container-max">
+      <p className="mb-5 text-sm font-bold uppercase tracking-[0.25em] text-cyan-300">DeeMarine Analytics · Knowledge Hub</p>
+      <h1 className="max-w-3xl text-4xl font-bold text-white md:text-6xl">Knowledge Insight Articles</h1>
+      <p className="mt-6 max-w-2xl text-lg leading-8 text-slate-300">Real-world perspectives from maritime engineers, captains, researchers and technical specialists—connecting experience at sea with better decisions on screen.</p>
+    </div></section>
+    <section className="container-max px-5 py-14 md:py-20">
+      <div className="mb-7 flex items-center gap-3"><BookOpen className="text-cyan-700"/><h2 className="text-2xl font-bold text-slate-900">Featured Expert Insight</h2></div>
+      <Link to={slug} className="group grid overflow-hidden rounded-2xl border border-slate-200 shadow-sm transition hover:shadow-xl md:grid-cols-[1.05fr_1fr]">
+        <img src={photos.control} alt="Actual ship engine control room photograph" className="h-72 w-full object-cover md:h-full md:min-h-[380px]" />
+        <div className="flex flex-col justify-center p-8 md:p-11">
+          <p className="mb-5 text-xs font-bold uppercase tracking-widest text-cyan-700">Fleet Performance & Reliability</p>
+          <h3 className="text-2xl font-bold leading-snug text-slate-900 group-hover:text-blue-800 md:text-3xl">Transforming Raw Operational Data Into Active Reliability</h3>
+          <p className="mt-4 text-sm font-semibold text-slate-700">Chief Engineer Uchenna</p>
+          <p className="mt-5 leading-7 text-slate-600">From operational data to engineering action: a shipboard perspective on machinery trends, maintenance planning, and communication between vessel and shore teams.</p>
+          <span className="mt-7 inline-flex items-center gap-2 font-semibold text-blue-700">Read expert insight <ArrowRight size={18}/></span>
+        </div>
+      </Link>
+      <div className="mt-16 rounded-2xl bg-slate-50 px-7 py-10">
+        <h2 className="mb-3 text-2xl font-bold text-slate-900">Expert Knowledge Insights</h2>
+        <p className="max-w-3xl leading-8 text-slate-600">This series welcomes professional perspectives on Fleet Performance & Reliability, Port & Supply Chain Intelligence, Maritime Safety, Energy & Decarbonization, Green Ports & Blue Economy, Maritime BI & AI, and Maritime Cybersecurity.</p>
+        <Link to="/contact" className="mt-5 inline-flex items-center gap-2 font-semibold text-blue-700 hover:underline">Propose an article <ArrowRight size={16}/></Link>
+      </div>
+    </section>
+  </div>;
 }
