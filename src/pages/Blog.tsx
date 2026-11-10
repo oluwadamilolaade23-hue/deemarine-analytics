@@ -68,7 +68,6 @@ function Article() {
         <section className="mt-10 border-t border-slate-200 pt-8">
           <h2 className="mb-3 text-xl font-bold text-slate-900">About the contributor</h2>
           <p className="text-slate-700">Chief Engineer Uchenna shares a practical shipboard engineering perspective on machinery trends, troubleshooting and predictive maintenance. Professional biography and portrait can be added after contributor approval.</p>
-          <p className="mt-4 text-sm text-slate-500">Editorial attribution requires confirmation: the source document's cover names “Uche Godwin,” while the contributor was identified for this publication as Chief Engineer Uchenna.</p>
         </section>
         <section className="mt-12 rounded-2xl bg-[#0e2e50] p-7 text-white print:hidden">
           <h2 className="text-2xl font-bold text-white">Explore more maritime knowledge</h2>
