@@ -3,10 +3,9 @@ import { ArrowLeft, ArrowRight, BookOpen, CalendarDays, Download, ExternalLink, 
 
 const slug = "/blog/transforming-raw-operational-data-into-active-reliability";
 const photos = {
-  control: "https://images.unsplash.com/photo-1685720543547-cc4873188c75?auto=format&fit=crop&w=1800&q=85",
-  engine: "https://images.unsplash.com/photo-1652837135894-cd1d7f74588a?auto=format&fit=crop&w=1400&q=85",
-  machinery: "https://images.unsplash.com/photo-1705129472480-2145aecb9aaa?auto=format&fit=crop&w=1400&q=85",
-  detail: "https://images.unsplash.com/photo-1759148413708-a21d619d1f0b?auto=format&fit=crop&w=1400&q=85",
+  control: "https://unsplash.com/photos/nuMOBM0qtv4/download?force=true&w=1800",
+  engine: "https://unsplash.com/photos/nuMOBM0qtv4/download?force=true&w=1400",
+  machinery: "https://unsplash.com/photos/JKTTnxWhNeg/download?force=true&w=1400",
 };
 
 const paragraphs = [
@@ -46,7 +45,7 @@ function Article() {
             <button onClick={() => navigator.clipboard?.writeText(window.location.href)} className="rounded-lg border border-white/40 px-5 py-3 font-semibold text-white hover:bg-white/10">Copy article link</button>
           </div>
         </div>
-        <img className="h-72 w-full rounded-2xl object-cover shadow-2xl md:h-[430px]" src={photos.control} alt="Photograph of a real ship's engine control room showing instrument panels" />
+        <img className="h-72 w-full rounded-2xl object-cover shadow-2xl md:h-[430px]" src={photos.control} alt="Photograph of marine engine-room equipment" />
       </div>
     </header>
     <div className="container-max grid gap-12 px-5 py-12 lg:grid-cols-[minmax(0,1fr)_260px] lg:py-20">
@@ -80,7 +79,7 @@ function Article() {
           <Link to="/blog" className="inline-flex items-center gap-2 font-semibold text-cyan-200 hover:text-white">Explore Knowledge Insight Articles <ArrowRight size={16}/></Link>
         </section>
         <div className="mt-10 text-xs leading-6 text-slate-500">
-          <p>Photography: Dmitrijs Safrans, iSawRed, Bernd Dittrich / Unsplash (credited above). Photos illustrate marine engineering settings and do not depict the contributor.</p>
+          <p>Photography: iSawRed and Bernd Dittrich / Unsplash (credited above). Photos illustrate marine engineering settings and do not depict the contributor.</p>
           <p>Original contributor text reproduced without substantive editing; PDF text ligatures are normalized for screen accessibility.</p>
         </div>
       </div>
@@ -108,7 +107,7 @@ export default function Blog() {
     <section className="container-max px-5 py-14 md:py-20">
       <div className="mb-7 flex items-center gap-3"><BookOpen className="text-cyan-700"/><h2 className="text-2xl font-bold text-slate-900">Featured Expert Insight</h2></div>
       <Link to={slug} className="group grid overflow-hidden rounded-2xl border border-slate-200 shadow-sm transition hover:shadow-xl md:grid-cols-[1.05fr_1fr]">
-        <img src={photos.control} alt="Actual ship engine control room photograph" className="h-72 w-full object-cover md:h-full md:min-h-[380px]" />
+        <img src={photos.control} alt="Documentary photograph of shipboard machinery" className="h-72 w-full object-cover md:h-full md:min-h-[380px]" />
         <div className="flex flex-col justify-center p-8 md:p-11">
           <p className="mb-5 text-xs font-bold uppercase tracking-widest text-cyan-700">Fleet Performance & Reliability</p>
           <h3 className="text-2xl font-bold leading-snug text-slate-900 group-hover:text-blue-800 md:text-3xl">Transforming Raw Operational Data Into Active Reliability</h3>
