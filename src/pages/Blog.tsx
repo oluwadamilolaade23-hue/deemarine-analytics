@@ -39,7 +39,7 @@ function Article() {
           <div className="mb-5 inline-flex rounded-full border border-cyan-400/40 bg-cyan-400/10 px-4 py-1.5 text-xs font-semibold uppercase tracking-widest text-cyan-200">Expert Knowledge Insights · Fleet Performance & Reliability</div>
           <h1 className="mb-6 max-w-2xl text-4xl font-bold leading-tight text-white md:text-5xl">Transforming Raw Operational Data Into Active Reliability</h1>
           <div className="flex items-center gap-4">
-            <img src="/uchenna-ogbonnaya-headshot.jpg?v=20261109b" alt="Portrait of Chief Engineer Uchenna Godwin Ogbonnaya Menestrel" className="h-20 w-20 flex-none rounded-full border-2 border-cyan-300 object-cover shadow-lg" />
+            <img src="/uchenna-avatar-verified.jpg" alt="Portrait of Chief Engineer Uchenna Godwin Ogbonnaya Menestrel" className="h-20 w-20 flex-none rounded-full border-2 border-cyan-300 object-cover shadow-lg" />
             <div>
               <p className="text-lg font-semibold text-slate-100">Chief Engineer Uchenna Godwin Ogbonnaya Menestrel, MIMarEST</p>
               <p className="mt-1 text-sm text-slate-300">MCA III/2 Unlimited · Expert Knowledge Insights contributor</p>
@@ -71,7 +71,7 @@ function Article() {
           {paragraphs.slice(8).map((p,i)=><p key={i+8}>{p}</p>)}
         </div>
         <section className="mt-12 flex flex-col gap-5 rounded-2xl border border-slate-200 bg-slate-50 p-6 sm:flex-row sm:items-center sm:p-8">
-          <img src="/uchenna-ogbonnaya-headshot.jpg?v=20261109b" alt="Chief Engineer Uchenna Godwin Ogbonnaya Menestrel" loading="lazy" className="h-28 w-28 flex-none rounded-2xl object-cover shadow-sm" />
+          <img src="/uchenna-avatar-verified.jpg" alt="Chief Engineer Uchenna Godwin Ogbonnaya Menestrel" loading="lazy" className="h-28 w-28 flex-none rounded-2xl object-cover shadow-sm" />
           <div>
             <p className="mb-1 text-xs font-bold uppercase tracking-widest text-cyan-700">Meet the author</p>
             <h2 className="text-xl font-bold text-slate-900">Chief Engineer Uchenna Godwin Ogbonnaya Menestrel, MIMarEST</h2>
@@ -117,7 +117,7 @@ export default function Blog() {
         <div className="flex flex-col justify-center p-8 md:p-11">
           <p className="mb-5 text-xs font-bold uppercase tracking-widest text-cyan-700">Fleet Performance & Reliability</p>
           <h3 className="text-2xl font-bold leading-snug text-slate-900 group-hover:text-blue-800 md:text-3xl">Transforming Raw Operational Data Into Active Reliability</h3>
-          <div className="mt-4 flex items-center gap-3"><img src="/uchenna-ogbonnaya-headshot.jpg?v=20261109b" alt="" className="h-12 w-12 rounded-full object-cover" /><p className="text-sm font-semibold text-slate-700">Chief Engineer Uchenna Godwin Ogbonnaya Menestrel</p></div>
+          <div className="mt-4 flex items-center gap-3"><img src="/uchenna-avatar-verified.jpg" alt="" className="h-12 w-12 rounded-full object-cover" /><p className="text-sm font-semibold text-slate-700">Chief Engineer Uchenna Godwin Ogbonnaya Menestrel</p></div>
           <p className="mt-5 leading-7 text-slate-600">From operational data to engineering action: a shipboard perspective on machinery trends, maintenance planning, and communication between vessel and shore teams.</p>
           <span className="mt-7 inline-flex items-center gap-2 font-semibold text-blue-700">Read expert insight <ArrowRight size={18}/></span>
         </div>
